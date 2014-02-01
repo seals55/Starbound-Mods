@@ -1,0 +1,7 @@
+{
+  "name" : "KevMod",
+  "version" : "Beta v. Furious Koala",
+  "path" : ".",
+  "dependencies" : [ "KevMod" ]
+
+}

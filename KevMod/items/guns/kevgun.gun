@@ -1,0 +1,32 @@
+{
+  "itemName" : "kevgun",
+  "inventoryIcon" : "kevicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "An amazing gun created by Kev!",
+  "shortdescription" : "Kev's Amazing Gun",
+  "image" : "pulseshotgun.png:0",
+  "spread" : 10,
+  "accuracy" : 95,
+  "handPosition" : [-4, 2],
+  "firePosition" : [-4, 2],
+  "level" : 100,
+  "fireTime" : 0.1,
+  "twoHanded" : false,
+
+  "fireOnRelease" : false,
+  "walkWhileFiring" : true,
+
+  "projectileType" : "bullet-1",
+  "projectile" : {
+    "speed" : 100,
+    "power" : 9999,
+    "color" : [10, 255, 10]
+  },
+
+    "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/bow_loose.wav" } ]
+
+  }
+}
