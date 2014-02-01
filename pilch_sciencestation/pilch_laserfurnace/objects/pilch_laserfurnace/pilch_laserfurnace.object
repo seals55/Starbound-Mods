@@ -1,0 +1,41 @@
+{
+  "objectName" : "pilch_laserfurnace",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/pilch_laserfurnace.config",
+    "filter" : [ "laserfurnace" ]
+  },
+  "printable" : false,
+  "description" : "Uses lasers to smelt ores.",
+  "shortdescription" : "Laser Furnace",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 800,
+
+  "hydrophobic" : true,
+
+  "apexDescription" : "A laser furnace. I can craft things here.",
+  "avianDescription" : "A laser furnace perfect for crafting.",
+  "floranDescription" : "Furnace hisss, ssspit, burn. Floran brave it.",
+  "glitchDescription" : "Craftsmanship. The furnace is the perfect temperature for creating metalworks.",
+  "humanDescription" : "A laser furnace. Hot.",
+  "hylotlDescription" : "A hot, imposing furnace.",
+
+  "inventoryIcon" : "pilch_laserfurnaceicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pilch_laserfurnace.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+  "soundEffect" : "/sfx/objects/teslaspike.wav",
+  "soundEffectRadius" : 50
+}

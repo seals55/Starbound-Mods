@@ -1,0 +1,17 @@
+{
+  "itemName" : "crewaquastim3",
+  "rarity" : "legendary",
+  "inventoryIcon" : "bluestim.png",
+  "description" : "Allows you to breathe for five minutes.",
+  "shortdescription" : "Aqua Stim Pack",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "kind" : "breath",
+        "amount" : 9999999,
+		"duration" : 300
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

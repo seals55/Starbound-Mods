@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "glitchtier4axe",
+    "count" : 1
+  },
+  "groups" : [ "spinningwheel", "sipweapons" ]
+}

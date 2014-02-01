@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 5 }
+  ],
+  "output" : { "item" : "generatedsword", "count" : 1, "data" : { "definition" : "watersword", "level" : 200 } },
+  "groups" : [ "plain", "weapons", "all" ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "bread", "count" : 15 }
+  ],
+  "output" : { "item" : "crewfoodrecipebox", "count" : 1 },
+  "groups" : [ "crewchef", "all", "other" ]
+}

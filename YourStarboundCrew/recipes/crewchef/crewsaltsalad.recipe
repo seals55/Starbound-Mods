@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "coralcreep", "count" : 1 },
+    { "item" : "reefpod", "count" : 1 },
+    { "item" : "pearlpea", "count" : 1 }
+  ],
+  "output" : { "item" : "saltsalad", "count" : 2 },
+  "groups" : [ "crewchef" ]
+}

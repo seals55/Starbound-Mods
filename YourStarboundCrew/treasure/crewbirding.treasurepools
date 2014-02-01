@@ -1,0 +1,17 @@
+{
+  "crewbirding" : [
+    [1, {
+        "pool" : [
+          [0.4, [ "money", 500] ],
+		  [0.3, [ "ironbar", 35] ],
+          [0.3, [ "coalore", 75] ]
+        ],
+        "poolRounds" : [
+          [0.10, 0],
+          [0.90, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ]
+}

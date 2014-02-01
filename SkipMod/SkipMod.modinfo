@@ -1,0 +1,7 @@
+{
+  "name" : "SkipMod",
+  "version" : "Beta v. Furious Koala",
+  "path" : ".",
+  "dependencies" : [ "SkipMod" ]
+
+}

@@ -1,0 +1,21 @@
+{
+  "projectileName" : "energybuck",
+  "physics" : "laser",
+  "frames" : "energybuck.png",
+  "level" : 15,
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "emitters" : [ "daggerblue" ],
+  "power" : 200,
+  "timeToLive" : 0.3,
+  "speed" : 350,
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "damageKind" : "default"
+}

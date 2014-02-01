@@ -1,0 +1,21 @@
+{
+  "itemName" : "crewKEIpalulu",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "legendary",
+  "description" : "Lole has evolved! Palulu will protect you from the worst of the universe.",
+  "shortdescription" : "Palulu",
+
+  "augments" : [
+    {
+      "name" : "crewKEIpalulu"
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png",
+  "learnBlueprintsOnPickup" : [
+    "crewKEIkeakua"
+  ]
+}

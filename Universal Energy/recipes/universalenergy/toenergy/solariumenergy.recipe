@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "solariumore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "uenergy",
+    "count" : 80
+  },
+  "groups" : [ "energyconverter", "all" ]
+}

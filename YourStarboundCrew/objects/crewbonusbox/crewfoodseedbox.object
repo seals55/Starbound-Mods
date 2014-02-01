@@ -1,0 +1,42 @@
+{
+  "objectName" : "crewfoodseedbox",
+  "rarity" : "Uncommon",
+  "objectType" : "wire",
+  "description" : "Looks like a bundle of seeds inside.",
+  "shortdescription" : "Seed Box",
+  "race" : "generic",
+  "category" : "tools",
+  "price" : 5,
+  "printable" : false,
+  
+  "apexDescription" : "A box full of seeds. Wonder what I'll get.",
+  "avianDescription" : "A box full of seeds. Wonder what I'll get.",
+  "floranDescription" : "A box full of seeds. Wonder what I'll get.",
+  "glitchDescription" : "A box full of seeds. Wonder what I'll get.",
+  "humanDescription" : "A box full of seeds. Wonder what I'll get.",
+  "hylotlDescription" : "A box full of seeds. Wonder what I'll get.",
+
+  "inventoryIcon" : "crewbonusboxicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crewbonusbox.png:<color>.<key>",
+	  
+	  "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "animation" : "/objects/crewbonusbox/crewbonusbox.animation",
+  "animationParts" : {
+    "beacon" : "crewbonusbox.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/crewbonusbox/crewfoodseedbox_logic.lua" ],
+  "scriptDelta" : 5
+}
+

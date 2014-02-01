@@ -1,0 +1,21 @@
+{
+  "itemName" : "crewbomb",
+  "rarity" : "Common",
+  "inventoryIcon" : "bombicon.png",
+  "image" : "bombicon.png",
+  "shortdescription" : "Strong Bomb",
+  "description" : "A better way to blow up blocks. Be careful where you throw them!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "zbomb",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 200
+  }
+}
+

@@ -1,0 +1,36 @@
+{
+	"objectName" : "miab_basestore_receiver",
+	"rarity" : "Common",
+	"objectType" : "wire",
+	"description" : "Marks the corner of the target area for building scanning",
+	"shortdescription" : "Building Scanning Marker",
+
+	"race" : "generic",
+	"category" : "wire",
+	"price" : 1,
+	"printable" : false,
+	
+	"inventoryIcon" : "miab_basestore_receiver.png",
+	"orientations" : [
+		{
+			"dualImage" : "miab_basestore_receiver.png:<color>.<frame>",
+			"imagePosition" : [1,0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1
+		}
+	],
+
+	"animation" : "miab_basestore_receiver.animation",
+	"animationParts" : {
+		"normal_operation_image" : "/objects/basestorage/miab_basestore_receiver/miab_basestore_receiver.png"
+	},
+	"animationPosition" : [1, 0],
+
+	"scripts" : [
+		"/objects/basestorage/miab_basestore_receiver/miab_basestore_receiver.lua"
+	],
+	"scriptDelta" : 5,
+
+	"inboundNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,8 @@
+{
+  "itemName" : "regendisc",
+  "rarity" : "Common",
+  "inventoryIcon" : "disc.png",
+  "description" : "Introduces constant health regeneration.",
+  "shortdescription" : "Pet Tech: Regeneration",
+  "maxStack" : 1
+}

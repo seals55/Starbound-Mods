@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 5 },
+    { "item" : "steelbar", "count" : 25 },
+    { "item" : "glassmaterial", "count" : 3 }
+  ],
+  "output" : { "item" : "lazerdrillitem", "count" : 1 },
+  "groups" : [ "metalworkstation", "tools", "all" ]
+}

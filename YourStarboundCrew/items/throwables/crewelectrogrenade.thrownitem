@@ -1,0 +1,21 @@
+{
+  "itemName" : "crewelectrogrenade",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "electrogrenadeicon.png",
+  "image" : "electrogrenadeicon.png",
+  "shortdescription" : "Electro Grenade Plus",
+  "description" : "An upgraded electro grenade. Shocking!",
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "electrogrenade",
+  "projectileConfig" : {
+    "speed" : 55,
+    "power" : 75,
+    "level" : 19
+  }
+}
+

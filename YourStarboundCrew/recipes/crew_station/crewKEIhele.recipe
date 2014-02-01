@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "crewKEImalihini", "count" : 1 },
+    { "item" : "alienmeat", "count" : 20 },
+	{ "item" : "apexbloodbank", "count" : 3 },
+	{ "item" : "birdgong1", "count" : 2 },
+	{ "item" : "hayroll", "count" : 1 },
+    { "item" : "money", "count" : 750 }
+  ],
+  "output" : { "item" : "crewKEIhele", "count" : 1 },
+  "groups" : [ "crew_station" ]
+}

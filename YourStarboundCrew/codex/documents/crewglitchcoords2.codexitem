@@ -1,0 +1,10 @@
+{
+  "codexId" : "crewglitchcoords2",
+  "title" : "Glitch Planets II",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchcastlebook_02.png",
+  "itemName" : "crewglitchcoords2Codex",
+  "rarity" : "uncommon",
+  "description" : "A list of some Glitch planets in Delta and beyond",
+  "shortdescription" : "Glitch Planets II"
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "crewKEIlole", "count" : 1 },
+	{ "item" : "goldarmorhead", "count" : 1 },
+	{ "item" : "goldarmorpants", "count" : 1 },
+	{ "item" : "goldarmorchest", "count" : 1 },
+    { "item" : "money", "count" : 2000 }
+  ],
+  "output" : { "item" : "crewKEIpalulu", "count" : 1 },
+  "groups" : [ "crew_station" ]
+}

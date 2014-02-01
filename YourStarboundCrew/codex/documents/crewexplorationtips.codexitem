@@ -1,0 +1,10 @@
+{
+  "codexId" : "crewexplorationtips",
+  "title" : "Exploration Hints",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexlabbook_01.png",
+  "itemName" : "crewexplorationtipsCodex",
+  "rarity" : "common",
+  "description" : "Some tips for new explorers of the universe.",
+  "shortdescription" : "Exploration Hints"
+}

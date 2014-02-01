@@ -1,0 +1,48 @@
+{
+  "objectName" : "cheatbox",
+  "rarity" : "Legendary",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingtable.config",
+    "filter" : [ "cheatboxtable" ]
+  },
+  "description" : "A magical box for cheater !",
+  "shortdescription" : "Cheat Box",
+  "race" : "generic",
+  "category" : "crafting",
+  "printable" : false,
+  "price" : "0",
+
+  "apexDescription" : "A magical box for cheater !",
+  "avianDescription" : "A magical box for cheater !",
+  "floranDescription" : "A magical box for cheater !",
+  "glitchDescription" : "A magical box for cheater !",
+  "humanDescription" : "A magical box for cheater !",
+  "hylotlDescription" : "A magical box for cheater !",
+
+  "inventoryIcon" : "cheatbox.png",
+  "orientations" : [
+    {
+      "image" : "cheatbox.png:<color>",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "cheatBox.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

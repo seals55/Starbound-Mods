@@ -1,0 +1,15 @@
+{
+  "input" : [
+	{ "item" : "diamond", "count" : 5 },
+	{ "item" : "solariumcore", "count" : 1 },
+	{ "item" : "Rubiumbar", "count" : 1 },
+	{ "item" : "uenergy", "count" : 3000 },
+	{ "item" : "impcasing", "count" : 2 },
+	{ "item" : "matterassemblerblueprint", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "uematterassembler",
+    "count" : 1
+  },
+  "groups" : [ "roboticcraftingtable", "objects", "all" ]
+}

@@ -1,0 +1,19 @@
+{
+  "projectileName" : "energybolt",
+  "physics" : "bolt",
+  "frames" : "energybolt.png",
+  "level" : 10,
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "inheritDamageFactor" : 10,
+  "power" : 200,
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "damageKind" : "default"
+}

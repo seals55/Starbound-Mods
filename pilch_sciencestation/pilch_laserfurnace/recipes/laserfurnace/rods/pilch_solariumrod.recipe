@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "solariumore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "solariumrod",
+    "count" : 1
+  },
+  "groups" : [ "laserfurnace", "all", "rods" ]
+}

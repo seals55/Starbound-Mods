@@ -1,0 +1,14 @@
+{
+  "itemName" : "crewmedkit2",
+  "rarity" : "legendary",
+  "inventoryIcon" : "medkit.png",
+  "description" : "An even better med kit.",
+  "shortdescription" : "Upgraded Medical Kit",
+  "effects" : [ [
+      {
+        "kind" : "health",
+        "amount" : 225
+      }
+    ] ],
+  "emote" : ""
+}

@@ -1,0 +1,36 @@
+{
+  "objectName" : "sipobjectcrafter",
+  "rarity" : "Legendary",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/sipobjectcrafter.config",
+    "filter" : [ "sipobjectcrafter", "sipfurniture" ]
+  },
+  "printable" : false,
+  "description" : "Spawn every object, period.",
+  "shortdescription" : "SIP - Object Crafter",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+
+  "inventoryIcon" : "sipobjectcraftericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sipobjectcrafter.png",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 3.5,
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

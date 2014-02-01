@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "uenergy", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "clarinet",
+    "count" : 1
+  },
+  "groups" : [ "replicator", "all", "tools" ]
+}

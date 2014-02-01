@@ -1,0 +1,5 @@
+{
+  "input" : [  ],
+  "output" : { "item" : "processor", "count" : 1 },
+  "groups" : [ "cheatboxtable", "other", "all" ]
+}

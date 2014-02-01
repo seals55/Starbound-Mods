@@ -1,0 +1,267 @@
+{
+  "type" : "crewshroomman",
+  "baseType" : "villageguard",
+
+  "damageTeam" : 1,
+
+  "levelVariance" : [0.75, 0.75],
+
+  "disableWornArmor" : true,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/guard/guardState.lua"
+  ],
+
+  "scriptConfig" : {
+    "attackerLimit" : 8,
+    "attackerLimitCooldown" : 3,
+
+    "guard" : {
+      "noticeDistance" : 30,
+      "hailDistance" : -1,
+      "stopDistance" : -1,
+      "attackDistance" : 30,
+
+      "wallCheckDistance" : 5,
+      "changeDirectionTimeRange" : [10, 20],
+
+      "attackSayingPercent" : 50,
+
+      "dialog" : {
+        "hail" : {
+          "default" : [
+            "Hoom! Feesle the mushroom habito!"
+          ],
+          "floran" : {
+            "default" : [
+              "Hoom! Feesle the mushroom habito!"
+            ],
+            "human" : [
+              "Hoom! Meat habble person nab fry!",
+              "Hoom meat. Seemo bizarra stamper!",
+              "Halhoom smooth! Chop deka halberdeen cartography!",
+              "Hoomah! Mesti hop smashroom danger!",
+              "<Universal Translation error. Language not recognised. Attempting to parse.>",
+              "Hoom! Halhoom!",
+              "Halmarr, spike circular deka bizarra!",
+              "Meat hoom! Enjoy house choka smashroom?",
+              "Halhalhoom! Tentacrush weepa no meat."
+            ],
+            "avian" : [
+              "<Universal Translation error. Language not recognised. Attempting to parse.>",
+              "Hoom flap! Bizarra no Kluex fry!",
+              "Halhoom sillypeck. Choka smashroom nab house.",
+              "Halhalhoom, weepa cantara swoop nab cloudchaser.",
+              "Hoomay, flap! Halberdeen habble fluffy peck. Shree!",
+              "Haba hoom, sillyflap! <mirthful sound> swoop bizarra!",
+              "Hoom! Hoom hoom! Chop smashroom nab peace kisser!",
+              "Hoom habba flap flap, deka nab peck?",
+              "Hoom? Scratchy mesti cuddle?"
+            ],
+            "floran" : [
+              "<Universal Translation error. Language not recognised. Attempting to parse.>",
+              "Hoom! Hoom hoom shroom! Plant naturra kissface!",
+              "Halhoom! Nab feara deka plant!",
+              "Hoom. Halb weepa nab smashroom.",
+              "Kissface plant! Nab halb squishfish! <maniacal sound>",
+              "Halhalhalhoom, carpa house fry plant! Seemingly.",
+              "Habahoom squishfish, nab oaken smashroom cantaloupe!",
+              "Plant hoom! Kissface chop growa, halb!?",
+              "Hoom. Hoom plant. Nabi spike cutshroom, plesta?"
+            ],
+            "apex" : [
+              "<Universal Translation error. Language not recognised. Attempting to parse.>",
+              "Hoom. Plesta mesti hairthing.",
+              "Humfah. Hairthing chop nab feara.",
+              "Hoom! Nab chop Giant Hairthing. Weepa?",
+              "Halhoom, hairthing. Nab smashroom, plesta.",
+              "Hoom. Hairthing hairface carpa woodshroom.",
+              "Plesti cantara, shroomy workest!",
+              "Hoom. Mesti nab chop hairthing. Halhoom!",
+              "Hoom! Hop chop, hairthing! Halb squishfish?"
+            ],
+            "hylotl" : [
+              "<Universal Translation error. Language not recognised. Attempting to parse.>",
+              "Huh huh hoom? Squishfish...",
+              "Nab! <unintelligible gasping sounds>",
+              "Nab halb smashroom, squishfish! Cantara nab house, chop!",
+              "Kissface plant nab cutshroom, squishfish. Threaten!",
+              "Squeak. Hoom nab.",
+              "Hoom. Mesti nab disbravada, squishfish.",
+              "<angry muttering sounds>",
+              "Nab house, squishfish! Nab nab nab."
+            ],
+            "glitch" : [
+              "<Universal Translation error. Language not recognised. Attempting to parse.>",
+              "Hoom, clankbeast. Habba nab cartography spaceshroom.",
+              "Halhoom, okay. Nab chop weepa, deka hairthing? Flap?",
+              "Halhalhoom. Smashroom nab plant?",
+              "Hurm. Hoom. Clankbeast house fry, shroomy halb.",
+              "Clankbeast! Chop carpa, cantara.",
+              "Hoom clankbeast. Halb plesti cantara, nab?",
+              "Hoom. Shroomy nab clankbeast feara. Mesti bravada!",
+              "Hoom. Clankbeast halb mesti, deka plant?"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "shroomhead" } ],
+            "chest" : [ { "name" : "florantier2chest" } ],
+            "legs" : [ { "name" : "florantier2pants" } ],
+            "primary" : [
+              { "name" : "humantier1broadsword" }
+            ]
+          }
+        ] ]
+    ],
+    "apex" : [
+      [0, [
+          {
+            "head" : [ { "name" : "shroomhead" } ],
+            "chest" : [ { "name" : "florantier2chest" } ],
+            "legs" : [ { "name" : "florantier2pants" } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonsniperrifle" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ]
+    ],
+    "avian" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "aviantier6chest", "data" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "aviantier6pants", "data" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ]
+    ],
+    "floran" : [
+      [0, [
+          {
+            "head" : [ { "name" : "shroomhead" }, { "name" : "shroomhead2" } ],
+            "chest" : [ { "name" : "florantier2chest" } ],
+            "legs" : [ { "name" : "florantier2pants" } ],
+            "primary" : [
+              { "name" : "humantier1broadsword" }
+            ]
+          }
+        ] ]
+    ],
+    "human" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "humantier5chest", "data" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "humantier5pants", "data" : { "colorIndex" : 3 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonsniperrifle" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "tier1shield" } }
+            ]
+          }
+        ] ]
+    ],
+    "glitch" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "glitchtier5chest", "data" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "glitchtier4pants", "data" : { "colorIndex" : 3 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "glitchlordshield" } }
+            ]
+          }
+        ] ]
+    ],
+    "hylotl" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "hylotltier6chest", "data" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "hylotltier6pants", "data" : { "colorIndex" : 7 } } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commonspear" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonaxe" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonhammer" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonassaultrifle" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonshotgun" } },
+              { "name" : "generatedgun", "data" : { "definition" : "commonsniperrifle" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "hylotlstrongshield" } }
+            ]
+          }
+        ] ]
+    ]  },
+
+  "dropPools" : [ "shroomguardtreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 650,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "objectName" : "sipweaponcrafter",
+  "rarity" : "Legendary",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/sipweaponcrafter.config",
+    "filter" : [ "sipweaponcrafter", "sipweapons", "siprandommelee", "siprandomgun", "siprandomshield", "sipthrowables" ]
+  },
+  "printable" : false,
+  "description" : "Spawn every weapon, period.",
+  "shortdescription" : "SIP - Weapon Crafter",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+
+  "inventoryIcon" : "sipweaponcraftericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sipweaponcrafter.png",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 3.5,
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

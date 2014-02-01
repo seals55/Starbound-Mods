@@ -1,0 +1,38 @@
+{
+  "objectName" : "crewhunterspet",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crewhunter.config",
+    "filter" : [ "crewhunter" ]
+  },
+  "printable" : false,
+  "description" : "Use Spongemaster's pet to craft a bunch of stuff!",
+  "shortdescription" : "The Hunter's Pet",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "A fancy crafting table.",
+  "avianDescription" : "A mechanical crafting table.",
+  "floranDescription" : "Floran once get in fight with table like this.",
+  "glitchDescription" : "Confused. This table is familiar.",
+  "humanDescription" : "A robot table! The revolution begins!",
+  "hylotlDescription" : "How strange. A robotic crafting table.",
+
+  "inventoryIcon" : "crewhunterspeticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crewhunterspet.png:<color>",
+
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

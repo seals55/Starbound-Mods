@@ -1,0 +1,21 @@
+{
+  "itemName" : "largeexplosivechargeitem",
+  "rarity" : "Common",
+  "inventoryIcon" : "largeexplosivechargeicon.png",
+  "image" : "largeexplosivechargelicon.png",
+  "shortdescription" : "Large Explosive Charge",
+  "description" : "Large bag filled with gunpowder.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "largeexplosivecharge",
+  "projectileConfig" : {
+    "speed" : 30,
+    "power" : 100
+  }
+}
+

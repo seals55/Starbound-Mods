@@ -1,0 +1,27 @@
+{
+  "itemName" : "lazerdrillv2item",
+  "inventoryIcon" : "lazerdrillv2icon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "spread" : 3,
+  "description" : " Now this is a kni...I mean laser drill.",
+  "shortdescription" : "Laser Drill v.2",
+  "image" : "lazerdrillv2item.png",
+  "handPosition" : [-3.5, -1],
+  "firePosition" : [20, 1.5],
+
+  "fireTime" : 0.1,
+  "twoHanded" : true,
+
+  "projectileType" : "lazerdrillv2",
+  "projectile" : {
+    "speed" : 120,
+    "power" : 0
+
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_mp1.wav" } ]
+  }
+}

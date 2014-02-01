@@ -1,0 +1,10 @@
+{
+    "name": "crewSpiritofHylotl",
+    "kind": "statuseffect",
+    "statusEffects": [
+        {
+            "kind" : "breath",
+            "amount" : 0.025
+        }
+    ]
+}

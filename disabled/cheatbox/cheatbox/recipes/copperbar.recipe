@@ -1,0 +1,5 @@
+{
+  "input" : [  ],
+  "output" : { "item" : "copperbar", "count" : 1 },
+  "groups" : [ "cheatboxtable",  "all" ]
+}

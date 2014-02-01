@@ -1,0 +1,8 @@
+{
+  "itemName" : "speeddisc",
+  "rarity" : "Common",
+  "inventoryIcon" : "disc.png",
+  "description" : "Applies aerodynamics to body structure, allowing faster running.",
+  "shortdescription" : "Pet Tech: Aerodynamics",
+  "maxStack" : 1
+}

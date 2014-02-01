@@ -1,0 +1,6 @@
+{
+  "name" : "Pilchenstein's Base In A Box",
+  "version" : "Beta v. Furious Koala",
+  "path" : "pilch_basebox",
+  "dependencies" : ["Pilchenstein's Science Station"]
+}

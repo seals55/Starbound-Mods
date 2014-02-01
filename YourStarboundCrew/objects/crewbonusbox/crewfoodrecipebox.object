@@ -1,0 +1,42 @@
+{
+  "objectName" : "crewfoodrecipebox",
+  "rarity" : "Uncommon",
+  "objectType" : "wire",
+  "description" : "Might contain a recipe for cooking.",
+  "shortdescription" : "Recipe Box",
+  "race" : "generic",
+  "category" : "tools",
+  "price" : 5,
+  "printable" : false,
+  
+  "apexDescription" : "I hope there's a delicious recipe in here!",
+  "avianDescription" : "I hope there's a delicious recipe in here!",
+  "floranDescription" : "I hope there'sss a deliciousss recipe in here!",
+  "glitchDescription" : "I hope there's a delicious recipe in here!",
+  "humanDescription" : "I hope there's a delicious recipe in here!",
+  "hylotlDescription" : "I hope there's a delicious recipe in here!",
+
+  "inventoryIcon" : "crewbonusboxicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crewbonusbox.png:<color>.<key>",
+	  
+	  "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "animation" : "/objects/crewbonusbox/crewbonusbox.animation",
+  "animationParts" : {
+    "beacon" : "crewbonusbox.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/crewbonusbox/crewfoodrecipebox_logic.lua" ],
+  "scriptDelta" : 5
+}
+

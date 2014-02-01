@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 5 },
+    { "item" : "ironbow", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "titaniumbow",
+    "count" : 1
+  },
+  "groups" : [ "crewhunter" ]
+}

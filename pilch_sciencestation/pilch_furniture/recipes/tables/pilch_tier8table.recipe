@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "Violiumbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "tier8table",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "objects", "all"]
+}
+

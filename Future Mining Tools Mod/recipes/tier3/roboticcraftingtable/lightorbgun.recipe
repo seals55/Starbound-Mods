@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "solariumore", "count" : 35 },
+    { "item" : "goldbar", "count" : 20 }
+  ],
+  "output" : { "item" : "lightorbgun", "count" : 1 },
+  "groups" : [ "roboticcraftingtable", "tools", "all" ]
+}

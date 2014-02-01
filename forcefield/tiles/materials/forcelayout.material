@@ -1,0 +1,12 @@
+{
+  "materialId" : 259,
+  "materialName" : "forcelayout",
+  "frames" : "forcelayout.png",
+  "particleColor" : [75, 23, 93, 255],
+  "variants" : 1,
+  "description" : "this block will guide the force",
+  "shortdescription" : "Force Layout Block",
+  "multicolored" : false,
+  "footstepSound" : "/sfx/blocks/footstep_glass.wav",
+  "health" : 1
+}

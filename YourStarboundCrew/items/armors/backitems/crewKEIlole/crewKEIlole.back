@@ -1,0 +1,21 @@
+{
+  "itemName" : "crewKEIlole",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "rare",
+  "description" : "Kekoa has evolved! Lole will try to protect you!",
+  "shortdescription" : "Lole",
+
+  "augments" : [
+    {
+      "name" : "crewKEIlole"
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png",
+  "learnBlueprintsOnPickup" : [
+    "crewKEIpalulu"
+  ]
+}

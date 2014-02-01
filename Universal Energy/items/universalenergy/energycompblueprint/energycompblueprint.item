@@ -1,0 +1,14 @@
+{
+  "itemName" : "energycompblueprint",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "energycompblueprint.png",
+  "price" : 3500,
+  "description" : "A mysterious operating system with design data for an 'energy compressor'.",
+  "shortdescription" : "Energy Compressor OS",
+  "printable" : true,
+  "learnBlueprintsOnPickup" : [
+    "impcasing",
+	"solariumcore",
+	"uenergycomp"
+  ]  
+}

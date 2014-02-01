@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "crewKEImalihini", "count" : 1 },
+    { "item" : "crewKEIKEI", "count" : 1 }
+  ],
+  "output" : { "item" : "crewKEIgenericcube", "count" : 1 },
+  "groups" : [ "crew_station" ]
+}

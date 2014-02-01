@@ -1,0 +1,23 @@
+{
+  "projectileName" : "autocannonfire",
+  "physics" : "bolt",
+  "frames" : "autocannonfire.png",
+  "level" : 15,
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 0.0,
+  "inheritDamageFactor" : 10,
+  "emitters" : [ "daggerblue" ],
+  "power" : 250,
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "100calhybrid",
+      "inheritDamageFactor" : 18,
+      "angleAdjust" : 0
+    }
+  ],
+  "damageKind" : "default"
+}

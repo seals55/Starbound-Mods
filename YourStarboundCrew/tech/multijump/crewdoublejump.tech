@@ -1,0 +1,9 @@
+{
+  "script" : "multijump.lua",
+  "actions" : [ "multiJump" ],
+  "animator" : "multijump.animation",
+
+  "multiJumpCount" : 2,
+  "energyUsage" : 20,
+  "sound" : "/sfx/tech/tech_doublejump.wav"
+}

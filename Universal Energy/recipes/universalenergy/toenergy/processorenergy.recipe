@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "processor", "count" : 1 }
+  ],
+  "output" : { "item" : "uenergy", "count" : 750 },
+  "groups" : [ "energyconverter", "all" ]
+}

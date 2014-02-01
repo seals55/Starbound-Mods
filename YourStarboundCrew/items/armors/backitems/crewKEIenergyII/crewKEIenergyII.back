@@ -1,0 +1,30 @@
+{
+  "itemName" : "crewKEIenergyII",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "legendary",
+  "description" : "Lapule has evolved! Hoku will energize you like a star.",
+  "shortdescription" : "Hoku",
+
+  "statusEffects" : [
+    {
+      "kind" : "energyincrease",
+      "amount" : 175
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 2.2
+    },
+
+    {
+      "kind" : "protection",
+      "level" : 50,
+      "amount" : 20
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png"
+}

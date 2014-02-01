@@ -1,0 +1,8 @@
+{
+  "itemName" : "storedisc",
+  "rarity" : "Common",
+  "inventoryIcon" : "disc.png",
+  "description" : "Increases carrying capacity by 15 slots.",
+  "shortdescription" : "Pet Tech: Storage+",
+  "maxStack" : 1
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "crewKEIKEI", "count" : 1 },
+    { "item" : "bread", "count" : 20 },
+	{ "item" : "coalore", "count" : 25 },
+	{ "item" : "copperore", "count" : 25 },
+    { "item" : "money", "count" : 500 }
+  ],
+  "output" : { "item" : "crewKEImalihini", "count" : 1 },
+  "groups" : [ "crew_station" ]
+}

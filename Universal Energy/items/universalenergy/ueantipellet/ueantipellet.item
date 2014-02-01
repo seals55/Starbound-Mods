@@ -1,0 +1,11 @@
+{
+  "itemName" : "ueantipellet",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "ueantipellet.png",
+  "description" : "A solid orb of antiparticles, consisting of positively charged electrons. Antimatter.",
+  "shortdescription" : "Positron Pellet",
+  "fuelAmount" : 250,
+  "smallStackLimit" : 100,
+  "mediumStackLimit" : 8000,
+  "maxStack" : 8000
+}

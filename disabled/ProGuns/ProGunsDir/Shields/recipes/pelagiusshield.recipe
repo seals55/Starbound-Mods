@@ -1,0 +1,8 @@
+{
+  "input" : [
+   
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedshield", "count" : 1, "data" : { "definition" : "pelagiusshield", "level" : 10 } },
+  "groups" : [ "guntable", "armor", "all" ]
+}

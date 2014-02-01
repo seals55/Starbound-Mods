@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "platinumore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "platinumbar",
+    "count" : 1
+  },
+  "groups" : [ "laserfurnace", "all", "treasure" ]
+}

@@ -1,0 +1,9 @@
+{
+  "kind" : "crewjumpboostinitiator",
+  "duration" : 120,
+  "primitives" : [
+    { "name" : "jumpboost", "percentage" : 50, "mode" : "max" }
+  ],
+  "effectSources" : [ "jumpboost" ],
+  "mainInterfaceIcon" : "/interface/statuses/jumpboost.png"
+}

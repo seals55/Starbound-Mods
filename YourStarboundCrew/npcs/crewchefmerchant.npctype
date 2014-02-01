@@ -1,0 +1,257 @@
+{
+  "type" : "crewchefmerchant",
+  "baseType" : "crew_merchant",
+
+  "disableWornArmor" : true,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 1,
+  
+  "levelVariance" : [0, 0],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/chatState.lua",
+    "/npcs/sleepState.lua",
+    "/npcs/standingIdleState.lua",
+    "/npcs/wanderState.lua",
+
+    "/npcs/merchant/merchantState.lua"
+  ],
+
+  "scriptConfig" : {
+
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : -1,
+
+      "dialog" : {
+        "start" : {
+          "default" : [
+				"Welcoming. I am Chef Goldobot!"
+          ],
+		  "apex" : {
+            "default" : [
+				"Fancy a meal? I'm the best in the business.",
+				"Apex cuisine is Big Ape-approved!",
+				"Let me help you cook up a feast.",
+				"I hope you like bananas!",
+				"You'd better have a big appetite!"
+            ]
+          },
+          "avian" : {
+            "default" : [
+				"My cuisine will be much to your liking.",
+				"Let me ensure you feast like royalty.",
+				"Tonight you shall eat better than Kluex himself.",
+				"Even the Stargazers are in awe of my produce.",
+				"You'll never forget the taste of my produce."
+            ]
+          },
+		  "floran" : {
+            "default" : [
+				"Floran sssell food to ssspaceperson!",
+				"Floran throw food in bowl, ssset on fire, cook!",
+				"Floran liability in kitchen. Greenfinger sssay it! Liability mean best chef.",
+				"Floran ssstab cut ssslash bash make dinner!",
+				"Floram Ramsay at your ssservice."
+            ]
+          },
+		  "glitch" : {
+            "default" : [
+				"Statement. All your cooking needs, right here.",
+				"Proud. Chef Goldobot has the best recipes.",
+				"Friendly. If you're hungry, you came to the right place.",
+				"Welcoming. Allow me to share my cooking with you, captain.",
+				"Bragging. Glitch grow the best produce."
+            ]
+          },
+		  "human" : {
+            "default" : [
+				"Get yer veggies right yere!",
+				"Alright guv'nor? Want some 'a me automatoes?",
+				"These'd be a steal at 'alf the price!",
+				"Grew this lovely lot in me own back garden, I did.",
+				"Fresh from me allotment, straight into your cookin' pot."
+				
+            ]
+          },
+		  "hylotl" : {
+            "default" : [
+				"My produce is to die for. Not in a bad way!",
+				"Once you try my produce, nothing will ever seem as good.",
+				"Can you stomach the beauty of Hylotl cuisine?",
+				"Everything I sell has been grown with love, and compost.",
+				"My produce will make your mouth water, and your wallet cry."
+            ]
+          }
+        },
+        "end" : {
+          "default" : [
+				"Come back anytime!"
+          ],
+          "apex" : {
+            "default" : [
+				"Come back whenever you're hungry!",
+				"Don't be a stranger!",
+				"Fresh produce every day!"
+            ]
+          },
+		  "avian" : {
+            "default" : [
+				"See you soon!",
+				"Great taste waits for no-one.",
+				"May Kluex make you really hungry again soon!"
+            ]
+          },
+		  "floran" : {
+            "default" : [
+				"Come back sssoon for foodsss!",
+				"Floran have more foodsss next time!",
+				"Floran wait to sssell more foodsss!"
+            ]
+          },
+		  "glitch" : {
+            "default" : [
+				"Statement. Come back any time, captain.",
+				"Encouraging. Go forth and become hungry.",
+				"Proud. You will enjoy my fine foods."
+            ]
+          },
+		  "human" : {
+            "default" : [
+				"Off'n with thee, me lad!",
+				"I'll dig up me potatoes ready fer next time.",
+				"Got a shipment of oculemons comin' in that you won't wanna miss!"
+            ]
+          },
+		  "hylotl" : {
+            "default" : [
+				"You will be back.",
+				"I shall see you soon, connoisseur.",
+				"Peace be with you, culinary expert."
+            ]
+          }
+        }
+      },
+
+      "categories" : [ "crewchefmerchant" ],
+      "priceVarianceRange" : [1, 1],
+      "numItems" : 20
+    },
+
+    "meleeAttack" : {
+      "swingDistance" : 5,
+      "swingTime" : 0.4,
+      "swingCooldownTime" : 0.6,
+      "runThreshold" : 9,
+      "searchTime" : 10,
+      "backoffDistanceRange" : [8.0, 12.0],
+      "repositionCooldownTimeRange" : [2.0, 3.0]
+    },
+
+    "rangedAttack" : {
+      "minDistance" : 10,
+      "maxDistance" : 30,
+      "coverYOffset" : -1.5,
+      "coverYClearanceOffset" : 0.5,
+      "coverDistance" : 2.5,
+      "coverHideTimeRange" : [0.5, 1.0],
+      "coverFireTimeRange" : [1.0, 3.0],
+      "attackerSpacing" : 2.5,
+      "searchTime" : 10
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ "chefhead" ],
+			"chest" : [ "chefchest" ],
+            "legs" : [ "cheflegs" ],
+            "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
+          }
+        ] ]
+    ],
+	"human" : [
+      [0, [
+          {
+            "head" : [ "chefhead" ],
+			"chest" : [ "chefchest" ],
+            "legs" : [ "cheflegs" ],
+            "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
+          }
+        ] ]
+    ],
+    "avian" : [
+      [0, [
+          {
+            "head" : [ "chefhead" ],
+			"chest" : [ "chefchest" ],
+            "legs" : [ "cheflegs" ],
+            "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
+          }
+        ] ]
+    ],
+    "apex" : [
+      [0, [
+          {
+            "head" : [ "chefhead" ],
+			"chest" : [ "chefchest" ],
+            "legs" : [ "cheflegs" ],
+            "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
+          }
+        ] ]
+    ],
+    "floran" : [
+      [0, [
+          {
+            "head" : [ "chefhead" ],
+			"chest" : [ "chefchest" ],
+            "legs" : [ "cheflegs" ],
+            "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
+          }
+        ] ]
+    ],
+    "glitch" : [
+      [0, [
+          {
+            "head" : [ "chefhead" ],
+			"chest" : [ "chefchest" ],
+            "legs" : [ "cheflegs" ],
+            "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
+          }
+        ] ]
+    ],
+    "hylotl" : [
+      [0, [
+          {
+            "head" : [ "chefhead" ],
+			"chest" : [ "chefchest" ],
+            "legs" : [ "cheflegs" ],
+            "sheathedprimary" : [ [ "generatedsword", 1, { "definition" : "commondagger" } ] ]
+          }
+        ] ]
+    ]
+  },
+  
+  "statusParameters" : {
+    "baseMaxHealth" : 90,
+    "baseMaxEnergy" : 20,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0
+  }
+}

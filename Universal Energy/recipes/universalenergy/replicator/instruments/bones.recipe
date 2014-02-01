@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "uenergy", "count" : 30 }
+  ],
+  "output" : {
+    "item" : "bones",
+    "count" : 1
+  },
+  "groups" : [ "replicator", "all", "tools" ]
+}

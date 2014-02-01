@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "Ceruliumbar", "count" : 1 }
+  ],
+  "output" : { "item" : "uenergy", "count" : 250 },
+  "groups" : [ "energyconverter", "all" ]
+}

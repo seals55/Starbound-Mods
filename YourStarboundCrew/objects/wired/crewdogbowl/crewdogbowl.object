@@ -1,0 +1,42 @@
+{
+  "objectName" : "crewdogbowl",
+  "rarity" : "rare",
+  "description" : "Summons a pet dog!",
+  "shortdescription" : "Doggy Bowl",
+  "race" : "generic",
+  "objectType" : "wire",
+  "category" : "tools",
+  "price" : 200,
+
+  "apexDescription" : "A simple, dirty bowl.",
+  "avianDescription" : "Food appears to be eaten from this.",
+  "floranDescription" : "Bowl too sssmall for Floran appetite.",
+  "glitchDescription" : "Observation. A simple bowl. Likely made from clay.",
+  "humanDescription" : "A little bowl, it feels like clay.",
+  "hylotlDescription" : "What do Glitch eat, I wonder?",
+
+  "inventoryIcon" : "crewdogbowlicon.png",
+  "orientations" : [
+    {
+      "image" : "crewdogbowl.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+    "animation" : "/objects/wired/crewdogbowl/crewdogbowl.animation",
+  "animationParts" : {
+    "beacon" : "crewdogbowl.png"
+  },
+  "animationPosition" : [-8, 0],
+
+
+  "scripts" : [ "/objects/wired/crewdogbowl/crewdogbowl.lua" ],
+  "scriptDelta" : 5
+}

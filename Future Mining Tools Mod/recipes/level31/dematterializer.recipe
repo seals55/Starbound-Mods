@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 35 },
+    { "item" : "uraniumore", "count" : 20 },
+    { "item" : "plutoniumore", "count" : 1 }
+  ],
+  "output" : { "item" : "dematterializer", "count" : 1 },
+  "groups" : [ "roboticcraftingtable", "tools", "all" ]
+}

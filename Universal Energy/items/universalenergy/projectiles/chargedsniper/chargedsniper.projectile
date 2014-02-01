@@ -1,0 +1,22 @@
+{
+  "projectileName" : "chargedsniper",
+  "physics" : "bolt",
+  "frames" : "chargedsniper.png",
+  "level" : 10,
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "timeToLive" : 0.0,
+  "damageKindImage" : "icon.png",
+  "emitters" : [ "daggerblue" ],
+  "power" : 2500,
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "chargedenergysniper",
+      "inheritDamageFactor" : 30,
+      "angleAdjust" : -15
+    }
+  ],
+  "damageKind" : "default"
+}

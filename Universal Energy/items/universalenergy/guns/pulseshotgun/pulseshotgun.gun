@@ -1,0 +1,29 @@
+{
+  "itemName" : "pulseshotgun",
+  "inventoryIcon" : "pulseshotgunicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A powerful plasma shotgun. Get up close and personal.",
+  "shortdescription" : "Plasma Blaster Shotgun",
+  "image" : "pulseshotgun.png:0",
+  "recoilTime" : 0.5,
+  "spread" : 14,
+  "accuracy" : 95,
+  "handPosition" : [-4, 2],
+  "firePosition" : [15, 0],
+  "level" : 10,
+  "fireTime" : 1.5,
+  "twoHanded" : true,
+
+  "projectileType" : "buckblast",
+  "projectile" : {
+    "speed" : 200,
+    "power" : 100,
+    "color" : [255, 190, 0]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun2.wav" } ]
+  }
+}

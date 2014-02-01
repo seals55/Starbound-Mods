@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "apexshipdetails",
+    "count" : 50
+  },
+  "groups" : [ "spinningwheel", "sipblocks" ]
+}

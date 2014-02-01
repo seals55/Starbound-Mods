@@ -1,0 +1,8 @@
+{
+  "input" : [
+
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : { "item" : "opbeamaxe", "count" : 1 },
+  "groups" : [ "skip", "tools", "all" ]
+}

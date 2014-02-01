@@ -1,0 +1,21 @@
+{
+  "itemName" : "crewKEIkaua",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "legendary",
+  "description" : "Pahi has evolved! Kaua hopes to help you become a true warrior of the universe.",
+  "shortdescription" : "Kaua",
+
+  "augments" : [
+    {
+      "name" : "crewKEIkekoaIII"
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png",
+  "learnBlueprintsOnPickup" : [
+    "crewKEIkeakua"
+  ]
+}

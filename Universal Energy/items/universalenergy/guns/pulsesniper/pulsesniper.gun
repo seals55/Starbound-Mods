@@ -1,0 +1,27 @@
+{
+  "itemName" : "pulsesniper",
+  "inventoryIcon" : "pulsesnipericon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A lethal, long-range plasma rifle.",
+  "shortdescription" : "Pulse Sniper Rifle",
+  "image" : "pulsesniper.png:4",
+  "recoilTime" : 0.5,
+  "handPosition" : [-7, -1],
+  "firePosition" : [3, 0],
+  "level" : 10,
+  "fireTime" : 2,
+  "twoHanded" : true,
+ 
+  "projectileType" : "energysniper",
+  "projectile" : {
+    "speed" : 1200,
+    "power" : 250,
+    "color" : [255, 190, 0]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/pulse_sniper.wav" } ]
+  }
+}

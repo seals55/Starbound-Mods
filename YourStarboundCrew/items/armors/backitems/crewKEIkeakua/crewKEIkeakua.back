@@ -1,0 +1,23 @@
+{
+  "itemName" : "crewKEIkeakua",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "legendary",
+  "description" : "Keakua brings power from all other KEIs.",
+  "shortdescription" : "Keakua",
+
+  "augments" : [
+    {
+      "name" : "crewKEIkeakua"
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png",
+  "learnBlueprintsOnPickup" : [
+    "crewKEIducky",
+	"crewKEIgenericcube",
+	"crewKEIchuckle"
+  ]
+}

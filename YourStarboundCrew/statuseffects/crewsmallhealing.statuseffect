@@ -1,0 +1,9 @@
+{
+  "kind" : "crewhealthnoeffect",
+  "primitives" : [
+    {
+      "name" : "Health",
+      "amount" : 0.0025
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 5 }
+  ],
+  "output" : { "item" : "generatedgun", "count" : 1, "data" : { "definition" : "legendaryflamethrower", "level" : 200 } },
+  "groups" : [ "plain", "weapons", "all" ]
+}

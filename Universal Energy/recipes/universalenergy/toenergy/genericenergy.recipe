@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "perfectlygenericitem", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "uenergy",
+    "count" : 2
+  },
+  "groups" : [ "energyconverter", "all" ]
+}

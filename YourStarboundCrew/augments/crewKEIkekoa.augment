@@ -1,0 +1,12 @@
+{
+  "name" : "crewKEIkekoa",
+  "icon" : [ ],
+  "bonusArmor" : 10.0,
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "powerboost", "amount" : 0.8 },
+	{ "kind" : "healthincrease", "amount" : 10 },
+	{ "kind" : "bounceback", "amount" : 5.0 }
+  ]
+  
+}

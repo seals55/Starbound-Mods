@@ -1,0 +1,10 @@
+{
+  "itemName" : "ultraTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/banana.png",
+  "description" : "Use Pulse Jump, Energy Dash, Bubble Boost, and Targeted Blink together!",
+  "shortdescription" : "Ultra Tech",
+  "inspectionKind" : "tech",
+
+  "techModule" : "ultratech.tech"
+}

@@ -1,0 +1,8 @@
+{
+  "itemName" : "calmdisc",
+  "rarity" : "Common",
+  "inventoryIcon" : "disc.png",
+  "description" : "Releases phenobarbital into bloodstream whenever nervousness is detected.",
+  "shortdescription" : "Pet Tech: Luminal Stream",
+  "maxStack" : 1
+}

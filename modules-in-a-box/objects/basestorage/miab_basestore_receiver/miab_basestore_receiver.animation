@@ -1,0 +1,34 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "DisplayState" : {
+        "default" : "normal_operation",
+        "states" : {
+          "normal_operation" : {
+            "frames" : 1,
+            "cycle" : 1,
+			"mode" : "loop",
+			"direction" : "left"
+          }
+        }
+      }
+    },
+    "parts" : {
+      "normal_operation_image" : {
+        "properties" : {
+          "centered" : false
+        },
+        "partStates" : {
+          "DisplayState" : {
+            "normal_operation" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>",
+				"direction" : "left"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

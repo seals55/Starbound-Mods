@@ -1,0 +1,36 @@
+{
+  "objectName" : "hylotlshiplocker",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "description" : "Store some stuff, why don't you?",
+  "shortdescription" : "Shiplocker",
+  "race" : "hylotl",
+
+  "apexDescription" : "A locker. Pretty easy to get into!",
+  "avianDescription" : "The Hylotl haven't exactly designed this with security in mind.",
+  "floranDescription" : "Floran ssstruggle to break into locker, manage eventually.",
+  "glitchDescription" : "Critical. Even a Floran could break into this simple locker.",
+  "humanDescription" : "I don't know why the Hylotl have bothered with a lock. Anyone could undo it.",
+  "hylotlDescription" : "A secure locker. Only the most cunning of thieves could break in.",
+
+  "inventoryIcon" : "shiplockericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlshiplocker.png:<color>.<frame>",
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 256,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 11,
+  "autoCloseCooldown" : 3600
+}

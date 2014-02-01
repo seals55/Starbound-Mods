@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedsword", "count" : 1, "data" : { "definition" : "uncommonaxe", "level" : 10 } },
+  "groups" : [ "spinningwheel", "siprandommelee" ]
+}

@@ -1,0 +1,50 @@
+{
+	"objectName" : "pilch_basescan_scanner",
+	"rarity" : "Common",
+	"objectType" : "wire",
+	"description" : "Scans a building, then absorbs it and produces a printer for reconstruction",
+	"shortdescription" : "Building Scanner",
+	"race" : "generic",
+	"category" : "wire",
+	"price" : 1,
+	"printable" : false,
+	
+	"inventoryIcon" : "/objects/basestorage/miab_basestore_scanner/miab_basestore_scanner_icon.png",
+	"orientations" : [
+		{
+			"dualImage" : "/objects/basestorage/miab_basestore_scanner/miab_basestore_scanner_green.png:<color>.<frame>",
+			"imagePosition" : [-16,0],
+			"frames" : 8,
+			"animationCycle" : 0.3,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	
+	"animation" : "/objects/basestorage/miab_basestore_scanner/miab_basestore_scanner.animation",
+	"animationParts" : {
+		"green_image" : "/objects/basestorage/miab_basestore_scanner/miab_basestore_scanner_green.png",
+		"yellow_image" : "/objects/basestorage/miab_basestore_scanner/miab_basestore_scanner_yellow.png",
+		"red_image" : "/objects/basestorage/miab_basestore_scanner/miab_basestore_scanner_red.png",
+		"blueprint_image" : "/objects/basestorage/miab_basestore_scanner/miab_basestore_scanner_blueprint.png",
+		"eye_image" : "/objects/basestorage/miab_basestore_scanner/miab_basestore_scanner_eye.png"
+	},
+	"animationPosition" : [-16, 0],
+
+	"scripts" : [
+		"/objects/basestorage/miab_basestore_scanner/miab_basestore_scanner.lua",
+		"/scripts/basestorage/miab_basestore_reader.lua",
+		"/scripts/basestorage/miab_basestore_blueprint.lua",
+		"/scripts/basestorage/miab_basestore_matsTable.lua",
+		"/scripts/basestorage/miab_basestore_util.lua"
+		
+	],
+	"scriptDelta" : 5,
+
+	"inboundNodes" :  [ [-2, 0] ],
+	"outboundNodes" : [ [ 0, 0] ],
+
+	"miab_useInventory" : false,
+	"miab_scannerSize" : [3, 2],
+	"miab_scannerOrigin" : [3, 1]
+}

@@ -1,0 +1,10 @@
+{
+  "codexId" : "crewglitchcoords",
+  "title" : "Glitch Planets",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchcastlebook_01.png",
+  "itemName" : "crewglitchcoordsCodex",
+  "rarity" : "common",
+  "description" : "A list of some Glitch planets in the alpha through gamma sectors.",
+  "shortdescription" : "Glitch Planets"
+}

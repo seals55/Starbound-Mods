@@ -1,0 +1,31 @@
+{
+  "itemName" : "uraniumheater",
+  "inventoryIcon" : "uraniumheatericon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "inspectionKind" : "tool",
+  "description" : "Melts blocks to pure nothing.",
+  "shortdescription" : "Uranium Heater",
+  "largeImage" : "uraniumheaterbig.png",
+  "image" : "uraniumheater.png:{frame}",
+  "frames" : 5,
+  "animationCycle" : 0.5,
+  "handPosition" : [-8, 1],
+  "pointable" : true,
+  "swingStart" : 0,
+  "swingFinish" : 0,
+  "fireTime" : 0.3,
+  "blockRadius" : 3,
+  "altBlockRadius" : 1,
+  "twoHanded" : true,
+  "idleSound" : "/sfx/projectiles/burning.wav",
+  "strikeSound" : "/sfx/projectiles/fireball_spit.wav",
+  "durability" : 5000,
+  "durabilityPerUse" : 1,
+  "durabilityRegenChart" : [
+    [ [ "uraniumore" ], 500], [ [ "plutoniumore" ], 1000]
+  ],
+  "tileDamage" : 50,
+  "tileDamageBlunted" : 50
+}

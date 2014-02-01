@@ -1,0 +1,44 @@
+{
+  "objectName" : "analyzer",
+  "rarity" : "Common",
+  "category" : "crafting",
+  "subtitle" : "Finds useful data",
+  "price" : 6000,
+  "description" : "A cabinet of servers, modified to act as one supercomputer designed to analyse tech of interest.",
+  "shortdescription" : "Analysis Supercomputer",
+  "race" : "human",
+  "objectType" : "container",
+  "printable" : false,
+  "hydrophobic" : false,
+  "apexDescription" : "A whole bunch of connected servers, working as one. It looks powerful.",
+  "avianDescription" : "I could use this to salvage lost technology.",
+  "floranDescription" : "Let usss dissscover the old ssssecretsss.",
+  "glitchDescription" : "Eager. This powerful supercomputer could be used to unlock the secrets of lost technology.",
+  "humanDescription" : "A supercomputer! I could probably run Crysis on max on this. Maybe.",
+  "hylotlDescription" : "Say what you will about humans, but they know their servers.",
+
+  "inventoryIcon" : "analyzericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "analyzer.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/bunkerserver.wav",
+  "soundEffectRadius" : 50,
+  
+  "recipeGroup" : "analyzer",
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/analysis.config",
+  "frameCooldown" : 600,
+  "autoCloseCooldown" : 3600
+
+}

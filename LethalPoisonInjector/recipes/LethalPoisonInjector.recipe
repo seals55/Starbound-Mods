@@ -1,0 +1,6 @@
+{
+"input" : [{ "item" : "money", "count" : 800}
+	],
+"output" : { "item" : "LethalPoisonInjector", "count" : 1 },
+"groups" : [ "roboticcraftingtable","object", "tools", "all" ]
+}

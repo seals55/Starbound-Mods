@@ -1,0 +1,29 @@
+{
+  "projectileName" : "autominningdrill",
+  "physics" : "grenadezbomb",
+  "bounces" : 0,
+  "level" : 3,
+  "timeToLive" : 100,
+  "frames" : "autominningdrill.png",
+  "animationCycle" : 0.1,
+  "lightColor" : [200, 255, 255],
+  "frameNumber" : 2,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bombblockexplosion/bombblockexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "autominningdrill",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.001,
+      "angleAdjust" : 180
+    }
+  ],
+  "power" : 60,
+  "damageType" : "hitTest",
+  "damageKind" : "default",
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "emitters" : [ "sparks" ]
+}

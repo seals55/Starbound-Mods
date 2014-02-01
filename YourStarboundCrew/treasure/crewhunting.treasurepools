@@ -1,0 +1,16 @@
+{
+  "crewhunting" : [
+    [1, {
+        "pool" : [
+          [0.6, [ "alienmeat", 3] ],
+          [0.4, [ "leather", 3] ]
+        ],
+        "poolRounds" : [
+          [0.10, 0],
+          [0.90, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ]
+}

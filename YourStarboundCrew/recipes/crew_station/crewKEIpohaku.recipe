@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "crewKEIlepo", "count" : 1 },
+    { "item" : "cobblestonematerial", "count" : 250 },
+	{ "item" : "coalore", "count" : 40 },
+	{ "item" : "goldore", "count" : 30 },
+	{ "item" : "dirtmaterial", "count" : 350 },
+    { "item" : "money", "count" : 1000 }
+  ],
+  "output" : { "item" : "crewKEIpohaku", "count" : 1 },
+  "groups" : [ "crew_station" ]
+}

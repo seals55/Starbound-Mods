@@ -1,0 +1,26 @@
+{
+  "itemName" : "lightorbgun",
+  "inventoryIcon" : "lightorbgunicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : " Gun which shots warmy and glowy orbs. Usefull for lighting dark places.",
+  "shortdescription" : "Lightorb Gun",
+  "image" : "lightorbgun.png",
+  "handPosition" : [-3.5, -1],
+  "firePosition" : [20, 1.5],
+
+  "fireTime" : 1,
+  "twoHanded" : true,
+
+  "projectileType" : "lightorb",
+  "projectile" : {
+    "speed" : 30,
+    "power" : 0
+
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/tech/tech_doublejump.wav" } ]
+  }
+}

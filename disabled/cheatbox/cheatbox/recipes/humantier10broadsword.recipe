@@ -1,0 +1,5 @@
+{
+  "input" : [  ],
+  "output" : { "item" : "humantier10broadsword", "count" : 1 },
+  "groups" : [ "cheatboxtable", "weapons", "all" ]
+}

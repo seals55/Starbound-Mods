@@ -1,0 +1,39 @@
+{
+  "objectName" : "chestiron",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price": "1000000",
+  "description" : "A classy chest made of Iron!!",
+  "shortdescription" : "Iron Chest",
+  "learnBlueprintsOnPickup" : [
+  "cheststeel"
+  ],
+  "race" : "apex",
+
+  "apexDescription" : "A chest! What's inside?",
+  "avianDescription" : "A wooden chest. Anything useful in there?",
+  "floranDescription" : "Ssssweet chesst!",
+  "glitchDescription" : "Analysing lock. There is no lock.",
+  "humanDescription" : "I feel like a pirate with a chest of treasure.",
+  "hylotlDescription" : "A chest always fills me with excitement.",
+
+  "inventoryIcon" : "chestironicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "chestiron.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_medium_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.wav" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest60.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

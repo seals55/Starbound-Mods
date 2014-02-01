@@ -1,0 +1,30 @@
+{
+  "itemName" : "plasmasiegelauncher",
+  "inventoryIcon" : "plasmasiegelaunchericon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Powerful shoulder-mounted launcher. Unleash hell.",
+  "shortdescription" : "Plasma Siege Launcher",
+  "image" : "plasmasiegelauncher.png:0",
+  "recoilTime" : 0.1,
+  "handPosition" : [-2, -5],
+  "firePosition" : [10, 0],
+  "level" : 10,
+  "fireTime" : 3,
+  "twoHanded" : true,
+
+  "walkWhileFiring" : true,
+
+  "projectileType" : "plasmarocketlaunch",
+  "projectile" : {
+    "speed" : 1200,
+    "power" : 1500,
+    "color" : [10, 100, 255]
+  },
+
+  "muzzleEffect" : {
+	"animation" : "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/siege_shot.wav" } ]
+  }
+}

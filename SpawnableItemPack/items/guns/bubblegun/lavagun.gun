@@ -1,0 +1,22 @@
+{
+  "itemName" : "lavagun",
+  "inventoryIcon" : "bubblegunIcon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Silver's Lava Squirter, don't grief with it!",
+  "shortdescription" : "SLS - Lava Gun",
+  "image" : "bubblegun.png",
+  "handPosition" : [-3.5, -1],
+  "firePosition" : [20, 1.5],
+
+  "fireTime" : 0.0001,
+  "twoHanded" : false,
+
+  "projectileType" : "lavaballoon",
+  "projectile" : {
+    "speed" : 60,
+    "power" : 0,
+    "color" : [10, 255, 10]
+  }
+}

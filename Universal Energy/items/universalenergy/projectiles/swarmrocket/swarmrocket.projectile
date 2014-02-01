@@ -1,0 +1,47 @@
+{
+  "projectileName" : "swarmrocket",
+  "physics" : "artillery",
+  "frames" : "swarmrocket.png",
+  "level" : 10,
+  "animationCycle" : 0.4,
+  "frameNumber" : 4,
+  "timeToLive" : 120.0,
+  "damageKindImage" : "icon.png",
+  "power" : 2500,
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmaexplosion2/plasmaexplosion2.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1,
+      "angleAdjust" : 35
+    },
+	{
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 15,
+      "inheritDamageFactor" : 1,
+      "angleAdjust" : 35
+    },
+	{
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 15,
+      "inheritDamageFactor" : 1,
+      "angleAdjust" : 35
+    },
+	{
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 15,
+      "inheritDamageFactor" : 1,
+      "angleAdjust" : 35
+    }
+  ],
+  "damageKind" : "bow"
+}

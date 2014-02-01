@@ -1,0 +1,17 @@
+{
+  "itemName" : "crewaquastim",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "bluestim.png",
+  "description" : "A stimpack full of aqua liquid",
+  "shortdescription" : "Aqua Stim Pack",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "kind" : "breath",
+        "amount" : 9999999,
+		"duration" : 15
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

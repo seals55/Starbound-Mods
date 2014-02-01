@@ -1,0 +1,8 @@
+{
+  "itemName" : "solariumcore",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "solariumcore.png",
+  "description" : "A highly unstable core, built out of a salvaged UFO part and a whole lotta Solarium.",
+  "shortdescription" : "Solarium Core",
+  "fuelAmount" : 10000
+}

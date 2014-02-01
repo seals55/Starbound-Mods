@@ -1,0 +1,33 @@
+{
+  "itemName" : "crewKEIlepo",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Rare",
+  "description" : "Malihini evolved! Lepo will help you mining around in the dirt.",
+  "shortdescription" : "Lepo",
+
+  "augments" : [
+    {
+      "name" : "crewKEIaku"
+    }
+  ],
+  
+  "statusEffects" : [
+    {
+      "kind" : "glow",
+      "amount" : 1.0
+    },
+	
+	{
+      "kind" : "ColdProtection",
+      "amount" : 7.5
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png",
+  "learnBlueprintsOnPickup" : [
+    "crewKEIpohaku"
+  ]
+}

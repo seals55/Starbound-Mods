@@ -1,0 +1,12 @@
+{
+  "materialId" : 260,
+  "materialName" : "lightforcefieldblock",
+  "frames" : "lightforcefieldblock.png",
+  "particleColor" : [75, 23, 93, 255],
+  "variants" : 1,
+  "description" : "The force is strong within this block",
+  "shortdescription" : "Force block",
+  "multicolored" : false,
+  "footstepSound" : "/sfx/blocks/footstep_glass.wav",
+  "health" : 1000
+}

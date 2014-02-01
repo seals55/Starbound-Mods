@@ -1,0 +1,21 @@
+{
+  "projectileName" : "energysniper",
+  "physics" : "bolt",
+  "frames" : "energysniper.png",
+  "level" : 10,
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "timeToLive" : 0.0,
+  "damageKindImage" : "icon.png",
+  "power" : 200,
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "energybolt",
+      "inheritDamageFactor" : 20,
+      "angleAdjust" : 0
+    }
+  ],
+  "damageKind" : "default"
+}

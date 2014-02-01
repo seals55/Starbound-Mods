@@ -1,0 +1,24 @@
+{
+  "projectileName" : "buckblast",
+  "physics" : "laser",
+  "frames" : "buckblast.png",
+  "level" : 10,
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 0.0,
+  "inheritDamageFactor" : 10,
+  "emitters" : [ "daggerblue" ],
+  "power" : 250,
+  "damage" : 1000,
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "energybuck",
+      "inheritDamageFactor" : 5,
+      "angleAdjust" : 0
+    }
+  ],
+  "damageKind" : "default"
+}

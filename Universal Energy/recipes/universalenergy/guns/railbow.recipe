@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 2 },
+    { "item" : "uenergy", "count" : 500 },
+	{ "item" : "durasteelbar", "count" : 8 },
+	{ "item" : "imperviumbar", "count" : 15 }
+  ],
+  "output" : { "item" : "railbow", "count" : 1 },
+  "groups" : [ "uematterassembler", "all" ]
+}

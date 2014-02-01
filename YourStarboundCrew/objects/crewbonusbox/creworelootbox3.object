@@ -1,0 +1,42 @@
+{
+  "objectName" : "creworelootbox3",
+  "rarity" : "legendary",
+  "objectType" : "wire",
+  "description" : "Looks like a bunch of ore inside.",
+  "shortdescription" : "Ore Box",
+  "race" : "generic",
+  "category" : "tools",
+  "price" : 5,
+  "printable" : false,
+  
+  "apexDescription" : "A box full of ore. Wonder what I'll get.",
+  "avianDescription" : "A box full of ore. Wonder what I'll get.",
+  "floranDescription" : "A box full of ore. Wonder what I'll get.",
+  "glitchDescription" : "A box full of ore. Wonder what I'll get.",
+  "humanDescription" : "A box full of ore. Wonder what I'll get.",
+  "hylotlDescription" : "A box full of ore. Wonder what I'll get.",
+
+  "inventoryIcon" : "crewbonusboxicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crewbonusbox.png:<color>.<key>",
+	  
+	  "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "animation" : "/objects/crewbonusbox/crewbonusbox.animation",
+  "animationParts" : {
+    "beacon" : "crewbonusbox.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/crewbonusbox/creworelootbox3_logic.lua" ],
+  "scriptDelta" : 5
+}
+

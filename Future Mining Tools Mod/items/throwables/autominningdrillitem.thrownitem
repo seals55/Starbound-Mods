@@ -1,0 +1,21 @@
+{
+  "itemName" : "autominningdrillitem",
+  "rarity" : "Common",
+  "inventoryIcon" : "autominningdrillicon.png",
+  "image" : "autominningdrillicon.png",
+  "shortdescription" : "Auto Minning Drill",
+  "description" : "Throw it and it will dig hole to the core of planet.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "autominningdrill",
+  "projectileConfig" : {
+    "speed" : 30,
+    "power" : 100
+  }
+}
+

@@ -1,0 +1,10 @@
+{
+  "itemName" : "laserminningmech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/humanmech.png",
+  "description" : "Press F to spawn a laser mining mech. Then dig.",
+  "shortdescription" : "Laser Minning Mech",
+  "inspectionKind" : "tech",
+
+  "techModule" : "laserminningmech.tech"
+}

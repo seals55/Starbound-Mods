@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "cobblestonematerial", "count" : 100 },
+    { "item" : "alienmeat", "count" : 1 },
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : { "item" : "crewhuntingbeacon", "count" : 1 },
+  "groups" : [ "crewhunter" ]
+}

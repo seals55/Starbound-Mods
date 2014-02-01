@@ -1,0 +1,269 @@
+{
+  "type" : "crewdoctormerchant",
+  "baseType" : "crew_merchant",
+
+  "disableWornArmor" : true,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 1,
+  
+  "levelVariance" : [0, 0],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/chatState.lua",
+    "/npcs/sleepState.lua",
+    "/npcs/standingIdleState.lua",
+    "/npcs/wanderState.lua",
+
+    "/npcs/merchant/merchantState.lua"
+  ],
+
+  "scriptConfig" : {
+
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : -1,
+
+      "dialog" : {
+        "start" : {
+          "default" : [
+				"The name is Doctor Spongewaltzer, it's a pleasure, captain!"
+          ],
+		  "apex" : {
+            "default" : [
+				"Keep healthy, stay fit, buy medicine!",
+				"Look after yourself with my low-priced products.",
+				"Your health is important, as is my wallet.",
+				"Hurt by the Miniknog? Buy medicine here!",
+				"Never be without a handy medkit!"
+            ]
+          },
+          "avian" : {
+            "default" : [
+				"Kluex won't save you, but my medicine will.",
+				"Faith or science? Science wins. Buy medicine.",
+				"There is no shame in receiving aid via earthly means.",
+				"Get back to full health with this Avian-endorsed medicine!",
+				"Take care of yourself in the field with my medicinal stock."
+            ]
+          },
+		  "floran" : {
+            "default" : [
+				"Floran sssell medicine to sssickly ssspaceman!",
+				"Buy Floran medicine, get not sssick!",
+				"Floran medicine best, Greenfinger sssay it!",
+				"Floran want person to feel better. Buy medicine!",
+				"Medicine good, help heal ssstabbies. Buy!"
+            ]
+          },
+		  "glitch" : {
+            "default" : [
+				"Statement. Buy medicine, it is good for you.",
+				"Concerned. If you are in a bind, healing is what you need.",
+				"Scientific. Healing is forty percent more likely to stop you from dying.",
+				"Pleasant. Please, buy some medicine!",
+				"Proud. This medicine works for all species."
+            ]
+          },
+		  "human" : {
+            "default" : [
+				"First aid kits here!",
+				"No health insurance needed, just buy a medkit.",
+				"If you want the heals, then I've got the deals.",
+				"Let science heal you. Buy my medicine!",
+				"Never die again, with my handy medkits!"
+            ]
+          },
+		  "hylotl" : {
+            "default" : [
+				"Heal like a Hylotl with my medkits.",
+				"A healthy body is a healthy crew. Command onwards!",
+				"Look after yourself out there with my medkits and stims.",
+				"Spread peace through healing with my patented medkits.",
+				"Hylotl medicine is the best medicine."
+            ]
+          }
+        },
+        "end" : {
+          "default" : [
+				"If you ever need medical supplies, come find me, sir."
+          ],
+          "apex" : {
+            "default" : [
+				"If you ever need medical supplies, come find me.",
+				"Be careful out there!",
+				"Be sure to come back if you're in trouble."
+            ]
+          },
+		  "avian" : {
+            "default" : [
+				"Remember, medkits heal, not Kluex.",
+				"Drop by any time!",
+				"Thanks for your patronage."
+            ]
+          },
+		  "floran" : {
+            "default" : [
+				"Floran happy you heal good!",
+				"Floran hope you not die out there.",
+				"Floran hope you not get sssick!"
+            ]
+          },
+		  "glitch" : {
+            "default" : [
+				"Statement. Come again.",
+				"Concern. Do be careful out there.",
+				"Eager. Hope you need healing again soon."
+            ]
+          },
+		  "human" : {
+            "default" : [
+				"Remember, I'm only a bloodtrail away.",
+				"Be seeing you!",
+				"Be well! But not too well you don't need medkits!"
+            ]
+          },
+		  "hylotl" : {
+            "default" : [
+				"Keep healthy, keep safe, keep paying me captain.",
+				"Remember not to let your stock run dry.",
+				"I'm here whenever you need me, sir."
+            ]
+          }
+        }
+      },
+
+      "categories" : [ "crewdoctormerchant" ],
+      "priceVarianceRange" : [1, 1],
+      "numItems" : 15
+    },
+
+    "meleeAttack" : {
+      "swingDistance" : 5,
+      "swingTime" : 0.4,
+      "swingCooldownTime" : 0.6,
+      "runThreshold" : 9,
+      "searchTime" : 10,
+      "backoffDistanceRange" : [8.0, 12.0],
+      "repositionCooldownTimeRange" : [2.0, 3.0]
+    },
+
+    "rangedAttack" : {
+      "minDistance" : 10,
+      "maxDistance" : 30,
+      "coverYOffset" : -1.5,
+      "coverYClearanceOffset" : 0.5,
+      "coverDistance" : 2.5,
+      "coverHideTimeRange" : [0.5, 1.0],
+      "coverFireTimeRange" : [1.0, 3.0],
+      "attackerSpacing" : 2.5,
+      "searchTime" : 10
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "scientisthead" } ],
+            "chest" : [ { "name" : "scientistchest", "data" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "scientistlegs", "data" : { "colorIndex" : 1 } } ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmapistol" } }
+            ]
+          }
+        ] ]
+    ],
+	"human" : [
+      [0, [
+          {
+            "head" : [ { "name" : "scientisthead" } ],
+            "chest" : [ { "name" : "scientistchest", "data" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "scientistlegs", "data" : { "colorIndex" : 1 } } ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+            ]
+          }
+        ] ]
+    ],
+    "avian" : [
+      [0, [
+          {
+            "head" : [ { "name" : "scientisthead" } ],
+            "chest" : [ { "name" : "scientistchest", "data" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "scientistlegs", "data" : { "colorIndex" : 1 } } ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+            ]
+          }
+        ] ]
+    ],
+    "apex" : [
+      [0, [
+          {
+            "head" : [ { "name" : "scientisthead" } ],
+            "chest" : [ { "name" : "scientistchest", "data" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "scientistlegs", "data" : { "colorIndex" : 1 } } ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonpistol" } }
+            ]
+          }
+        ] ]
+    ],
+    "floran" : [
+      [0, [
+          {
+            "head" : [ { "name" : "scientisthead" } ],
+            "chest" : [ { "name" : "scientistchest", "data" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "scientistlegs", "data" : { "colorIndex" : 1 } } ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+            ]
+          }
+        ] ]
+    ],
+    "glitch" : [
+      [0, [
+          {
+            "head" : [ { "name" : "scientisthead" } ],
+            "chest" : [ { "name" : "scientistchest", "data" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "scientistlegs", "data" : { "colorIndex" : 1 } } ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "commondagger" } }
+            ]
+          }
+        ] ]
+    ],
+    "hylotl" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "scientistchest", "data" : { "colorIndex" : 1 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 4 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 5 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 6 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 7 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 8 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 9 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 10 } }, { "name" : "scientistchest", "data" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "scientistlegs", "data" : { "colorIndex" : 1 } } ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "commonplasmapistol" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+  
+  "statusParameters" : {
+    "baseMaxHealth" : 400,
+    "baseMaxEnergy" : 20,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0
+  }
+}

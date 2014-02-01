@@ -1,0 +1,36 @@
+{
+  "objectName" : "siparmorcrafter",
+  "rarity" : "Legendary",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/siparmorcrafter.config",
+    "filter" : [ "siparmorcrafter", "siparmorhead", "siparmorchest", "siparmorlegs", "siparmorback" ]
+  },
+  "printable" : false,
+  "description" : "Spawn every piece of armor, period.",
+  "shortdescription" : "SIP - Armor Crafter",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+
+  "inventoryIcon" : "siparmorcraftericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "siparmorcrafter.png",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 3.5,
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

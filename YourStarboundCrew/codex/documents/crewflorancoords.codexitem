@@ -1,0 +1,10 @@
+{
+  "codexId" : "crewflorancoords",
+  "title" : "Floran Planets",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranhellbook_01.png",
+  "itemName" : "crewflorancoordsCodex",
+  "rarity" : "common",
+  "description" : "Some coordinates to Floran planetsss in alpha through gamma sectorsss.",
+  "shortdescription" : "Floran Planets"
+}

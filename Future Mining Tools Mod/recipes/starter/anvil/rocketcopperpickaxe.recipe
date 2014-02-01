@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "rocket", "count" : 1 },
+    { "item" : "copperpickaxe", "count" : 1 }
+  ],
+  "output" : { "item" : "rocketcopperpickaxe", "count" : 1 },
+  "groups" : [ "anvil", "tools", "all" ]
+}

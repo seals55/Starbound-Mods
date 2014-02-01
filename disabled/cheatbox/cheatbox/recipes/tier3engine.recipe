@@ -1,0 +1,5 @@
+{
+  "input" : [  ],
+  "output" : { "item" : "tier3engine", "count" : 1 },
+  "groups" : [ "cheatboxtable", "tools", "all" ]
+}

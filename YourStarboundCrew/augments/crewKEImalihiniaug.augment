@@ -1,0 +1,10 @@
+{
+  "name" : "crewKEImalihiniaug",
+  "icon" : [ ],
+  "kind" : "statuseffect",
+  "statusEffects" : [
+	{ "kind" : "healthincrease", "amount" : 10 },
+	{ "kind" : "protection", "amount" : 3 }
+  ]
+  
+}

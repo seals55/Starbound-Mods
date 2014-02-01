@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "moltencore", "count" : 1 },
+	{ "item" : "solariumrod", "count" : 25 }
+  ],
+  "output" : { "item" : "solariumcore", "count" : 1 },
+  "groups" : [ "metalworkstation", "all" ]
+}

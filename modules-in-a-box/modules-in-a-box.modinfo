@@ -1,0 +1,13 @@
+{
+  "name" : "Modules in a Box",
+  "version" : "Beta v. Furious Koala",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata" : {
+    "displayName" : "Modules in a Box",
+    "author" : "Pilchenstein, MadTulip",
+    "description" : "Read and Write capability for whole modules of blocks and objects",
+    "support_url" : "not released",
+    "version" : "Rev. 89"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 20 },
+    { "item" : "darkwoodmaterial", "count" : 50 }
+  ],
+  "output" : { "item" : "minecart-chip", "count" : 1 },
+  "groups" : [ "anvil", "objects", "all" ]
+}

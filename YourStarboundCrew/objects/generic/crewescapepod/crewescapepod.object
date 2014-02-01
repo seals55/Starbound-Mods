@@ -1,0 +1,40 @@
+{
+  "objectName" : "crewescapepod",
+  "rarity" : "Uncommon",
+  "objectType" : "interactable",
+  "interactAction" : "OpenTeleportDialog",
+  
+  "description" : "Need to beam up to your ship? Got you covered, captain!",
+  "shortdescription" : "The Telescape!",
+  "race" : "generic",
+  "category" : "tools",
+  "printable" : false,
+ 
+  "apexDescription" : "What a useful tool to have.",
+  "avianDescription" : "An emergency teleporting device.",
+  "floranDescription" : "Floran might need to essscape.",
+  "glitchDescription" : "Statement. Useful device.",
+  "humanDescription" : "Aw yeah, more teleporting!",
+  "hylotlDescription" : "Although cowardly, still very useful.",
+
+  "lightColor" : [180, 100, 100],
+  "flickerDistance" : 0.3,
+  "flickerStrength" : 0.04,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "/objects/generic/teleporter/teleportericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "/objects/generic/teleporter/teleporter.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+
+    }
+  ]
+}

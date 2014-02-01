@@ -1,0 +1,13 @@
+{
+  "kind" : "crewredstim",
+  "duration" : 90,
+  "primitives" : [
+    {
+      "name" : "Health",
+      "mode" : "max", //don't stack
+      "amount" : 0.1450
+    }
+  ],
+  "effectSources" : [ "healthstim" ],
+  "mainInterfaceIcon" : "/interface/statuses/heal.png"
+}

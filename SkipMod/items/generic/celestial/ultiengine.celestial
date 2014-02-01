@@ -1,0 +1,17 @@
+{
+  "itemName" : "ultiengine",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "tier2engine.png",
+  "image" : "tier2engine.png",
+
+  "shortdescription" : "Ultimate Starmap Upgrade",
+  "description" : "Use to unlock all recipes.",
+
+  // Remember you can override this with parameters, no need for more than one
+  // unlock item
+
+  "sectorUnlock" : "beta",
+  "tierRecipesUnlock" : "skip",
+  
+  "unlockMessage" : "Starmap Updated. New data has been uploaded to your ships navigation systems."
+}

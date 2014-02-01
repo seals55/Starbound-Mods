@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "crewKEIholo", "count" : 1 },
+	{ "item" : "doublejumpTech-chip", "count" : 1 },
+	{ "item" : "greenstim", "count" : 15 },
+	{ "item" : "bluestim", "count" : 15 },
+    { "item" : "money", "count" : 2000 }
+  ],
+  "output" : { "item" : "crewKEInalo", "count" : 1 },
+  "groups" : [ "crew_station" ]
+}

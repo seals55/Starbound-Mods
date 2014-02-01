@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "imperviumbar", "count" : 25 },
+    { "item" : "money", "count" : 3000 }
+  ],
+  "output" : { "item" : "crewancientsword", "count" : 1 },
+  "groups" : [ "crew_station" ]
+}

@@ -1,0 +1,10 @@
+{
+  "codexId" : "crewaviancoords",
+  "title" : "Avian Planets",
+  "codexkind" : "codex",
+  "inventoryIcon" : "avianairshipbook_01.png",
+  "itemName" : "crewaviancoordsCodex",
+  "rarity" : "common",
+  "description" : "A list of planets with Avian populace in the alpha through gamma sectors.",
+  "shortdescription" : "Avian Planets"
+}

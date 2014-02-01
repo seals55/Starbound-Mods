@@ -1,0 +1,21 @@
+{
+  "itemName" : "crewKEIhealth",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "rare",
+  "description" : "Malihini has evolved! Ola will provide a healthy lifestyle.",
+  "shortdescription" : "Ola",
+
+  "augments" : [
+    {
+      "name" : "crewKEIhealth"
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png",
+  "learnBlueprintsOnPickup" : [
+    "crewKEIhealthII"
+  ]
+}

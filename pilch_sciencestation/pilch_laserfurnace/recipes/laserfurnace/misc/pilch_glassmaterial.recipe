@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "sand", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "glassmaterial",
+    "count" : 1
+  },
+  "groups" : [ "laserfurnace", "all", "materials" ]
+}

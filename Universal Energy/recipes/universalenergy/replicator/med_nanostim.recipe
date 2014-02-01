@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "uenergy", "count" : 500 }
+  ],
+  "output" : { "item" : "nanostim", "count" : 1 },
+  "groups" : [ "replicator", "all" ]
+}

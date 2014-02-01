@@ -1,0 +1,95 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "flipped" : {
+        "priority" : 1,
+        "default" : "right",
+
+        "states" : {
+          "right" : {
+            "frames" : 1
+          },
+          "left" : {
+            "frames" : 1
+          },
+          "invisible" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+    "parts" : {
+      "rack" : {
+        "properties" : {
+          "image" : "<partImage>",
+          "offset" : [0, 2],
+          "centered" : true,
+          "zLevel" : 1
+        }
+      },
+      "drill" : {
+        "properties" : {
+          "offset" : [0, 1.5],
+          "centered" : true,
+          "zLevel" : 3
+        },
+        
+        "partStates" : {
+          "flipped" : {
+            "right" : {
+              "properties" : {
+                "image" : "<partImage>:default.0"
+              }
+            },
+            "left" : {
+              "properties" : {
+                "image" : "<partImage>:default.2"
+              }
+            },
+            "invisible" : {
+              "properties" : {
+                "image" : "<partImage>:default.1"
+              }
+            }
+          }
+        }
+      },
+      "rope" : {
+        "properties" : {
+          "image" : "<partImage>",
+          "offset" : [0, 3.5],
+          "centered" : true,
+          "zLevel" : 2,
+          "scalingGroup" : "rope",
+          "rotationGroup" : "rope"
+        }
+      },
+      "flag" : {
+        "properties" : {
+          "image" : "<partImage>",
+          "offset" : [-0.8, 4.2],
+          "centered" : true,
+          "zLevel" : 2,
+          "rotationGroup" : "flag"
+        }
+      }
+    }
+  },
+  
+  "scalingGroups" : {
+    "rope" : {
+      "pivot" : [0, 0]
+    }
+  },
+  
+  "rotationGroups" : {
+    "rope" : {
+      "rotationCenter" : [0, 3.5],
+      "angularVelocity" : 1000
+    },
+    "flag" : {
+      "rotationCenter" : [-0.8625, 3.8875],
+      "angularVelocity" : 10
+    }
+  }
+}

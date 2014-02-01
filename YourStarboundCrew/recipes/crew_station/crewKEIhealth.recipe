@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "crewKEImalihini", "count" : 1 },
+    { "item" : "alienmeat", "count" : 20 },
+	{ "item" : "redstim", "count" : 20 },
+	{ "item" : "bandage", "count" : 20 },
+    { "item" : "money", "count" : 750 }
+  ],
+  "output" : { "item" : "crewKEIhealth", "count" : 1 },
+  "groups" : [ "crew_station" ]
+}

@@ -1,0 +1,16 @@
+{
+  "projectileName" : "tpin",
+  "frames" : "blinkin.png",
+  "physics" : "eyecandy",
+  "animationCycle" : 0.15,
+  "level" : 3,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 5,
+  "power" : 0,
+  "speed" : 0,
+  "animationLoops" : false,
+  "universalDamage" : true,
+  "piercing" : true,
+  "orientationLocked" : true,
+  "damageKind" : "slash"
+}

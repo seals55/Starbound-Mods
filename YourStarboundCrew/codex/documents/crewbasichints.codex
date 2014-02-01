@@ -1,0 +1,13 @@
+{
+  "id" : "crewbasichints",
+  "title" : "Basic Tips",
+  "contentPages" : [
+
+    "Howdy captain, I'm your lore master, and I'm here to help! Now that you've explored the galaxy a bit we can talk about some useful tips to help you through your mission.",
+	
+	"New sectors bring new kinds of environments, treasures, craftables, and danger! Make sure to keep your armor and weapons up to date so you don't perish. As of now the basic goal, if you can call it that, is to destroy the sector's boss and move on to the next.", 
+
+    "If you're having issues fighting bosses I have two tips for you, sir. One is to gather any friends you've met around the galaxy and to have them help. Bosses don't gain any extra power when you fight with friends. If you're alone you could try initiating the boss fight next to Avian sky pirates or around other places where there are guards. First mate Love-Jones can help point you in the direction of some!"
+
+  ]
+}

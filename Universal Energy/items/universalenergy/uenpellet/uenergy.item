@@ -1,0 +1,11 @@
+{
+  "itemName" : "uenergy",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "uenergy.png",
+  "description" : "An orb of light the size of a marble. Each one holds exactly one unit of energy.",
+  "shortdescription" : "Energy Pellet",
+  "fuelAmount" : 1,
+  "smallStackLimit" : 100,
+  "mediumStackLimit" : 8000,
+  "maxStack" : 8000
+}

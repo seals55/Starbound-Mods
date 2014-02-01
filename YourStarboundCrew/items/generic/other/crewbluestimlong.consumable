@@ -1,0 +1,16 @@
+{
+  "itemName" : "crewbluestimlong",
+  "rarity" : "rare",
+  "inventoryIcon" : "bluestim.png",
+  "description" : "Jump higher for a few minutes!",
+  "shortdescription" : "Lasting Blue Stim Pack",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "kind" : "crewjumpboostinitiator",
+        "amount" : 0.8
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

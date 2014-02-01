@@ -1,0 +1,41 @@
+{
+  "objectName" : "crewmonsterbeacon",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "A monster beacon. This should attract some monsters!",
+  "shortdescription" : "Monster Beacon",
+  "race" : "generic",
+  "category" : "tools",
+  "printable" : false,
+  "apexDescription" : "A monster beacon. Time to battle!",
+  "avianDescription" : "A monster beacon. Time to battle!",
+  "floranDescription" : "A monster beacon. Time to battle!",
+  "glitchDescription" : "Analysis. A monster beacon. Time to battle!",
+  "humanDescription" : "A monster beacon. Time to battle!",
+  "hylotlDescription" : "A monster beacon. Time to battle!",
+
+  "inventoryIcon" : "crewmonsterbeaconicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crewmonsterbeacon.png:<color>.<frame>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "animation" : "/objects/wired/crewmonsterspawner/crewmonsterbeacon.animation",
+  "animationParts" : {
+    "beacon" : "crewmonsterbeacon.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/crewmonsterspawner/crewmonsterbeacon.lua" ],
+  "scriptDelta" : 5
+
+}

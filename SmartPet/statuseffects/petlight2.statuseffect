@@ -1,0 +1,8 @@
+{
+  "kind" : "petlight2",
+  "duration" : 10,
+  "effectSources" : [ "petlight" ],
+  "primitives" : [
+    { "name" : "warmth" }
+  ]
+}

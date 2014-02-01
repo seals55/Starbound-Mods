@@ -1,0 +1,10 @@
+{
+  "codexId" : "crewhealinghints",
+  "title" : "Healing Hints",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexlabbook_01.png",
+  "itemName" : "crewhealinghintsCodex",
+  "rarity" : "common",
+  "description" : "Some tips on surviving the universe.",
+  "shortdescription" : "Staying Healthy"
+}

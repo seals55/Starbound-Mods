@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 600 }
+  ],
+  "output" : { "item" : "crewbackitemsbox", "count" : 1 },
+  "groups" : [ "crewmerchant" ]
+}

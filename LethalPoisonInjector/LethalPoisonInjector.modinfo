@@ -1,0 +1,11 @@
+{
+"name" : "LethalPoisonInjector",
+"version" : "Beta v. Furious Koala",
+"path" : ".",
+"dependencies" : [],
+  "metadata": {
+	"author" : "Armed Mosquito",
+	"modversion" : 1.0,
+	"support-url" : "http://anvilgaming.org"
+	}
+}

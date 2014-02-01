@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 8 },
+    { "item" : "rocketplatinumpickaxe", "count" : 1 },
+    { "item" : "money", "count" : 1600 }
+  ],
+  "output" : { "item" : "rocketdiamondpickaxe", "count" : 1 },
+  "groups" : [ "anvil", "tools", "all" ]
+}

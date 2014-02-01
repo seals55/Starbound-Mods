@@ -1,0 +1,10 @@
+{
+  "itemName" : "apexminingmechtech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/humanmech.png",
+  "description" : "Loud and destructive",
+  "shortdescription" : "Apex Mining Mech",
+  "inspectionKind" : "tech",
+
+  "techModule" : "apexminingmech.tech"
+}

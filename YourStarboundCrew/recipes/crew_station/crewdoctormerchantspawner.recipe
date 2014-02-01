@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "redstim", "count" : 10 },
+	{ "item" : "bandage", "count" : 20 },
+	{ "item" : "money", "count" : 300 }
+  ],
+  "output" : {
+    "item" : "crewdoctormerchantspawner",
+    "count" : 1
+  },
+  "groups" : [ "crew_station", "other", "all" ]
+}

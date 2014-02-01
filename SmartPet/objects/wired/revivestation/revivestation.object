@@ -1,0 +1,33 @@
+{
+  "objectName" : "revivestation",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "wire",
+  "price" : 2000,
+  "description" : "Restores fainted pets to full health!",
+  "shortdescription" : "Pet Revival Station",
+  "race" : "generic",
+
+  "inventoryIcon" : "revivestationicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "revivestation.png:empty",
+      "imagePosition" : [-8, -8],
+      "collision" : "platform",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "revivestation.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "revivestation.animation",
+  "animationParts" : {
+    "base" : "revivestation.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "detectRadius" : 3
+}

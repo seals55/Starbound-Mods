@@ -1,0 +1,33 @@
+{
+  "itemName" : "crewKEIenergy",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "rare",
+  "description" : "Malihini has evolved! Lapule will energize you.",
+  "shortdescription" : "Lapule",
+
+"statusEffects" : [
+    {
+      "kind" : "energyincrease",
+      "amount" : 75
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 1.0
+    },
+
+    {
+      "kind" : "protection",
+      "level" : 20,
+      "amount" : 12
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png",
+  "learnBlueprintsOnPickup" : [
+    "crewKEIenergyII"
+  ]
+}

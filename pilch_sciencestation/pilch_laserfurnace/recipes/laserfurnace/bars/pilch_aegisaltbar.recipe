@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "aegisaltore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "aegisaltbar",
+    "count" : 1
+  },
+  "groups" : [ "laserfurnace", "all", "bars" ]
+}

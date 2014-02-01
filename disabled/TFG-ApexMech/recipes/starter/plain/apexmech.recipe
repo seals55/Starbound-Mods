@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }	
+  ],
+  "output" : {
+    "item" : "apexMechTech-chip",
+    "count" : 1
+  },
+  "groups" : [ "plain", "items", "starter", "apexmech" ]
+}

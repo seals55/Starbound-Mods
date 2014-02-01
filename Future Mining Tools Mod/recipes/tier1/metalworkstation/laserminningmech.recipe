@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "lazerdrillitem", "count" : 2 },
+    { "item" : "silverbar", "count" : 10 },
+    { "item" : "steelbar", "count" : 40 }
+  ],
+  "output" : { "item" : "laserminningmech-chip", "count" : 1 },
+  "groups" : [ "metalworkstation", "objects", "all" ]
+}

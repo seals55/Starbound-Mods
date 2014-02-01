@@ -1,0 +1,16 @@
+{
+  "name" : "crewSpiritofStars",
+  "icon" : [ ],
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "30.0"
+    },
+
+	{ "kind" : "glow",
+      "amount" : 1,
+      "color" : [255, 255, 255]
+    }
+  ]
+}

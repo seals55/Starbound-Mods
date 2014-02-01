@@ -1,0 +1,19 @@
+{
+  "itemName" : "crewKEImalihini",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "uncommon",
+  "description" : "Your KEI has evolved! Malihini is slightly less useless.",
+  "shortdescription" : "Malihini",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png",
+  "learnBlueprintsOnPickup" : [
+    "crewKEIkekoa",
+	"crewKEIlepo",
+	"crewKEIhele",
+	"crewKEIenergy",
+	"crewKEIhealth"
+  ]
+}

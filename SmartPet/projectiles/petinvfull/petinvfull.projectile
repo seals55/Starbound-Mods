@@ -1,0 +1,17 @@
+{
+  "projectileName" : "petinvfull",
+  "frames" : "petinvfull.png",
+  "physics" : "eyecandy",
+  "animationCycle" : 1,
+  "level" : 3,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 1,
+  "power" : 0,
+  "speed" : 0.666,
+  "timeToLive" : 1.7,
+  "universalDamage" : true,
+  "piercing" : true,
+  "orientationLocked" : true,
+  "damagePoly" : [ [-1, 0], [0, 1], [1, 0], [0, -1] ],
+  "damageKind" : "slash"
+}

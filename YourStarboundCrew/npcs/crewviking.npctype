@@ -1,0 +1,60 @@
+{
+  "type" : "crewviking",
+  "baseType" : "bunkerguard",
+
+  "scriptConfig" : {
+    "attackerLimit" : 6,
+    "attackerLimitCooldown" : 3,
+    "noticePlayersRadius" : 30,
+
+    "guard" : {
+      "attackSayingPercent" : 75,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [ "Great hammer of Thor!!"
+          ],
+          "human" : {
+            "default" : [
+              "I'm going to axe you alive!",
+              "You're going to be delicious!",
+              "Great Odin's fury!",
+              "Rus Ko La! Or something..."
+            ]
+          }
+        }
+      }
+    },
+
+    "rangedAttack" : {
+      "minDistance" : 5,
+      "maxDistance" : 15
+    }
+  },
+
+  "items" : {
+    "human" : [
+      [0, [
+          {
+            "head" : [ { "name" : "vikinghead" } ],
+            "chest" : [ { "name" : "humantier4chest" } ],
+            "legs" : [ { "name" : "humantier4pants" } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "boneaxe" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "dropPools" : [ "guardtreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 700,
+    "baseMaxEnergy" : 400,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}

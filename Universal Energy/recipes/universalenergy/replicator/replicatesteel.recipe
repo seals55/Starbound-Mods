@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "uenergy", "count" : 35 }
+  ],
+  "output" : { "item" : "steelbar", "count" : 1 },
+  "groups" : [ "replicator", "all" ]
+}

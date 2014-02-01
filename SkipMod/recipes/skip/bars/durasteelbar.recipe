@@ -1,0 +1,11 @@
+{
+  "input" : [
+
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "durasteelbar",
+    "count" : 500
+  },
+  "groups" : [ "skip", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "minecart",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/minecart.png",
+  "description" : "Press F to use this. Dig verticaly.",
+  "shortdescription" : "Minecart Tech",
+  "inspectionKind" : "tech",
+
+  "techModule" : "minecart.tech"
+}

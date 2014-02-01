@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 6 },
+    { "item" : "uenergy", "count" : 2000 },
+	{ "item" : "processor", "count" : 1 },
+	{ "item" : "durasteelbar", "count" : 16 },
+	{ "item" : "imperviumbar", "count" : 30 }
+  ],
+  "output" : { "item" : "pulsesniper", "count" : 1 },
+  "groups" : [ "uematterassembler", "all" ]
+}

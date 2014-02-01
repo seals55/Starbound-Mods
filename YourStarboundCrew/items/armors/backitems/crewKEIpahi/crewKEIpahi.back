@@ -1,0 +1,21 @@
+{
+  "itemName" : "crewKEIpahi",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "rare",
+  "description" : "Kekoa has evolved! Pahi's fighting spirit is even stronger!",
+  "shortdescription" : "Pahi",
+
+  "augments" : [
+    {
+      "name" : "crewKEIkekoaII"
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png",
+  "learnBlueprintsOnPickup" : [
+    "crewKEIkaua"
+  ]
+}

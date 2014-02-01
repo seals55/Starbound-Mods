@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "mediumexplosivechargeitem", "count" : 2 }
+  ],
+  "output" : { "item" : "largeexplosivechargeitem", "count" : 1 },
+  "groups" : [ "explosivelab", "tools", "all" ]
+}

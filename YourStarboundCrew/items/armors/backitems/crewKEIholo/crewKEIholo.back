@@ -1,0 +1,22 @@
+{
+  "itemName" : "crewKEIholo",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "rare",
+  "description" : "Hele has evolved! Holo will help you stay warmer and run faster!",
+  "shortdescription" : "Holo",
+
+  "augments" : [
+    {
+      "name" : "crewKEImakaniII"
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png",
+  "learnBlueprintsOnPickup" : [
+    "crewKEImakani",
+	"crewKEInalo"
+  ]
+}

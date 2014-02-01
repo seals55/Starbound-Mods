@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "bookpiles", "count" : 10 },
+	{ "item" : "money", "count" : 300 }
+  ],
+  "output" : {
+    "item" : "crewloremerchantspawner",
+    "count" : 1
+  },
+  "groups" : [ "crew_station", "other", "all" ]
+}

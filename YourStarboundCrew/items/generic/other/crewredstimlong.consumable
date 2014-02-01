@@ -1,0 +1,16 @@
+{
+  "itemName" : "crewredstimlong",
+  "rarity" : "rare",
+  "inventoryIcon" : "redstim.png",
+  "description" : "A stimpack full of bright red liquid",
+  "shortdescription" : "Lasting Red Stim Pack",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "kind" : "crewredstim",
+        "amount" : 1.2
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

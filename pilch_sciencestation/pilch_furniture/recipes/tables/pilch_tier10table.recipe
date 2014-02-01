@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "imperviumbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "tier10table",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "objects", "all"]
+}
+

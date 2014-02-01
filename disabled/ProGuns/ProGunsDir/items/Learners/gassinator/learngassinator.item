@@ -1,0 +1,11 @@
+{
+  "itemName" : "gassinatorLearn",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "gassinatorLearnIcon.png",
+  "description" : "Allows you to craft the Gassinator in your normal crafting interface.",
+  "shortdescription" : "Learn Gassinator",
+
+  "learnBlueprintsOnPickup" : [
+      "gassinator2"
+  ]
+}

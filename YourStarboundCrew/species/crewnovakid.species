@@ -1,0 +1,233 @@
+{
+  "kind" : "crewnovakid",
+  "playerSpecies" : true,
+  "nameGen" : [ "/species/crewnovakidnamegen.config:names", "/species/crewnovakidnamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/humanhurt_male1.wav", "/sfx/humanoid/humanhurt_female1.wav" ],
+  "charGenTextLabels" : [ "PLASMA COLOR", "CORONA", "SHIRT", "PANTS", "DEPOSITS COLOR", "BRAND", "SHIRT COLOR", "PANTS COLOR", "NOVAKID+", "PERSONALITY" ],
+  //"charGenTextLabels" : [ "bodyColor", "hairOption", "SHIRT", "PANTS", "altOption", "headOption", "SHIRT COLOR", "PANTS COLOR", "NOVAKID+", "PERSONALITY" ],
+  "defaultBlueprints" : {
+    "tier1" : [
+      { "item" : "humantier1hammer" },
+      { "item" : "humantier1shortsword" },
+      { "item" : "humantier1broadsword" },
+      { "item" : "humantier1spear" },
+      { "item" : "humantier1axe" },
+      { "item" : "humantier1dagger" },
+      { "item" : "humantier1head" },
+      { "item" : "humantier1chest" },
+      { "item" : "humantier1pants" },
+	  
+      { "item" : "piratechest" },
+      { "item" : "hikerlegs" },
+	  { "item" : "workoutchest" },
+      { "item" : "hunterlegs" },      
+      { "item" : "cowboyhead" },
+      { "item" : "cowboychest" },
+	  { "item" : "cowboylegs" },
+	  
+	  { "item" : "burger" },
+      { "item" : "vegetablesoup" },
+      { "item" : "bread" },
+      { "item" : "sweetcorn" },
+      { "item" : "candyapple" },
+      { "item" : "icecream" },
+	  { "item" : "flagnovakid+" }
+    ],
+    "tier2" : [
+      { "item" : "humantier2hammer" },
+      { "item" : "humantier2shortsword" },
+      { "item" : "humantier2broadsword" },
+      { "item" : "humantier2spear" },
+      { "item" : "humantier2axe" },
+      { "item" : "humantier2dagger" },
+      { "item" : "humantier2head" },
+      { "item" : "humantier2chest" },
+      { "item" : "humantier2pants" },
+      { "item" : "spawnerhuman" }
+    ],
+    "tier3" : [
+      { "item" : "humantier3head" },
+      { "item" : "humantier3chest" },
+      { "item" : "humantier3pants" },
+      { "item" : "humantier3hammer" },
+      { "item" : "humantier3shortsword" },
+      { "item" : "humantier3broadsword" },
+      { "item" : "humantier3spear" },
+      { "item" : "humantier3axe" },
+      { "item" : "humantier3dagger" }
+    ],
+    "tier4" : [
+      { "item" : "humantier4head" },
+      { "item" : "humantier4chest" },
+      { "item" : "humantier4pants" },
+      { "item" : "humantier4hammer" },
+      { "item" : "humantier4shortsword" },
+      { "item" : "humantier4broadsword" },
+      { "item" : "humantier4spear" },
+      { "item" : "humantier4axe" },
+      { "item" : "humantier4dagger" }
+    ],
+    "level32" : [
+      { "item" : "humantier5head" },
+      { "item" : "humantier5chest" },
+      { "item" : "humantier5pants" },
+      { "item" : "humantier5hammer" },
+      { "item" : "humantier5shortsword" },
+      { "item" : "humantier5broadsword" },
+      { "item" : "humantier5spear" },
+      { "item" : "humantier5axe" },
+      { "item" : "humantier5dagger" }
+    ],
+    "level33" : [
+      { "item" : "humantier6head" },
+      { "item" : "humantier6chest" },
+      { "item" : "humantier6pants" },
+      { "item" : "humantier6hammer" },
+      { "item" : "humantier6shortsword" },
+      { "item" : "humantier6broadsword" },
+      { "item" : "humantier6spear" },
+      { "item" : "humantier6axe" },
+      { "item" : "humantier6dagger" }
+    ],
+    "level34" : [
+      { "item" : "humantier7head" },
+      { "item" : "humantier7chest" },
+      { "item" : "humantier7pants" },
+      { "item" : "humantier7hammer" },
+      { "item" : "humantier7shortsword" },
+      { "item" : "humantier7broadsword" },
+      { "item" : "humantier7spear" },
+      { "item" : "humantier7axe" },
+      { "item" : "humantier7dagger" }
+    ],
+    "level35" : [
+      { "item" : "humantier8head" },
+      { "item" : "humantier8chest" },
+      { "item" : "humantier8pants" },
+      { "item" : "humantier8hammer" },
+      { "item" : "humantier8shortsword" },
+      { "item" : "humantier8broadsword" },
+      { "item" : "humantier8spear" },
+      { "item" : "humantier8axe" },
+      { "item" : "humantier8dagger" }
+    ],
+    "level36" : [
+      { "item" : "humantier9head" },
+      { "item" : "humantier9chest" },
+      { "item" : "humantier9pants" },
+      { "item" : "humantier9hammer" },
+      { "item" : "humantier9shortsword" },
+      { "item" : "humantier9broadsword" },
+      { "item" : "humantier9spear" },
+      { "item" : "humantier9axe" },
+      { "item" : "humantier9dagger" }
+    ],
+    "level37" : [
+      { "item" : "humantier10head" },
+      { "item" : "humantier10chest" },
+      { "item" : "humantier10pants" },
+      { "item" : "humantier10hammer" },
+      { "item" : "humantier10shortsword" },
+      { "item" : "humantier10broadsword" },
+      { "item" : "humantier10spear" },
+      { "item" : "humantier10axe" },
+      { "item" : "humantier10dagger" }
+    ]
+  },
+  
+  "altOptionAsUndyColor" : true,
+  "headOptionAsFacialhair" : true,  
+  //"hairColorAsBodySubColor" : true,
+  
+  //"headOptionAsFacialhair" : true,
+  //"altOptionAsUndyColor" : true,
+  
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/male.png",
+      "characterImage" : "/interface/title/crewnovakidmale.png",
+      "hair" : [ 	/* exclusive */ "hedgehog", "wave_short", "short", "slick", "spikeback",
+					/* unisex */ "mohawk", "samurai", "bangs", "horns", "sawtooth", "disheveled", "viper", "mane",
+					/* anodyne */ "ano_curl", "ano_down", "ano_twin", "ano_short", "ano_long",
+					"0" ],
+      "shirt" : [ "cowboychest", "piratechest", "workoutchest" ],
+      "pants" : [ "cowboylegs", "hikerlegs", "hunterlegs" ],
+      "facialHairGroup" : "brands",
+      "facialHair" : [ "X", "star", "asterisk", "note", "key", "hooks", "umbrella", "specs", "S", "little_o", "dot_4", "tally_3", "slants", "crosshair", "box", "heart", "spade", "diamond", "flask", "exclamation", "colon", "chi", "lambda", "psi", "epsilon", "0" ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/female.png",
+      "characterImage" : "/interface/title/crewnovakidfemale.png",
+      "hair" : [	/* exclusive */ "twintails", "wave_long", "long", "twin_flame", "ponytail",
+					/* unisex */ "mohawk", "samurai", "bangs", "horns", "sawtooth", "disheveled", "viper", "mane",
+					/* anodyne */ "ano_curl", "ano_down", "ano_twin", "ano_short", "ano_long",
+					"0" ],
+      "shirt" : [ "cowboychest", "piratechest", "workoutchest" ],
+      "pants" : [ "cowboylegs", "hikerlegs", "hunterlegs" ],
+      "facialHairGroup" : "brands",
+      "facialHair" : [ "X", "star", "asterisk", "note", "key", "hooks", "umbrella", "specs", "S", "little_o", "dot_4", "tally_3", "slants", "crosshair", "box", "heart", "spade", "diamond", "flask", "exclamation", "colon", "chi", "lambda", "psi", "epsilon", "0" ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ]
+   // plasma
+  ,"bodyColor" : [ 
+	//		dark/line					dark				shade				light					hot					brand	
+	// gold
+	 { "ff9933" : "ef8923",  "ffb74e" : "ffb74e",  "ffd54c" : "fff566",  "fff67f" : "fff67f",  "fffffe" : "ffffff",  "404040" : "624444" }
+	// emerald
+	,{ "ff9933" : "07AD6A",  "ffb74e" : "3AE7A2",  "ffd54c" : "79FC58",  "fff67f" : "AAFF55",  "fffffe" : "ffffff",  "404040" : "0A3535" }
+	// sapphire
+	,{ "ff9933" : "2042C8",  "ffb74e" : "448FFF",  "ffd54c" : "5EBFFF",  "fff67f" : "77F2FF",  "fffffe" : "ffffff",  "404040" : "131B45" }
+	// amethyst
+	,{ "ff9933" : "6119CE",  "ffb74e" : "AE45DC",  "ffd54c" : "E16FFF",  "fff67f" : "FF99F5",  "fffffe" : "ffffff",  "404040" : "211037" }
+	// ruby
+    ,{ "ff9933" : "C32424",  "ffb74e" : "f24c53",  "ffd54c" : "ff5e5e",  "fff67f" : "FF9999",  "fffffe" : "ffddaa",  "404040" : "4D1D1D" }
+	// pearl
+    ,{ "ff9933" : "C894C9",  "ffb74e" : "E6BAE7",  "ffd54c" : "F9CAEB",  "fff67f" : "FFDDF5",  "fffffe" : "ffffff",  "404040" : "622F53" }
+	// diamond
+    ,{ "ff9933" : "8F9EAD",  "ffb74e" : "C9E6F1",  "ffd54c" : "DDFCFF",  "fff67f" : "F7FFFF",  "fffffe" : "ffffff",  "404040" : "284157" }
+	// obsidian
+    ,{ "ff9933" : "07070C",  "ffb74e" : "1D1C22",  "ffd54c" : "303038",  "fff67f" : "4C4B58",  "fffffe" : "8D8D9C",  "404040" : "ffffff" }	
+  ]
+  // metals color
+  ,"undyColor" : [ 	
+		// golds									// [ light, dark ] : [neutral, dark, hot]
+	 { "c17f72" : "ffb74e",  "885E5E" : "ef8923" }
+	,{ "c17f72" : "C17F72",  "885E5E" : "625454" }
+	,{ "c17f72" : "fffffe",  "885E5E" : "fff566" }
+		// emeralds
+	,{ "c17f72" : "3AE7A2",  "885E5E" : "07AD6A" }
+	,{ "c17f72" : "1F6969",  "885E5E" : "1A3535" }
+	,{ "c17f72" : "fffffe",  "885E5E" : "79FC58" }
+		// sapphires
+	,{ "c17f72" : "448FFF",  "885E5E" : "2042C8" }
+	,{ "c17f72" : "2E3785",  "885E5E" : "232B65" }
+	,{ "c17f72" : "fffffe",  "885E5E" : "5EBFFF" }
+		// amethysts
+	,{ "c17f72" : "AE45DC",  "885E5E" : "6139CE" }
+	,{ "c17f72" : "4F266A",  "885E5E" : "211057" }
+	,{ "c17f72" : "fffffe",  "885E5E" : "E16FFF" }
+		// rubies
+	,{ "c17f72" : "f24c53",  "885E5E" : "C32424" }
+	,{ "c17f72" : "8D5050",  "885E5E" : "5D2D2D" }
+	,{ "c17f72" : "fffffe",  "885E5E" : "ff5e5e" }
+		// pinks
+	,{ "c17f72" : "E6BAE7",  "885E5E" : "C894C9" }
+	,{ "c17f72" : "C488B3",  "885E5E" : "825F73" }
+	,{ "c17f72" : "fffffe",  "885E5E" : "F9CAEB" }
+		// diamonds
+    ,{ "c17f72" : "C9E6F1",  "885E5E" : "8F9EAD" }
+	,{ "c17f72" : "8B9EAF",  "885E5E" : "587187" }
+	,{ "c17f72" : "FFFFFF",  "885E5E" : "C9E6F1" }
+		// obsidian
+    ,{ "c17f72" : "202020",  "885E5E" : "010101" }
+  ]
+	
+  ,"hairColor" : [ "" ]
+ 
+}

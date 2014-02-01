@@ -1,0 +1,26 @@
+{
+  "itemName" : "lazerdrillitem",
+  "inventoryIcon" : "lazerdrillicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : " A rapid laser shooting device. Perfect for minning, some changes maybe make it also good in combat.",
+  "shortdescription" : "Laser Drill",
+  "image" : "lazerdrillitem.png",
+  "handPosition" : [-3.5, -1],
+  "firePosition" : [20, 1.5],
+
+  "fireTime" : 0.15,
+  "twoHanded" : true,
+
+  "projectileType" : "lazerdrill",
+  "projectile" : {
+    "speed" : 100,
+    "power" : 0
+
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_mp1.wav" } ]
+  }
+}

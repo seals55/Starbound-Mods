@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 5 },
+    { "item" : "golddrill", "count" : 1 },
+    { "item" : "money", "count" : 1500 }
+  ],
+  "output" : { "item" : "crewgolddrill", "count" : 1 },
+  "groups" : [ "crewmechanic" ]
+}

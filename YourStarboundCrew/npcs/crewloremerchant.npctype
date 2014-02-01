@@ -1,0 +1,228 @@
+{
+  "type" : "crewloremerchant",
+  "baseType" : "crew_merchant",
+
+  "damageTeam" : 1,
+  "levelVariance" : [0, 0],
+
+  "disableWornArmor" : true,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "dropPools" : [ "wizardtreasure" ],  
+  
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/chatState.lua",
+    "/npcs/sitState.lua",
+    "/npcs/sleepState.lua",
+    "/npcs/standingIdleState.lua",
+    "/npcs/wanderState.lua",
+
+    "/npcs/merchant/merchantState.lua"
+  ],
+
+  "scriptConfig" : {
+    "noticePlayersRadius" : 30.0,
+
+    "merchant" : {
+      "categories" : [ "crewloremerchant" ],
+      "priceVarianceRange" : [1, 1],
+      "numItems" : 18,
+      "storeRadius" : -1
+    },
+
+    "dialog" : {
+      "start" : {
+        "default" : [
+          "Welcome, purchase a story so I may read it to you.",
+          "Need to learn more?",
+          "What can I do ya for?"
+        ],
+
+        "apex" : {
+          "default" : [
+            "I've got things the Miniknog would kill for.",
+            "You're not Miniknog are you? Goooooood.",
+            "Got more than just bananas, if you know what I mean.",
+            "How about a bit of monkey magic, eh?"
+          ]
+        },
+
+        "avian" : {
+          "default" : [
+            "Kluex has blessed my stock.",
+            "I have lore for sale that even the Sunborn envy.",
+            "Stargazers HATE me. Try this one weird item...",
+            "I used to consult to Thornwing himself."
+          ]
+        },
+
+        "floran" : {
+          "default" : [
+            "Floran sssell magic thingies, buy it, buy it!",
+            "Greenfinger sssay Floran ssstock best magic ssstock.",
+            "Magic everywhere in this ditch!"
+          ],
+          "hylotl" : [
+            "Even fishman want Floran magic, sssee.",
+            "Floran sssell to fishman, blow mind.",
+            "Come closer fish, sssee what Floran can do for you."
+          ]
+        },
+
+        "glitch" : {
+          "default" : [
+            "Mystical. Not everything can be explained by science, customer.",
+            "Mysterious. Traveller, come hither, and browse my magic.",
+            "Clandestine. Cogs and gears only go so far, young one.",
+            "Tantalising. Death need not be the end, there are stims for that..."
+          ]
+        },
+
+        "hylotl" : {
+          "default" : [
+            "The ocean hides more than just treasure, wanderer. Magic lies beneath the sea.",
+            "The Hylotl darkness will be swept away by the typhoon.",
+            "Eternal life is just a shot away...",
+            "There is nothing fishy about my goods."
+          ],
+          "floran" : [
+            "Come, Floran friend. Come and be cleansed!",
+            "Our kinds war, and yet in magic we find peace.",
+            "May you find Sanctuary, Floran. May my magic help you on your way."
+          ]
+
+        }
+      },
+      "end" : {
+        "default" : [
+          "Farewell, captain.",
+          "Blessed be, sir.",
+          "Courage to our captain!"
+        ],
+        "glitch" : {
+          "default" : [
+            "Deceptive. May you be forever blessed.",
+            "Sinister. Goodwill to you, traveller.",
+            "Insincere. May you have safe travels."
+          ]
+
+        }
+      }
+    },
+
+    "meleeAttack" : {
+      "swingDistance" : 5,
+      "swingTime" : 0.4,
+      "swingCooldownTime" : 0.6,
+      "runThreshold" : 9,
+      "searchTime" : 10,
+      "backoffDistanceRange" : [8.0, 12.0],
+      "repositionCooldownTimeRange" : [2.0, 3.0]
+    },
+
+    "rangedAttack" : {
+      "minDistance" : 10,
+      "maxDistance" : 30,
+      "coverYOffset" : -1.5,
+      "coverYClearanceOffset" : 0.5,
+      "coverDistance" : 2.5,
+      "coverHideTimeRange" : [0.5, 1.0],
+      "coverFireTimeRange" : [1.0, 3.0],
+      "attackerSpacing" : 2.5,
+      "searchTime" : 10
+    }
+  },
+
+
+
+  "items" : {
+    "human" : [
+      [0, [
+          {
+            "chest" : [ "wizardchest" ],
+            "legs" : [ "wizardlegs" ],
+            "head" : [ "wizardhead" ],
+            "back" : [ "wizardback" ],
+            "sheathedprimary" : [
+              [ "generatedsword", 1, { "definition" : "watersword" } ]
+			]
+          }
+        ] ]
+    ],
+    "avian" : [
+      [0, [
+          {
+            "chest" : [ "wizardchest" ],
+            "legs" : [ "wizardlegs" ],
+            "back" : [ "wizardback" ],
+            "sheathedprimary" : [
+              [ "generatedsword", 1, { "definition" : "watersword" } ]
+			]
+          }
+        ] ]
+    ],
+    "apex" : [
+      [0, [
+          {
+            "chest" : [ "wizardchest" ],
+            "legs" : [ "wizardlegs" ],
+            "head" : [ "wizardhead" ],
+            "back" : [ "wizardback" ],
+            "sheathedprimary" : [
+              [ "generatedsword", 1, { "definition" : "watersword" } ]
+			]
+          }
+        ] ]
+    ],
+    "floran" : [
+      [0, [
+          {
+            "chest" : [ "wizardchest" ],
+            "legs" : [ "wizardlegs" ],
+            "head" : [ "wizardhead" ],
+            "back" : [ "wizardback" ],
+            "sheathedprimary" : [
+              [ "generatedsword", 1, { "definition" : "watersword" } ]
+			]
+          }
+        ] ]
+    ],
+    "glitch" : [
+      [0, [
+          {
+            "chest" : [ "wizardchest" ],
+            "legs" : [ "wizardlegs" ],
+            "head" : [ "wizardhead" ],
+            "back" : [ "wizardback" ],
+            "sheathedprimary" : [
+              [ "generatedsword", 1, { "definition" : "watersword" } ]
+			]
+          }
+        ] ]
+    ],
+    "hylotl" : [
+      [0, [
+          {
+            "chest" : [ "wizardchest" ],
+            "legs" : [ "wizardlegs" ],
+            "head" : [ "wizardhead" ],
+            "back" : [ "wizardback" ],
+            "sheathedprimary" : [
+              [ "generatedsword", 1, { "definition" : "watersword" } ]
+			]
+          }
+        ] ]
+    ]
+  }
+}

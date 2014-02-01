@@ -1,0 +1,9 @@
+{
+  "kind" : "crewglowinitiator",
+  "duration" : 120,
+  "primitives" : [
+    { "name" : "glow" }
+  ],
+  "effectSources" : [ "glowstim" ],
+  "mainInterfaceIcon" : "/interface/statuses/glow.png"
+}

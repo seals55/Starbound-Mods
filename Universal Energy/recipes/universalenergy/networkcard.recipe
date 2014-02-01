@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 30 },
+	{ "item" : "goldbar", "count" : 10 },
+	{ "item" : "processor", "count" : 1 }
+  ],
+  "output" : { "item" : "networkcard", "count" : 1 },
+  "groups" : [ "roboticcraftingtable", "all" ]
+}

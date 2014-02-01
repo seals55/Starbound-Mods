@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "uenergy", "count" : 1200 }
+  ],
+  "output" : { "item" : "processor", "count" : 1 },
+  "groups" : [ "replicator", "all" ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 800 }
+  ],
+  "output" : { "item" : "hylotlfashionhologram", "count" : 1 },
+  "groups" : [ "crewmerchant" ]
+}

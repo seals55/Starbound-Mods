@@ -1,0 +1,55 @@
+{
+  "objectName" : "crewmechanicmerchantspawner",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "Spawn your very own mechanic!",
+  "shortdescription" : "Mechanic Spawner",
+  "race" : "human",
+  "printable" : true,
+  "category" : "spawner",
+  "price" : 30,
+
+  "apexDescription" : "A never-ending supply of hairless apes.",
+  "avianDescription" : "What could I possibly want with humans?",
+  "floranDescription" : "Floran not sssure if want to sssummon meat people.",
+  "glitchDescription" : "Concern. I've heard humans are superstitious about this kind of thing.",
+  "humanDescription" : "What sinister devilry is this! Human clones?! Awesome.",
+  "hylotlDescription" : "A human spawner. How delightfully useless.",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_glitch.png",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1, 
+  //6000,
+
+  "animation" : "/objects/spawner/spawners/glitch.animation",
+
+  "animationParts" : {
+    "switch" : "spawner_glitch.png"
+  },
+  "animationPosition" : [-8, -8],  
+  
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+  
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : ["crewnovakid"],
+    "npcTypeOptions" : ["crewmechanicmerchant"],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : []
+      }
+    ]
+  }
+  
+}

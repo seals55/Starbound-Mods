@@ -1,0 +1,102 @@
+{
+  "type" : "crewfullmetalglitch",
+  "baseType" : "castleguard",
+
+  "disableWornArmor" : true,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 1,
+
+  "levelVariance" : [0.75, 0.75],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+    "/npcs/sitState.lua",
+
+    "/npcs/guard/guardState.lua",
+    "/npcs/guard/returnToPostState.lua"
+  ],
+
+  "scriptConfig" : {
+    "noticePlayersRadius" : 30,
+
+    "sit" : {
+      "timeOfDayRanges" : [ [0.0, 1.0] ],
+      "moveTimeLimit" : 30,
+      "searchRadius" : 10,
+      "sitRadius" : 3,
+      "cooldown" : 60,
+      "timeRange" : [30, 240]
+    },
+
+    "guard" : {
+      // Optional - guard will only stand around for a random number of seconds
+      // within this range before trying to do something else. Omit to stay
+      // in guard state until attacking.
+      "timeRange" : [10, 20],
+      "attackSayingPercent" : 100,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [ "..."
+          ],
+          "glitch" : [
+            "Destruction.",
+            "Death."
+          ]
+        }
+      }
+    },
+
+    "meleeAttack" : {
+      "sayAttackStartDistance" : -1
+    }
+  },
+
+  "items" : {
+    "glitch" : [
+      [0, [
+          {
+            "head" : [ { "name" : "fullmetaldemohead" } ],
+            "chest" : [ { "name" : "fullmetaldemochest" } ],
+            "legs" : [ { "name" : "fullmetaldemolegs" } ],
+            "back" : [ { "name" : "fullmetaldemoback" } ],
+            "primary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonshortsword" } },
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "glitchlordshield" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "movementControllerSettings" : {
+    "runSpeed" : 15
+  },
+
+  "dropPools" : [ "castlelordtreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 800,
+    "baseMaxEnergy" : 400,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}

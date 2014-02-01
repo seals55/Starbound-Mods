@@ -1,0 +1,38 @@
+{
+  "objectName" : "crewmechanicsanvil",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crewmechanic.config",
+    "filter" : [ "crewmechanic" ]
+  },
+  "printable" : false,
+  "description" : "Upgrade your pickaxes and drills, and finally use up that dirt!",
+  "shortdescription" : "The Mechanic's Anvil",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "A fancy crafting table.",
+  "avianDescription" : "A mechanical crafting table.",
+  "floranDescription" : "Floran once get in fight with table like this.",
+  "glitchDescription" : "Confused. This table is familiar.",
+  "humanDescription" : "A robot table! The revolution begins!",
+  "hylotlDescription" : "How strange. A robotic crafting table.",
+
+  "inventoryIcon" : "crewmechanicsanvilicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crewmechanicsanvil.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

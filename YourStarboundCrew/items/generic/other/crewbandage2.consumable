@@ -1,0 +1,15 @@
+{
+  "itemName" : "crewbandage2",
+  "rarity" : "rare",
+  "inventoryIcon" : "bandage.png",
+  "description" : "A bandage for healing large wounds.",
+  "shortdescription" : "Bandage",
+  "effects" : [ [
+      {
+        "kind" : "bandage",
+        "amount" : 2.6
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ]
+}

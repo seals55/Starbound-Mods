@@ -1,0 +1,10 @@
+{
+  "codexId" : "crewhylotlcoords",
+  "title" : "Hylotl Planets",
+  "codexkind" : "codex",
+  "inventoryIcon" : "glitchsewerbook_01.png",
+  "itemName" : "crewhylotlcoordsCodex",
+  "rarity" : "common",
+  "description" : "What will one day be a list of planets with water people..",
+  "shortdescription" : "Hylotl Planets"
+}

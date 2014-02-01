@@ -1,0 +1,16 @@
+{
+  "itemName" : "crewgreenstim2",
+  "rarity" : "legendary",
+  "inventoryIcon" : "greenstim.png",
+  "description" : "A stimpack full of super bright green liquid",
+  "shortdescription" : "Stronger Green Stim Pack",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "kind" : "runboostinitiator",
+        "amount" : 1.9
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

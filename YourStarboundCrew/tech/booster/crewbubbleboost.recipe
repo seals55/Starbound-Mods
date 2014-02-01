@@ -1,0 +1,8 @@
+{
+  "input" : [ ],
+  "output" : {
+    "item" : "crewbubbleboost",
+    "count" : 1
+  },
+  "groups" : [ "tech" ]
+}

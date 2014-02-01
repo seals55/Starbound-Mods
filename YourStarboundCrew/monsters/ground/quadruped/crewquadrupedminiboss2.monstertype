@@ -1,0 +1,162 @@
+{
+  "type" : "crewquadrupedminiboss2",
+
+  "categories" : [ "quadruped_organic" ],
+  "parts" : [ "legs", "chest", "tail", "head" ],
+
+  "animation" : "quadrupedminiboss.animation",
+  "projectiles" : "/monsters/projectiles.config",
+  "colors" : "/monsters/colors.config",
+  "reversed" : true,
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/ground/groundMonster.lua",
+      "/scripts/stateMachine.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua",
+
+      "/monsters/ground/aggressState.lua",
+      "/monsters/ground/knockoutState.lua",
+      "/monsters/ground/wanderState.lua"
+    ],
+    "scriptDelta" : 5,
+
+    "territoryDistance" : 40.0,
+    "territorialTargetRadius" : 20.0,
+    "minimalTargetRadius" : 6.0,
+    "targetSearchTime" : 0.5,
+    "targetHoldTime" : 5.0,
+
+    "closeDistance" : 1.5,
+
+    "wanderTime" : [4.0, 6.0],
+    "wanderMovementTime" : [2.0, 3.0],
+
+    "idleSoundTime" : [45.0, 60.0],
+    "painSoundTimer" : 2.0,
+
+    "jumpTargetDistance" : 4,
+    "jumpTime" : [0.8, 1.4],
+
+    "knockoutTime" : 1,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "deathNoise" : [ "/sfx/projectiles/bubble_pop.wav" ],
+
+    "exhaustionTimer" : 3.0,
+    "exhaustionTimeout" : 3.0,
+    "exhaustionDistanceLimit" : 1.0,
+
+    "wanderJumpProbability" : 0.1
+  },
+
+  "dropPools" : [
+    {
+      "default" : "crewbirding2"
+    }
+  ],
+
+  "familyParameters" : [
+    [
+      {
+        "attackStartDistance" : 7.0,
+        "attackMaxDistance" : 20,
+        "attackCooldownTime" : 0.5,
+        "skills" : [ "pounceAttack" ],
+        "pounceAttackJumpHoldTime" : 1.0,
+        "pounceAttackWindupTime" : 1.0,
+        "pounceAttackCooldown" : 1.0
+      },
+
+      {
+        "attackStartDistance" : 3.5,
+        "attackTime" : 0.75,
+        "attackCooldownTime" : 0.5,
+        "skills" : [ "meleeAttack" ]
+      },
+
+      {
+        "attackStartDistance" : 10.0,
+        "attackTime" : 4.0,
+        "attackCooldownTime" : 1.0,
+        "skills" : [ "chargeAttack" ],
+        "chargeAttackWindupTime" : 1.0,
+        "chargeAttackAttackDistance" : 5.0,
+        "chargeAttackProjectile" : null
+      },
+
+      {
+        "attackStartDistance" : 14.0,
+        "attackMaxDistance" : 20,
+        "attackCooldownTime" : 2.0,
+        "skills" : [ "flameBurstRangedAttack", "bubbleBlastRangedAttack", "fireball", "acidicspit", "barbspray", "explosivephlegm", "sonicscream", "twistingpulse", "acidspray", "shockingbolt", "shockball", "gasbelch", "iceblast", "rockshot", "bloodvomit", "flyswarm", "iceshot", "sonicwave", "fireswirl", "plasmatorpedo", "darkplasma", "darkgravityball" ],
+        //        "skills" : [ "darkgravityball" ],
+        "shooterSkillName" : "rangedAttack",
+        "shooterGiveUpTolerance" : 20.0
+      }
+
+    ]
+  ],
+
+  "variantParameters" : [
+    [
+      [1, {
+          "scale" : 1.5,
+          "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
+
+          "movementSettings" : {
+            "collisionPoly" : [ [-2.75, -1.65], [-1.7, -2.7], [1.7, -2.7], [2.75, -1.65], [2.75, -0.15], [1.55, 0.75], [-1.55, 0.75], [-2.75, -0.15] ],
+            "mass" : 0.6,
+            "walkSpeed" : 5,
+            "runSpeed" : 13,
+            "jumpSpeed" : 20
+          },
+
+          "blockedSensors" : [ [3.0, -1.5], [3.0, -1], [3.0, -0.5], [3.0, 0.0], [3.0, 0.5], [3.5, -1.5], [3.5, -1], [3.5, -0.3], [3.5, 0.0], [3.5, 0.5] ],
+          "fallSensors" : [ [0.5, -2.5], [0.5, -3.5], [0.5, -4.5], [2.0, -2.5], [2.0, -3.5], [2.0, -4.5] ],
+
+          "touchDamage" : {
+            "poly" : [ [-2.75, -1.65], [-1.7, -2.7], [1.7, -2.7], [2.75, -1.65], [2.75, -0.15], [1.55, 0.75], [-1.55, 0.75], [-2.75, -0.15] ],
+            "damage" : 25,
+            "teamType" : "enemy",
+            "damageSourceKind" : "bite",
+            "statusEffects" : [ ]
+          },
+
+          "statusParameters" : {
+            "baseMaxHealth" : 120,
+            "damageConfig" : "/damage/damageresponse/groundnpc.config",
+            "bodyMaterialKind" : "organic"
+          },
+
+          "inateStatusEffects" : [
+            {
+              "kind" : "Protection",
+              "amount" : 1.0
+            }
+          ],
+
+          "mouthOffset" : [0, 0],
+          "feetOffset" : [0, -14]
+        } ]
+    ]
+
+  ],
+
+  "partParameterDescription" : {
+    "weightMultiplier" : [ "multiply", 1.0],
+    "walkMultiplier" : [ "multiply", 2.0],
+    "runMultiplier" : [ "multiply", 2.0],
+    "jumpMultiplier" : [ "multiply", 1.0],
+
+    "idleNoise" : [ "merge", [ ] ],
+    "turnHostileNoise" : [ "merge", [ ] ],
+    "attackNoise" : [ "merge", [ ] ],
+    "painNoise" : [ "merge", [ ] ],
+    "deathNoise" : [ "merge", [ ] ],
+
+    "projectileSourcePosition" : [ "override", [2.0, 0] ],
+    "skills" : [ "merge", [ ] ]
+  }
+}

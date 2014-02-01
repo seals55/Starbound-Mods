@@ -1,0 +1,223 @@
+{
+  "type" : "crewbandit",
+
+  "disableWornArmor" : true,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 2,
+
+  "levelVariance" : [0, 0],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/guard/guardState.lua"
+  ],
+  "scriptDelta" : 5,
+  "scriptConfig" : {
+    "attackerLimit" : 4,
+    "attackerLimitCooldown" : 3,
+
+    "guard" : {
+      "noticeDistance" : 30,
+      "hailDistance" : -1,
+      "stopDistance" : -1,
+      "attackDistance" : 30,
+
+      "wallCheckDistance" : 5,
+      "changeDirectionTimeRange" : [10, 20],
+
+      "attackSayingPercent" : 50,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [ "Ganking time!"
+          ],
+          "apex" : {
+            "default" : [
+              "Spies from the Miniknog! Get them!",
+              "They're after our loot!",
+              "You'll never take our freedom!",
+              "By my beard, it's a trespasser!"
+            ]
+          },
+
+          "avian" : {
+            "default" : [
+              "Kluex has willed that your life is forfeit.",
+              "Prepare for your sacrifice.",
+              "Your belongings will be suitable offerings to Kluex.",
+              "If only I could fly, then you would die faster.",
+              "Run away, unbeliever!"
+            ]
+          },
+
+
+          "floran" : {
+            "default" : [
+              "Sssupper arrivesss!",
+              "Ssstop the intruder!",
+              "Gimme the casssh!",
+              "Ssstay back!",
+              "Floran will ssslay you!"
+            ],
+
+            "glitch" : [
+              "Floran regretsss this.",
+              "Nothing persssonal..."
+            ]
+          },
+
+          "glitch" : {
+            "default" : [
+              "Alert. A traveler approaches!",
+              "Hunting. You have breathed your last!",
+              "Pursuing. Prepare to lose your life!"
+            ],
+
+            "floran" : [
+              "Regretful. We do what we must to survive.",
+              "Apology. You must die, Floran."
+            ]
+          },
+
+          "hylotl" : {
+            "default" : [
+              "We aim to apprehend you. I lied. We mean to kill you.",
+              "Your belongings will shortly be ours.",
+              "I wonder, will you drop good loot?",
+              "Your fighting skills cannot save you."
+            ],
+
+            "floran" : [
+              "Your appearance is that of boiled cabbage. I wonder if you taste any better.",
+              "I will slay you myself, uncultured monster."
+            ]
+          },
+
+          "human" : {
+            "default" : [
+              "Hey! Get back here!",
+              "You're dead meat!",
+              "Let's steal their stuff!",
+              "We'll kill you so hard you won't know what hit you!"
+            ]
+          }
+        }
+      }
+    },
+
+    "meleeAttack" : {
+      "swingDistance" : 5,
+      "swingTime" : 0.4,
+      "swingCooldownTime" : 0.6,
+      "runThreshold" : 9,
+      "searchTime" : 10,
+      "backoffDistanceRange" : [8.0, 12.0],
+      "repositionCooldownTimeRange" : [2.0, 3.0]
+    },
+
+    "rangedAttack" : {
+      "minDistance" : 10,
+      "maxDistance" : 30,
+      "coverYOffset" : -1.5,
+      "coverYClearanceOffset" : 0.5,
+      "coverDistance" : 2.5,
+      "coverHideTimeRange" : [0.5, 1.0],
+      "coverFireTimeRange" : [1.0, 3.0],
+      "attackerSpacing" : 2.5,
+      "searchTime" : 10
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "bandithat1" }, { "name" : "bandithat2" } ],
+            "chest" : [ { "name" : "silverarmorchest" } ],
+            "legs" : [ { "name" : "silverarmorpants" } ],
+            "primary" : [
+              [ "generatedsword", 1, { "definition" : "eyesword" } ],
+              [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ],
+              [ "generatedgun", 1, { "definition" : "commonpistol" } ],
+              [ "generatedgun", 1, { "definition" : "commonsniperrifle" } ]
+            ],
+            "alt" : [
+              { "name" : "flashlight" }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "movementControllerSettings" : {
+    "standingPoly" : [ [-0.75, -2.0], [-0.35, -2.5], [0.35, -2.5], [0.75, -2.0], [0.75, 0.65], [0.35, 1.22], [-0.35, 1.22], [-0.75, 0.65] ],
+    "crouchingPoly" : [ [-0.75, -2.0], [-0.35, -2.5], [0.35, -2.5], [0.75, -2.0], [0.75, -0.5], [0.35, 0], [-0.35, 0], [-0.75, -0.5] ],
+
+    "mass" : 0.6,
+    "jumpSpeed" : 24.0
+  },
+
+  "humanoidTiming" : {
+    // Idle, Walk, Run, Jump, Fall, Swim, SwimIdle, Duck, Sit, Lay
+    "stateCycle" : [1.0, 0.75, 0.75, 0.25, 0.25, 0.50, 0.50, 1.0, 1.0, 1.0],
+    "stateFrames" : [1, 8, 8, 4, 4, 7, 2, 1, 1, 1],
+
+    // EmoteIdle, Blabbering, Shouting, Happy, Sad, NEUTRAL, Laugh, Annoyed, Oh, OOOH, Blink, Wink, Eat, Sleep
+    //          , normal    , caps    , :)   , :'(, :|     , :D   ,        , :o, :O  ,      , ;)
+    "emoteCycle" : [1.0, 0.3, 0.3, 0.3, 1.0, 0.3, 0.5, 1.0, 1.0, 1.0, 1.0, 0.5, 0.3, 1],
+    "emoteFrames" : [1, 2, 2, 2, 5, 2, 2, 2, 2, 3, 3, 5, 2, 2]
+  },
+
+  "dropPools" : [ "banditTreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 400,
+    "baseMaxEnergy" : 80,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  },
+
+  "persistent" : true,
+
+  "splashConfig" : {
+    "splashSpeedMin" : 10.0,
+    "splashMinWaterLevel" : 0.4,
+    "splashBottomSensor" : [0, -2.0],
+    "splashTopSensor" : [0, 2.0],
+    "numSplashParticles" : 8,
+    "splashYVelocityFactor" : 0.2,
+
+    "splashParticle" : {
+      "type" : "ember",
+      "position" : [0, -1],
+      "finalVelocity" : [0, -20],
+      "approach" : [0, 50],
+      "color" : [60, 150, 224, 100],
+      "size" : 4.0,
+      "timeToLive" : 0.5,
+      "destructionAction" : "shrink",
+      "destructionTime" : 0.2
+    },
+
+    "splashParticleVariance" : {
+      "velocity" : [10, 0]
+    }
+  }
+}

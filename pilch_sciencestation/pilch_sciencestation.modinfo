@@ -1,0 +1,6 @@
+{
+  "name" : "Pilchenstein's Science Station",
+  "version" : "Beta v. Furious Koala",
+  "path" : "pilch_sciencestation",
+  "dependencies" : ["Modules in a Box"]
+}

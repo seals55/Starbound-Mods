@@ -1,0 +1,13 @@
+{
+  "name" : "crewKEIhealthII",
+  "icon" : [ ],
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "powerboost", "amount" : 1.1 },
+	{ "kind" : "fooddepletionsuppressed", "amount" : 1.1 },
+	{ "kind" : "healthincrease", "amount" : 100 },
+	{ "kind" : "protection", "amount" : 25 },
+	{ "kind" : "bounceback", "amount" : 25.0 }
+  ]
+  
+}

@@ -1,0 +1,14 @@
+{
+  "itemName" : "crewmedkit",
+  "rarity" : "rare",
+  "inventoryIcon" : "medkit.png",
+  "description" : "A better med kit. For when you absolutely, positively have to be 100% healthy.",
+  "shortdescription" : "Upgraded Medical Kit",
+  "effects" : [ [
+      {
+        "kind" : "health",
+        "amount" : 75
+      }
+    ] ],
+  "emote" : ""
+}

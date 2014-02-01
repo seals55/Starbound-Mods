@@ -1,0 +1,19 @@
+{
+  "projectileName" : "energyarrow",
+  "physics" : "laser",
+  "frames" : "energyarrow.png",
+  "level" : 10,
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "emitters" : [ "daggerblue" ],
+  "power" : 60,
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "damageKind" : "bow"
+}

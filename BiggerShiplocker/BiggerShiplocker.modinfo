@@ -1,0 +1,12 @@
+﻿{
+  "name" : "Bigger Shiplocker",
+  "version" : "Beta v. Furious Koala",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata": {
+	"mod_version" : "1.1 Furious Koala",
+    "author" : "SpaceKitten",
+    "description" : "This mod increases the amount of slots of your Shiplocker from 64 to 256.",
+    "support_url" : "http://community.playstarbound.com/index.php?resources/bigger-shiplocker.226/"
+  }
+}

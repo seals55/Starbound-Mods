@@ -1,0 +1,55 @@
+{
+  "objectName" : "crewbountybeacon1",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "This will summon the leader of some of those pesky bandits.",
+  "shortdescription" : "Beta Bandit Leader",
+  "race" : "human",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 300,
+
+  "apexDescription" : "This should summon the bounty, let's do it!",
+  "avianDescription" : "This should summon the bounty, let's do it!",
+  "floranDescription" : "This ssshould sssummon bounty, let's do it!",
+  "glitchDescription" : "Analysis. This should summon the bounty, let's do it!",
+  "humanDescription" : "This should summon the bounty, let's do it!",
+  "hylotlDescription" : "This should summon the bounty, let's do it!",
+
+  "inventoryIcon" : "crewbountybeaconicon.png",
+  "orientations" : [
+    {
+      "image" : "crewbountybeacon.png",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/crewbounties/crewbountybeacon.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "/objects/wired/crewbounties/crewbountybeacon.animation",
+
+  "animationParts" : {
+    "switch" : "crewbountybeacon.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "apex", "avian", "floran", "glitch", "human", "hylotl" ],
+    "npcTypeOptions" : [ "crewbandit" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+
+}

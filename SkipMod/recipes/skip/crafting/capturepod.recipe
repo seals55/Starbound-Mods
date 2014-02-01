@@ -1,0 +1,8 @@
+{
+  "input" : [
+
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : { "item" : "capturepod", "count" : 1000 },
+  "groups" : [ "skip", "other", "all" ]
+}

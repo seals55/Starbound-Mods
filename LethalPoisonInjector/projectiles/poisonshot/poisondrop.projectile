@@ -1,0 +1,17 @@
+{
+  "projectileName" : "poisondrop",
+  "physics" : "grenade",
+  "frames" : "poisondrop.png",
+  "level" : 1,
+  "energyCostPerDamagePoint" : 35,
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "damageKindImage" : "ammoType.png",
+  "actionOnReap" : [ 
+  { 
+  "action" : "liquid", "liquidId" : 4, "quantity" : 1000 
+  }
+  ],
+  "power" : 0.7,
+  "damageKind" : "default"
+}

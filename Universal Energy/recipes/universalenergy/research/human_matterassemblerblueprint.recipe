@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "energycompblueprint", "count" : 1 }
+  ],
+  "output" : { "item" : "matterassemblerblueprint", "count" : 1 },
+  "groups" : [ "analyzer", "all" ]
+}

@@ -1,0 +1,30 @@
+{
+  "name" : "pelagiusshield",
+  "kind" : "pelagius",
+  "palette" : [
+    { }
+  ],
+
+  "hitSound" : "/sfx/melee/shield_block_metal2.wav",
+
+  "baseline" : {
+    "recoil" : 0.2,
+    "knockbackPower" : 2147486647,
+    "knockbackDamageKind" : "",
+    "statusEffects" : [
+      { "kind" : "Encumbered" },
+	  { "kind" : "Protection", "amount" : 2147486647 },
+	  { "kind" : "EnergyShield", "amount" : 2147486647 },
+	  { "kind" : "BounceBack", "amount" : 2147486647 },
+	  { "kind" : "BreathProtection", "amount" : 2147486647 },
+	  { "kind" : "redstim", "duration" : 2147486647, "amount" : 100000 },
+	  { "kind" : "glowinitiator", "duration" : 2147486647 },
+	  { "kind" : "runboostinitiator", "duration" : 2147486647 },
+	  { "kind" : "Shield", "amount" : 2147486647 }
+	  
+    ],
+    "shieldPoly" : [ [-8, 0], [-8, 12], [8, 20], [8, -24], [-8, -12] ],
+    "damagePoly" : [ [-8, 0], [8, 18], [8, -18] ]
+  },
+    "nameGenerator" : "pelagiusshieldnames.config:namegen"
+}

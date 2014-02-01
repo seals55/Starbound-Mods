@@ -1,0 +1,21 @@
+{
+  "itemName" : "crewKEInalo",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "legendary",
+  "description" : "Your Holo evolved! Nalo adds some fun abilities.",
+  "shortdescription" : "Nalo",
+
+  "augments" : [
+    {
+      "name" : "crewKEInalo"
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png",
+  "learnBlueprintsOnPickup" : [
+    "crewKEIkeakua"
+  ]
+}

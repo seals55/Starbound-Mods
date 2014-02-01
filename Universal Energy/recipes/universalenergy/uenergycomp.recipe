@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "solariumcore", "count" : 1 },
+	{ "item" : "impcasing", "count" : 1 },
+	{ "item" : "energycompblueprint", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "uenergycomp",
+    "count" : 1
+  },
+  "groups" : [ "roboticcraftingtable", "objects", "all" ]
+}

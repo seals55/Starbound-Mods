@@ -1,0 +1,36 @@
+{
+  "objectName" : "shiplocker",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "description" : "Store some stuff, why don't you?",
+  "shortdescription" : "Ship locker",
+  "race" : "human",
+
+  "apexDescription" : "I wonder if there are any secrets inside...",
+  "avianDescription" : "Could there be anything of value within?",
+  "floranDescription" : "SSsssearch.",
+  "glitchDescription" : "Excited. Any items of interest inside?",
+  "humanDescription" : "A ship's locker.",
+  "hylotlDescription" : "Perhaps something useful is inside.",
+
+  "inventoryIcon" : "shiplockericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "shiplocker.png:<color>.<frame>",
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 256,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 11,
+  "autoCloseCooldown" : 3600
+}

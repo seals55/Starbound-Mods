@@ -1,0 +1,24 @@
+{
+  "projectileName" : "swarmrocketlaunch",
+  "physics" : "artillery",
+  "frames" : "swarmrocketlaunch.png",
+  "level" : 10,
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "timeToLive" : 0.0,
+  "damageKindImage" : "icon.png",
+  "emitters" : [ "daggerblue" ],
+  "power" : 2500,
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "swarmrocket",
+      "inheritDamageFactor" : 15,
+	  "power" : 6000,
+	  "speed" : 5200,
+      "angleAdjust" : 0
+    }
+  ],
+  "damageKind" : "bow"
+}

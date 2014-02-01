@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "huntingknife", "count" : 1 },
+    { "item" : "ironbar", "count" : 10 },
+    { "item" : "money", "count" : 50 }
+  ],
+  "output" : { "item" : "crewhuntingknife", "count" : 1 },
+  "groups" : [ "crewhunter" ]
+}

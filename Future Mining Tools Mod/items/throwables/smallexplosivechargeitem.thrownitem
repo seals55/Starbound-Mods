@@ -1,0 +1,21 @@
+{
+  "itemName" : "smallexplosivechargeitem",
+  "rarity" : "Common",
+  "inventoryIcon" : "smallexplosivechargeicon.png",
+  "image" : "smallexplosivechargelicon.png",
+  "shortdescription" : "Small Explosive Charge",
+  "description" : "Small bag filled with gunpowder.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "smallexplosivecharge",
+  "projectileConfig" : {
+    "speed" : 30,
+    "power" : 100
+  }
+}
+

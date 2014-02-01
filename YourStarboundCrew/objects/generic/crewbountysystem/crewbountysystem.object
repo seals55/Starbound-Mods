@@ -1,0 +1,40 @@
+{
+  "objectName" : "crewbountysystem",
+  "printable" : false,
+  "objectType" : "interactable",
+  "rarity" : "Rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crewbounty.config",
+    "filter" : [ "crewbounty" ]
+  },
+  "price" : 100,
+  "lightColor" : [38, 128, 128],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+  "description" : "A list of currently available bounties.",
+  "shortdescription" : "USCM Bounties",
+
+  "apexDescription" : "This console offers a large degree of control.",
+  "avianDescription" : "A useful console.",
+  "floranDescription" : "Floran push buttons. Make thingsss happen!",
+  "glitchDescription" : "Impressed. A single console can control so many different mechanisms at once.",
+  "humanDescription" : "A control console. It's just gotta be played with.",
+  "hylotlDescription" : "A control console.",
+
+  "race" : "generic",
+  "inventoryIcon" : "crewbountysystemicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crewbountysystem.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "outboundNodes" : [ [0, 0] ]
+}

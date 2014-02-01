@@ -1,0 +1,31 @@
+{
+  "itemName" : "gassinator",
+  "inventoryIcon" : "bubblegunIcon.png",
+  "description" : "The Gassinator!",
+  "shortdescription" : "Gassinator",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 7,
+  "rarity" : "Rare",
+  "inspectionKind" : "gun",
+  "image" : "bubblegun.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [-5.5, -3],
+  "firePosition" : [12, 3],
+  "classMultiplier" : 0.00000000698,
+
+  "fireTime" : 0.01,
+  "twoHanded" : false,
+
+  "projectileType" : "healinggas",
+  "projectile" : {
+  "power" : 1,
+  "speed" : 30,
+  "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/ProGunsDir/muzzleflash/bulletmuzzle3.animation",
+    "fireSound" : [ { "file" : "/ProGunsDir/sfx/bullet1.wav" } ]
+  }
+}

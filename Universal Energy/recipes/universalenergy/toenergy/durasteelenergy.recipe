@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 1 }
+  ],
+  "output" : { "item" : "uenergy", "count" : 75 },
+  "groups" : [ "energyconverter", "all" ]
+}

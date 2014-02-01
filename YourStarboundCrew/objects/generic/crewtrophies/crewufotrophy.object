@@ -1,0 +1,31 @@
+{
+  "objectName" : "crewufotrophy",
+  "rarity" : "rare",
+  "category" : "decorative",
+  "price" : 3000,
+
+  "shortdescription" : "UFO Trophy",
+  "description" : "A trophy of that UFO I took out.",
+  "race" : "generic",
+
+  "apexDescription" : "Looks like another unrealistic giant robot movie.",
+  "avianDescription" : "It appears to be a movie about giant walking mechs.",
+  "floranDescription" : "No need big clunky metal robots, just knife.",
+  "glitchDescription" : "Interested. The robots in this film look powerful indeed.",
+  "humanDescription" : "It's a giant robot movie! Those are fun.",
+  "hylotlDescription" : "Another mindless action movie about giant robots.",
+
+  "inventoryIcon" : "crewtrophyicon.png",
+  "orientations" : [
+    {
+      "image" : "crewufotrophy.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

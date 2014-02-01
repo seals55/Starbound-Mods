@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "bow", "count" : 1 },
+	{ "item" : "leather", "count" : 15 },
+	{ "item" : "money", "count" : 300 }
+  ],
+  "output" : {
+    "item" : "crewhuntermerchantspawner",
+    "count" : 1
+  },
+  "groups" : [ "crew_station", "other", "all" ]
+}

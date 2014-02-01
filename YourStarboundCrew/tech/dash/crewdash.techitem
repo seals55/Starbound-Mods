@@ -1,0 +1,10 @@
+{
+  "itemName" : "crewdashTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/dash.png",
+  "description" : "Upgrades the Energy Dash tech.",
+  "shortdescription" : "Upgraded Energy Dash",
+  "inspectionKind" : "tech",
+
+  "techModule" : "crewdash.tech"
+}

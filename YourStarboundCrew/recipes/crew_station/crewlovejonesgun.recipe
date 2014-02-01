@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "crewfirstgun", "count" : 1 },
+    { "item" : "money", "count" : 1000 }
+  ],
+  "output" : { "item" : "crewlovejonesgun", "count" : 1 },
+  "groups" : [ "crew_station" ]
+}

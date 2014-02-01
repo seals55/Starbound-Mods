@@ -1,0 +1,13 @@
+{
+  "name" : "crewKEIkekoaIII",
+  "icon" : [ ],
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "powerboost", "amount" : 4.8 },
+	{ "kind" : "protection", "amount" : 30 },
+	{ "kind" : "fooddepletionsuppressed", "amount" : 3.5 },
+	{ "kind" : "healthincrease", "amount" : 50 },
+	{ "kind" : "bounceback", "amount" : 20.0 }
+  ]
+  
+}

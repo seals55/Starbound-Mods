@@ -1,0 +1,14 @@
+{
+  "itemName" : "crewnanowrap",
+  "rarity" : "rare",
+  "inventoryIcon" : "nanowrap.png",
+  "description" : "An upgraded nanowrap bandage knits wounds together even fast.",
+  "shortdescription" : "Nanowrap Bandage",
+  "effects" : [ [
+      {
+        "kind" : "nanowrap",
+        "amount" : 1.8
+      }
+    ] ],
+  "emote" : "angry"
+}

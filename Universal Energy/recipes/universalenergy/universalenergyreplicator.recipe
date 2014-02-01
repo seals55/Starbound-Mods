@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumcore", "count" : 1 },
+	{ "item" : "steelbar", "count" : 5 },
+	{ "item" : "processor", "count" : 1 }
+  ],
+  "output" : { "item" : "replicator", "count" : 1 },
+  "groups" : [ "uematterassembler", "all" ]
+}

@@ -1,0 +1,11 @@
+{
+  "name" : "mod_xsmech",
+  "version" : "Beta v. Furious Koala",
+  "path" : ".",
+  "dependencies" : [ ],
+  "metadata": {
+    "author" : "TShinzon aka Masterduck",
+    "description" : "XS Corporation Mech Pack",
+    "support_url" : " "
+  }
+}

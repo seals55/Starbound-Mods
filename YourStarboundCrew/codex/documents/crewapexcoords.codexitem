@@ -1,0 +1,10 @@
+{
+  "codexId" : "crewapexcoords",
+  "title" : "Apex Planets",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexlabbook_01.png",
+  "itemName" : "crewapexcoordsCodex",
+  "rarity" : "common",
+  "description" : "A list of planets that have Apex in the alpha through gamma sectors.",
+  "shortdescription" : "Apex Planets"
+}

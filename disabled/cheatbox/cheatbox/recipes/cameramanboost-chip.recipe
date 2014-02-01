@@ -1,0 +1,5 @@
+{
+  "input" : [  ],
+  "output" : { "item" : "cameramanboost-chip", "count" : 1 },
+  "groups" : [ "cheatboxtable", "all" ]
+}

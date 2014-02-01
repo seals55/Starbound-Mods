@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "carrot", "count" : 1 },
+    { "item" : "potato", "count" : 1 },
+    { "item" : "tomato", "count" : 1 }
+  ],
+  "output" : { "item" : "vegetablesoup", "count" : 2 },
+  "groups" : [ "crewchef" ]
+}

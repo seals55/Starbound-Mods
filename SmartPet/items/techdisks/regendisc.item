@@ -1,0 +1,8 @@
+{
+  "itemName" : "jumpdisc",
+  "rarity" : "Common",
+  "inventoryIcon" : "disc.png",
+  "description" : "Improves bone elasticity, allowing to jump higher.",
+  "shortdescription" : "Pet Tech: Rubber Bones",
+  "maxStack" : 1
+}

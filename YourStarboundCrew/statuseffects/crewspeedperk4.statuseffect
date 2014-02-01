@@ -1,0 +1,13 @@
+{
+  "kind" : "crewspeedperk4",
+  "primitives" : [
+    {
+	  "name" : "jumpboost",
+	  "percentage" : 20
+	},
+    {
+	  "name" : "runboost",
+	  "percentage" : 30
+	}
+  ]
+}

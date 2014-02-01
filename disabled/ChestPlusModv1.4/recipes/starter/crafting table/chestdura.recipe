@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "chestplat", "count" : 1 },
+	{ "item" : "durasteelbar", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "chestdura",
+    "count" : 1
+  },
+  "groups" : [ "mod", "obook", "plain", "all", "other" ]
+}

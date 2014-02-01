@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 1 }
+  ],
+  "output" : { "item" : "uenergy", "count" : 40 },
+  "groups" : [ "energyconverter", "all" ]
+}

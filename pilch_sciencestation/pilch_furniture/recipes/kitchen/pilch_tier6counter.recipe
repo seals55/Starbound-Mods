@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "Feroziumbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "pilch_tier6counter",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "tools", "objects", "all"]
+}
+

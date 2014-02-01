@@ -1,0 +1,38 @@
+{
+	"objectName" : "miab_basestore_printer",
+	"rarity" : "Common",
+	"objectType" : "wire",
+	"description" : "A device that will construct a building from it's internal blueprint",
+	"shortdescription" : "Building Printer",
+	"race" : "generic",
+	"category" : "tool",
+	"price" : 1,
+	"printable" : false,
+	
+	"inventoryIcon" : "miab_basestore_printer_icon.png",
+	"orientations" : [
+		{
+			"dualImage" : "miab_basestore_printer.png:<color>.<frame>",
+			"imagePosition" : [-8,0],
+			"frames" : 5,
+			"animationCycle" : 1,
+			"spaceScan" : 0.1
+		}
+	],
+	
+	"animation" : "miab_basestore_printer.animation",
+	"animationParts" : {
+		"normal_operation_image" : "/objects/basestorage/miab_basestore_printer/miab_basestore_printer.png"
+	},
+	"animationPosition" : [-8, 0],
+
+	"scripts" : [
+		"/objects/basestorage/miab_basestore_printer/miab_basestore_print_activator.lua",
+		"/scripts/basestorage/miab_basestore_printer.lua",
+		"/scripts/basestorage/miab_basestore_blueprint.lua",
+		"/scripts/basestorage/miab_basestore_matsTable.lua"
+	],
+	"scriptDelta" : 5,
+	"breakDropOptions" : [],
+	"miab_printer_offset" : [1, 0]
+}

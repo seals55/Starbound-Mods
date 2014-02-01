@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedgun", "count" : 1, "data" : { "definition" : "crossbow", "level" : 200 } },
+  "groups" : [ "plain", "weapons", "all" ]
+}

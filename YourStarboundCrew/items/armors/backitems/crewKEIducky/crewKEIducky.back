@@ -1,0 +1,18 @@
+{
+  "itemName" : "crewKEIducky",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "legendary",
+  "description" : "All praise the golden ducky.",
+  "shortdescription" : "Kaka",
+
+  "augments" : [
+    {
+      "name" : "crewKEImakaniIII"
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png"
+}

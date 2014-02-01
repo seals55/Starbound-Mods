@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "Rubiumbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "tier9table",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "objects", "all"]
+}
+

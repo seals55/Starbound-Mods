@@ -1,0 +1,18 @@
+{
+  "projectileName" : "100calhybrid",
+  "physics" : "bolt",
+  "frames" : "100calhybrid.png",
+  "level" : 10,
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "power" : 200,
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/items/universalenergy/projectiles/explosions/100calhybridblast/100calhybridblast.config"
+    }
+  ],
+  "damageKind" : "default"
+}

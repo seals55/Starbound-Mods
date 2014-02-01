@@ -1,0 +1,11 @@
+{
+    "name" : "SmartPet",
+    "version" : "Beta v. Furious Koala",
+    "path" : ".",
+    "dependencies" : [],
+    "metadata" : {
+        "author" : "XspeedPL",
+        "description" : "Realistic Overhaul of the Pet System",
+        "version" : "1.9.5"
+    }
+}

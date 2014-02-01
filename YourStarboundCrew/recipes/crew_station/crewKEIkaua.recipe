@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "crewKEIpahi", "count" : 1 },
+	{ "item" : "moltencore", "count" : 3 },
+	{ "item" : "processor", "count" : 2 },
+	{ "item" : "dragonbone", "count" : 1 },
+    { "item" : "money", "count" : 2000 }
+  ],
+  "output" : { "item" : "crewKEIkaua", "count" : 1 },
+  "groups" : [ "crew_station" ]
+}

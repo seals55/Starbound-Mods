@@ -1,0 +1,39 @@
+{
+  "objectName" : "crew_crewstation",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crew_spawner.config",
+    "filter" : [ "crew_station" ]
+  },
+  "printable" : false,
+  "description" : "Gain access to the members of your crew.",
+  "shortdescription" : "Your Crew Station",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "I can craft my crew here.",
+  "avianDescription" : "This will allow me to craft spawners.",
+  "floranDescription" : "Floran wantsss crew!",
+  "glitchDescription" : "Statement. With this, I can craft crew members.",
+  "humanDescription" : "Cool, I get to command a bunch of aliens.",
+  "hylotlDescription" : "It will be honorable to be a captain.",
+
+  "inventoryIcon" : "crewcreationstationicon.png",
+
+  "orientations" : [
+    {
+      "dualImage" : "crewcreationstation.png:<color>.<frame>",
+
+      "imagePosition" : [-8, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

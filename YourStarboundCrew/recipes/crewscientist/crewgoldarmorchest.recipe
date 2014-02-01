@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 38 },
+    { "item" : "goldarmorchest", "count" : 1 },
+    { "item" : "money", "count" : 1600 }
+  ],
+  "output" : { "item" : "crewgoldarmorchest", "count" : 1 },
+  "groups" : [ "crewscientist" ]
+}

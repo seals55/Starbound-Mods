@@ -1,0 +1,16 @@
+{
+  "projectileName" : "rehealproj",
+  "frames" : "rehealproj.png",
+  "animationCycle" : 0.2,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 4,
+  "level" : 3,
+  "power" : 0.01,
+  "speed" : 70,
+  "timeToLive" : 0.2,
+  "bounces" : 1,
+  "damagePoly" : [ [0, -8], [16, -8], [16, 8], [0, 8] ],
+  "damageKind" : "reheal",
+  "piercing" : false,
+  "universalDamage" : true
+}

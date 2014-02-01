@@ -1,0 +1,15 @@
+{
+  "name" : "crewKEImakaniII",
+  "icon" : [ ],
+  "bonusArmor" : 7.5,
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "hawkeyes", "amount" : 3.0 },
+	{ "kind" : "reducefalldamage", "amount" : 1.5 },
+	{ "kind" : "swimboost", "amount" : 2.5 },
+	{ "kind" : "coldprotection", "amount" : 20.0 },
+	{ "kind" : "breathprotection", "amount" : 4.0 },
+	{ "kind" : "crewspeedperk2" }
+  ]
+  
+}

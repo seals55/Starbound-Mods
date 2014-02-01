@@ -1,0 +1,6 @@
+{
+  "name" : "Pilchenstein's Laser Furnace",
+  "version" : "Beta v. Furious Koala",
+  "path" : "pilch_laserfurnace",
+  "dependencies" : ["Pilchenstein's Science Station"]
+}

@@ -1,0 +1,31 @@
+{
+  "itemName" : "shamyiswrath",
+  "inventoryIcon" : "wrathicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : " ",
+  "shortdescription" : "Shamyi's Wrath",
+  "image" : "bowfull.png:<frame>",
+  "imageFrameSelector" : "bowImageSelector",
+  "handPosition" : [-4, -3],
+  "firePosition" : [-10, 2],
+  "level" : 100,
+  "fireTime" : 0.70,
+  "twoHanded" : false,
+
+  "fireOnRelease" : false,
+  "walkWhileFiring" : true,
+
+  "projectileType" : "shuriken",
+  "projectile" : {
+    "speed" : 85,
+    "power" : 9001,
+    "color" : [10, 255, 10]
+  },
+
+    "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/bow_loose.wav" } ]
+
+  }
+}

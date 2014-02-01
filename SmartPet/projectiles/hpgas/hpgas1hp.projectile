@@ -1,0 +1,22 @@
+{
+  "projectileName" : "hpgas1hp",
+  "frames" : "hpgas.png",
+  "physics" : "eyecandy",
+  "level" : 3,
+  "animationCycle" : 1.4,
+  "frameNumber" : 1,
+  "power" : 0.001,
+  "speed" : 1,
+  "timeToLive" : 0.01,
+ "piercing" : true,
+  "statusEffects" : [
+    {
+      "kind" : "1hp",
+      "amount" : 1
+    }
+  ],
+  "universalDamage" : true,
+  "orientationLocked" : true,
+  "damageType" : "ignoresdef",
+  "damageKind" : "default"
+}

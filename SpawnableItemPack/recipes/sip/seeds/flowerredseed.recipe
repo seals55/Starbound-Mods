@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "flowerredseed",
+    "count" : 1
+  },
+  "groups" : [ "spinningwheel", "sipseeds" ]
+}

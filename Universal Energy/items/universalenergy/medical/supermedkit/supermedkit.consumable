@@ -1,0 +1,14 @@
+{
+  "itemName" : "supermedkit",
+  "rarity" : "Rare",
+  "inventoryIcon" : "supermedkit.png",
+  "description" : "A one-use medkit with vastly superior healing technology.",
+  "shortdescription" : "Super Med Kit",
+  "effects" : [ [
+      {
+        "kind" : "health",
+        "amount" : 200
+      }
+    ] ],
+  "emote" : ""
+}

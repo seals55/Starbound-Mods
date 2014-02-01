@@ -1,0 +1,12 @@
+{
+  "name" : "crewKEIaku",
+  "icon" : [ ],
+  "bonusArmor" : 5.0,
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "breathprotection", "amount" : 0.8 },
+	{ "kind" : "fooddepletionsuppressed", "amount" : 0.5 },
+	{ "kind" : "absorption", "amount" : 10 }
+  ]
+  
+}

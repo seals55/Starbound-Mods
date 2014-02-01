@@ -1,0 +1,16 @@
+{
+  "itemName" : "crewbluestim2",
+  "rarity" : "rare",
+  "inventoryIcon" : "bluestim.png",
+  "description" : "A stimpack full of really bright blue liquid",
+  "shortdescription" : "Strong Blue Stim Pack",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "kind" : "jumpboostinitiator",
+        "amount" : 1.8
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

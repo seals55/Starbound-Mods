@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "crewKEIhealth", "count" : 1 },
+    { "item" : "alienmeat", "count" : 15 },
+	{ "item" : "medkit", "count" : 5 },
+	{ "item" : "nanowrap", "count" : 10 },
+	{ "item" : "bandage", "count" : 15 },
+    { "item" : "money", "count" : 1000 }
+  ],
+  "output" : { "item" : "crewKEIhealthII", "count" : 1 },
+  "groups" : [ "crew_station" ]
+}

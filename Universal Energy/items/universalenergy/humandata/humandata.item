@@ -1,0 +1,7 @@
+{
+  "itemName" : "humantech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "humandata.png",
+  "description" : "A memory chip storing a data fragment. Once you have 15, the supercomputer can compile them.",
+  "shortdescription" : "Data Fragment - Human"
+}

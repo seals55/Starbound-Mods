@@ -1,0 +1,22 @@
+{
+  "projectileName" : "forcegrenade",
+  "physics" : "grenadezbomb",
+  "bounces" : 0,
+  "level" : 3,
+  "timeToLive" : 8,
+  "frames" : "forcegrenade.png",
+  "animationCycle" : 0.4,
+  "lightColor" : [253, 160, 57],
+  "frameNumber" : 8,
+  "actionOnReap" : [
+    {
+      "action" : "spawnmonster",
+      "type" : "forcefieldbot"
+    }
+  ],
+  "power" : 60,
+  "damageType" : "hitTest",
+  "damageKind" : "default",
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "emitters" : [ "sparks" ]
+}

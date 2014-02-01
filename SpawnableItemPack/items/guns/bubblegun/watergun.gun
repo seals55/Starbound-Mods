@@ -1,0 +1,22 @@
+{
+  "itemName" : "watergun",
+  "inventoryIcon" : "bubblegunIcon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Silver's Super Soaker, don't grief with it!",
+  "shortdescription" : "SSS - Water Gun",
+  "image" : "bubblegun.png",
+  "handPosition" : [-3.5, -1],
+  "firePosition" : [20, 1.5],
+
+  "fireTime" : 0.0001,
+  "twoHanded" : false,
+
+  "projectileType" : "waterballoon",
+  "projectile" : {
+    "speed" : 60,
+    "power" : 0,
+    "color" : [10, 255, 10]
+  }
+}

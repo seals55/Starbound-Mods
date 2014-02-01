@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "rawbacon", "count" : 1 },
+    { "item" : "meatchunks", "count" : 1 },
+    { "item" : "rawribmeat", "count" : 1 }
+  ],
+  "output" : { "item" : "meatwich", "count" : 2 },
+  "groups" : [ "crewchef", "all", "other" ]
+}

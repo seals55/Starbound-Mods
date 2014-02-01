@@ -1,0 +1,7 @@
+{
+  "itemName" : "imperfectlygenericitem",
+  "rarity" : "Common",
+  "inventoryIcon" : "imperfectlygenericitem.png",
+  "description" : "It's an imperfectly generic item, perhaps this one didn't stay in the oven long enough...",
+  "shortdescription" : "Imperfectly Generic Item"
+}

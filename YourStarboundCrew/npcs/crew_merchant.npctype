@@ -1,0 +1,697 @@
+{
+  "type" : "crew_merchant",
+  
+  "damageTeam" : 1,
+  
+  "levelVariance" : [0, 0],
+
+  "disableWornArmor" : true,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/chatState.lua",
+    "/npcs/fleeState.lua",
+    "/npcs/sitState.lua",
+    "/npcs/sleepState.lua",
+    "/npcs/standingIdleState.lua",
+    "/npcs/wanderState.lua",
+
+    "/npcs/merchant/merchantState.lua",
+    "/npcs/merchant/returnToStoreState.lua"
+  ],
+  "scriptDelta" : 5,
+  "scriptConfig" : {
+    "idleTimeRange" : [2.0, 10.0],
+
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : 8,
+
+      "dialog" : {
+        "start" : {
+			"default" : [
+				"How's it going, captain?",
+				"Pleasure to be on your ship, captain.",
+				"Anything I can help you with, captain?"
+			],
+		  
+			"apex" : {
+				"default" : [
+					"What can I sell you? Be quick about it.",
+					"My store accepts pixels and BigCoins.",
+					"By my beard, a customer!",
+					"Please don't sell me anything that will get me arrested."
+				]
+			},
+			
+			"avian" : {
+				"default" : [
+					"Welcome, traveller. What can I sell you?",
+					"You wouldn't happen to have a pair of wings on you, would you?",
+					"Hey there. See anything you like?",
+					"Just a warning, we don't accept Avos money."
+				]
+			},
+			
+			"floran" : {
+				"default" : [
+					"Floran welcomesss you to store. Hopes you buy thingsss.",
+					"You breaksss it, you buysss it.",
+					"Floran wantsss pixelsss."
+				],
+				"hylotl" : [
+					"Hylotl is not welcome at ssstore. Buy thingsss anyway.",
+					"Floran hopesss that Hylotl buys fast.",
+					"Does fishman wish to give Floran pixelsss?"
+				]
+			},
+			
+			"glitch" : {
+				"default" : [
+					"Friendly. Welcome to my store.",
+					"Cozening. You know you want to buy everything!",
+					"Reminder. Destroying merchandise is discouraged."
+				],
+				"floran" : [
+					"Warning. Attempting to eat merchandise will result in expulsion.",
+					"Stern. Try not to destroy the store, please.",
+					"Reminder. I will not buy \"spare Glitch parts\"."
+				]
+			},
+			
+			"hylotl" : {
+				"default" : [
+					"Welcome, stranger! Marvel at my goods. Weep at their glory.",
+					"My goods are amazing. I'd give you some for free, but I like money.",
+					"The design of my goods surpasses that of any other race!",
+					"Look at my merchandise. It's mind-blowing, I know.",
+					"You can have any of this for just a few small payments of pixels!"
+				],
+				"floran" : [
+					"Oh dear, it's a Floran... just try not to break anything.",
+					"I'll tell you upfront, most of our merchandise isn't edible.",
+					"You break it, you buy it. I'm going to be a rich Hylotl in five minutes...",
+					"Ugh. Do you even deserve to be allowed to purchase this fine art?"
+				]
+			}	
+		
+        },
+        "end" : {
+            "default" : [
+					"See ya next time, captain!",
+					"Hope I helped out.",
+					"Apologies I can't give this away for free.",
+					"Good luck down on the planet, captain.",
+					"Thanks for visiting.",
+					"Great to see you, sir!"
+				],
+			"glitch" : {
+				"default" : [
+					"Content. Please come again.",
+					"Pleased. Thank you for your patronage.",
+					"Disappointed. You're not going to buy more?",
+					"Melancholy. Until next time, customer."
+					]
+				},
+			"floran" : {
+				"default" : [
+					"Floran want customer to ssspend more!",
+					"Floran sssay goodbye to moneybags.",
+					"Floran like buy sssell.",
+					"Floran pleased with transssaction."
+					]
+				}
+          	}
+       
+	},
+
+      "categories" : [ "randomguns", "randomswords" ],
+      "priceVarianceRange" : [0.75, 1.25],
+      "numItems" : 10,
+
+      "items" : {
+		"test" : [
+          [0, [
+			{ "item" : { "name" : "humantier2head", "data" : { "colorIndex" : 1 } }, "cost" : 100, "rarity" : 0.5 },
+			{ "item" : { "name" : "humantier2head", "data" : { "colorIndex" : 6 } }, "cost" : 100, "rarity" : 0.5 },
+            { "item" : { "name" : "humantier2head", "data" : { "colorIndex" : 4 } }, "cost" : 100, "rarity" : 0.5 },
+			{ "item" : { "name" : "humantier2head", "data" : { "colorIndex" : 8 } }, "cost" : 100, "rarity" : 0.5 }
+          ]]
+        ],
+		
+		  
+		  "crewmatemerchant" : [
+          [0, [
+            { "item" : { "name" : "crewhumancoordsCodex" }, "cost" : 10 },
+            { "item" : { "name" : "crewapexcoordsCodex" }, "cost" : 10 },
+			{ "item" : { "name" : "crewaviancoordsCodex" }, "cost" : 10 },
+			{ "item" : { "name" : "crewflorancoordsCodex" }, "cost" : 10 },
+			{ "item" : { "name" : "crewglitchcoordsCodex" }, "cost" : 10 },
+			{ "item" : { "name" : "crewhumancoords2Codex" }, "cost" : 20 },
+            { "item" : { "name" : "crewapexcoords2Codex" }, "cost" : 20 },
+			{ "item" : { "name" : "crewaviancoords2Codex" }, "cost" : 20 },
+			{ "item" : { "name" : "crewflorancoords2Codex" }, "cost" : 20 },
+			{ "item" : { "name" : "crewglitchcoords2Codex" }, "cost" : 20 },
+			{ "item" : { "name" : "grapplinghook" }, "cost" : 250 },
+			{ "item" : { "name" : "crewKEIKEI" }, "cost" : 150 },
+			{ "item" : { "name" : "crewfirstgun" }, "cost" : 350 },
+			{ "item" : { "name" : "crewshiplocker" }, "cost" : 3000 },
+			{ "item" : { "name" : "crewescapepod" }, "cost" : 300 },
+			{ "item" : { "name" : "crew_crewstation" }, "cost" : 10 },
+			{ "item" : { "name" : "crewbountysystem" }, "cost" : 450 },
+			{ "item" : { "name" : "crewdogbowl" }, "cost" : 500 },
+            { "item" : { "name" : "crewhylotlcoordsCodex" }, "cost" : 10 }
+          ]]
+		  ],
+		  
+		  "crewhuntermerchant" : [
+          [0, [
+			{ "item" : { "name" : "crewhunterspet" }, "cost" : 100 },
+			{ "item" : { "name" : "crewmonsterbeacon" }, "cost" : 200 },
+            { "item" : { "name" : "ironbow" }, "cost" : 100 },
+			{ "item" : { "name" : "leather" }, "cost" : 150 },
+			{ "item" : { "name" : "throwingkunai" }, "cost" : 100 },
+			{ "item" : { "name" : "hivebomb" }, "cost" : 100 },
+			{ "item" : { "name" : "jumpbomb" }, "cost" : 100 },
+			{ "item" : { "name" : "javelin" }, "cost" : 75 },
+			{ "item" : { "name" : "floranpelt5" }, "cost" : 75 },
+			{ "item" : { "name" : "floranpelt3" }, "cost" : 75 },
+			{ "item" : { "name" : "huntingtrophy1" }, "cost" : 400 },
+			{ "item" : { "name" : "huntingtrophy2" }, "cost" : 400 },
+			{ "item" : { "name" : "shuriken" }, "cost" : 125 }
+          ]]
+		  ],
+
+		  
+		  "crewchefmerchant" : [
+          [0, [
+            { "item" : { "name" : "crewchefsoven" }, "cost" : 100 },
+			{ "item" : { "name" : "kitchentools" }, "cost" : 100 },
+			{ "item" : { "name" : "wheatseed" }, "cost" : 20 },
+			{ "item" : { "name" : "potato" }, "cost" : 10 },
+			{ "item" : { "name" : "avesmingo" }, "cost" : 10 },
+			{ "item" : { "name" : "wheat" }, "cost" : 10 },
+			{ "item" : { "name" : "crewbonsaigreen" }, "cost" : 400 },
+			{ "item" : { "name" : "crewbonsaired" }, "cost" : 400 },
+			{ "item" : { "name" : "banana" }, "cost" : 10 },
+			{ "item" : { "name" : "sugar" }, "cost" : 10 },
+			{ "item" : { "name" : "pussplum" }, "cost" : 10 },
+			{ "item" : { "name" : "applepie" }, "cost" : 200 },
+			{ "item" : { "name" : "rice" }, "cost" : 10 },
+			{ "item" : { "name" : "cake" }, "cost" : 100 },
+			{ "item" : { "name" : "crewchickencoop" }, "cost" : 800 },
+			{ "item" : { "name" : "corn" }, "cost" : 10 },
+			{ "item" : { "name" : "milk" }, "cost" : 10 },
+			{ "item" : { "name" : "rawbacon" }, "cost" : 20 }
+          ]]
+		  ],
+		  
+		  "crewdoctormerchant" : [
+          [0, [
+            { "item" : { "name" : "redstim" }, "cost" : 150 },
+			{ "item" : { "name" : "bluestim" }, "cost" : 100 },
+			{ "item" : { "name" : "yellowstim" }, "cost" : 100 },
+			{ "item" : { "name" : "greenstim" }, "cost" : 100 },
+			{ "item" : { "name" : "healthbomb" }, "cost" : 200 },
+			{ "item" : { "name" : "bandage" }, "cost" : 90 },
+			{ "item" : { "name" : "hylotlcalligraphy1" }, "cost" : 90 },
+			{ "item" : { "name" : "hylotlcalligraphy3" }, "cost" : 90 },
+			{ "item" : { "name" : "hylotlcalligraphy2" }, "cost" : 90 },
+			{ "item" : { "name" : "hylotllilyclock" }, "cost" : 90 },
+			{ "item" : { "name" : "medkit" }, "cost" : 300 },
+			{ "item" : { "name" : "crewhealinghintsCodex" }, "cost" : 5 },
+			{ "item" : { "name" : "crewdoctorssign" }, "cost" : 100 }
+          ]]
+		  ],
+		  
+		  "crewsciencemerchant" : [
+          [0, [
+            { "item" : { "name" : "crewscientistscomp" }, "cost" : 100 },
+            { "item" : { "name" : "glowbomb" }, "cost" : 200 },
+			{ "item" : { "name" : "gasgrenade" }, "cost" : 150 },
+			{ "item" : { "name" : "plasmagrenade" }, "cost" : 300 },
+			{ "item" : { "name" : "crewmerchantnetwork" }, "cost" : 300 },
+			{ "item" : { "name" : "microscope" }, "cost" : 300 },
+			{ "item" : { "name" : "apexlocker" }, "cost" : 300 },
+			{ "item" : { "name" : "apextablelamp" }, "cost" : 200 },
+			{ "item" : { "name" : "brainextractor" }, "cost" : 1000 },
+			{ "item" : { "name" : "electrogrenade" }, "cost" : 2000 }
+          ]]
+		  ],
+		  
+		  "crewmechanicmerchant" : [
+          [0, [
+            { "item" : { "name" : "crewmechanicsanvil" }, "cost" : 100 },
+            { "item" : { "name" : "copperpickaxe" }, "cost" : 350 },
+			{ "item" : { "name" : "bomb" }, "cost" : 150 },
+			{ "item" : { "name" : "throwingboulder" }, "cost" : 150 },
+			{ "item" : { "name" : "flare" }, "cost" : 30 },
+			{ "item" : { "name" : "rope" }, "cost" : 40 },
+			{ "item" : { "name" : "silverpickaxe" }, "cost" : 500 },
+			{ "item" : { "name" : "goldpickaxe" }, "cost" : 750 },
+			{ "item" : { "name" : "painttool" }, "cost" : 800 },
+            { "item" : { "name" : "wiretool" }, "cost" : 800 }
+          ]]
+		  ],
+		  
+		  "crewloremerchant" : [
+          [0, [
+            { "item" : { "name" : "GlitchoriginsCodex" }, "cost" : 60 },
+			{ "item" : { "name" : "glitchnotesCodex" }, "cost" : 60 },
+			{ "item" : { "name" : "humanoriginsCodex" }, "cost" : 60 },
+			{ "item" : { "name" : "humanescapeCodex" }, "cost" : 60 },
+			{ "item" : { "name" : "avianoriginsCodex" }, "cost" : 60 },
+			{ "item" : { "name" : "aviannotesCodex" }, "cost" : 60 },
+			{ "item" : { "name" : "apexoriginsCodex" }, "cost" : 60 },
+			{ "item" : { "name" : "apexpleaCodex" }, "cost" : 60 },
+			{ "item" : { "name" : "floranoriginsCodex" }, "cost" : 60 },
+			{ "item" : { "name" : "hylotloriginsCodex" }, "cost" : 60 },
+			{ "item" : { "name" : "crewexplorationtipsCodex" }, "cost" : 5 },
+			{ "item" : { "name" : "crewyourcrewstoryCodex" }, "cost" : 600 },
+			{ "item" : { "name" : "phoenixemblem" }, "cost" : 450 },
+            { "item" : { "name" : "crewbasichintsCodex" }, "cost" : 5 }
+          ]]
+		  ],
+		  
+		
+		"musicalinstruments" : [
+          [0, [
+            { "item" : { "name" : "accordion" }, "cost" : 500 },
+			{ "item" : { "name" : "acousticguitar" }, "cost" : 350 },
+			{ "item" : { "name" : "banjo" }, "cost" : 350 },
+			{ "item" : { "name" : "bassguitar" }, "cost" : 350 },
+			{ "item" : { "name" : "bones" }, "cost" : 350 },
+			{ "item" : { "name" : "clarinet" }, "cost" : 500 },
+			{ "item" : { "name" : "drumkit" }, "cost" : 500 },
+			{ "item" : { "name" : "dulcimer" }, "cost" : 500 },
+			{ "item" : { "name" : "electricbass" }, "cost" : 500 },
+			{ "item" : { "name" : "flute" }, "cost" : 450 },
+			{ "item" : { "name" : "harmonica" }, "cost" : 350 },
+			{ "item" : { "name" : "harp" }, "cost" : 600 },
+			{ "item" : { "name" : "koto" }, "cost" : 500 },
+			{ "item" : { "name" : "leadguitar" }, "cost" : 600 },
+			{ "item" : { "name" : "microphone" }, "cost" : 400 },
+			{ "item" : { "name" : "musicbox" }, "cost" : 450 },
+			{ "item" : { "name" : "nylonguitar" }, "cost" : 350 },
+			{ "item" : { "name" : "oboe" }, "cost" : 600 },
+			{ "item" : { "name" : "ocarina" }, "cost" : 500 },
+			{ "item" : { "name" : "overdriveguitar" }, "cost" : 600 },
+			{ "item" : { "name" : "piano" }, "cost" : 600 },
+			{ "item" : { "name" : "reedorgan" }, "cost" : 350 },
+			{ "item" : { "name" : "rockorgan" }, "cost" : 450 },
+			{ "item" : { "name" : "saxophone" }, "cost" : 500 },
+			{ "item" : { "name" : "steeldrum" }, "cost" : 450 },
+			{ "item" : { "name" : "trumpet" }, "cost" : 600 },
+			{ "item" : { "name" : "violin" }, "cost" : 600 }
+          ]]
+        ]
+      }
+    },
+
+    "returnToStore" : {
+      "waitTime" : 10,
+      "waitTargetDistance" : 10,
+
+      "dialog" : {
+        "follow" : {
+          "default" : [
+            "Follow me back to my store",
+            "Come in; come in; and see what I've got!"
+          ]
+        },
+        "welcome" : {
+          "default" : [
+            "Welcome to my store!",
+            "Here we are; now what can I do ya for?"
+          ]
+        },
+        "tout" : {
+          "default" : [
+            "Get all your good here!",
+            "Everything you need, right here.",
+            "Hey you, come check out my goods!",
+            "Best deals around!",
+            "You won't find these goods anywhere else!",
+            "Cheap buys!!!"
+          ],
+		  "apex" : {
+				"default" : [
+					"What can I sell you? Be quick about it.",
+					"My store accepts pixels and BigCoins.",
+					"By my beard, a customer!",
+					"Please don't sell me anything that will get me arrested."
+				]
+			},
+			
+			"avian" : {
+				"default" : [
+					"Welcome, traveller. What can I sell you?",
+					"Buy or sell!",
+					"Hey there. See anything you like?",
+					"Just a warning, we don't accept Avos money."
+				]
+			},
+			
+			"floran" : {
+				"default" : [
+					"Floran welcomesss you to store. Hopes you buy thingsss.",
+					"You breaksss it, you buysss it.",
+					"Floran wantsss pixelsss."
+				],
+				"hylotl" : [
+					"Hylotl is not welcome at ssstore. Buy thingsss anyway.",
+					"Floran hopesss that Hylotl buys fast.",
+					"Does fishman wish to give Floran pixelsss?"
+				]
+			},
+			
+			"glitch" : {
+				"default" : [
+					"Friendly. Welcome to my store.",
+					"Cozening. You know you want to buy everything!",
+					"Reminder. Destroying merchandise is discouraged."
+				],
+				"floran" : [
+					"Warning. Attempting to eat merchandise will result in expulsion.",
+					"Stern. Try not to destroy the store, please.",
+					"Reminder. I will not buy \"spare Glitch parts\"."
+				]
+			},
+			
+			"hylotl" : {
+				"default" : [
+					"Welcome, stranger! Marvel at my goods. Weep at their glory.",
+					"My goods are amazing. I'd give you some for free, but I like money.",
+					"The design of my goods surpasses that of any other race!",
+					"Look at my merchandise. It's mind-blowing, I know.",
+					"You can have any of this for just a few small payments of pixels!"
+				],
+				"floran" : [
+					"Oh dear, it's a Floran... just try not to break anything.",
+					"I'll tell you upfront, most of our merchandise isn't edible.",
+					"You break it, you buy it. I'm going to be a rich Hylotl in five minutes...",
+					"Ugh. Do you even deserve to be allowed to purchase this fine art?"
+				]
+					
+		
+          }
+        }
+      }
+    },
+
+    "flee" : {
+      "reactionTimeRange" : [0.2, 1.0],
+      "safeDistance" : 100,
+      "safeDistanceWithGuards" : 40,
+      "safeTimer" : 10,
+      "stuckTime" : 4,
+      "stuckCooldown" : 10,
+      "dialogTimeRange" : [4, 10],
+
+      "dialog" : {
+        "helpme" : {
+          "default" : [
+            "Guards! Help me!",
+            "Help! Guards! Help!",
+            "Guards! I've been accosted!"
+          ],
+          "glitch" : [
+            "Fear. Guards! Help me!",
+            "Intimidated. Please don't hurt me!",
+            "Abused. Guards! I've been accosted!",
+            "Afraid. Get away from me! Guards!",
+            "Terrified. Save me!",
+            "Shocked. No! Get away from me!"
+          ]
+        },
+        "helpthem" : {
+          "default" : [
+            "What have you done!?"
+          ],
+          "glitch" : [
+            "Fear. Guards!",
+            "Intimidated. Please don't hurt me!",
+            "Afraid. Leave me be! Guards!",
+            "Terrified. Save me!",
+            "Shocked. What have you done?!"
+          ]
+        },
+        "encourage" : {
+          "default" : [
+            "Get 'em!",
+            "Avenge me!",
+            "Stick 'em once for me!",
+            "Don't let 'em get away!"
+          ],
+          "glitch" : [
+            "Encourage. Put 'em to the sword!",
+            "Excitement. Avenge me!",
+            "Aggressive. Strike him down!",
+            "Vengeful. Don't let 'em get away!"
+          ]
+        },
+        "safe" : {
+          "default" : [
+            "Phew, I think I got away.",
+            "I've escaped with my life!",
+            "Is this the safe zone?"
+          ],
+          "glitch" : [
+            "Relieved. Phew, I think I got away.",
+            "Thankful. I've escaped with my life!",
+            "Wishful. If only I could afford a keep.",
+            "Hopeful. Am I safe?",
+            "Embarrassed. I think I leaked a little oil."
+          ]
+        }
+      }
+    },
+
+    "sit" : {
+      "timeOfDayRanges" : [ [0.6, 1.0], [0.0, 0.2] ],
+      "moveTimeLimit" : 30,
+      "searchRadius" : 25,
+      "sitRadius" : 3,
+      "cooldown" : 60,
+      "timeRange" : [ 15, 240 ]
+    },
+
+    "sleep" : {
+      "searchRadius" : 15,
+      "lieDownRadius" : 3,
+      "moveToBedTimeLimit" : 10.0,
+      "timeOfDayRanges" : [ [ [ 0.7, 0.75 ], [ 0.95, 1.0 ] ] ],
+      "cooldown" : 30
+    },
+
+    "wander" : {
+      "timeRange" : [2.0, 10.0],
+      "chatDistance" : 4,
+      "indoorTimeOfDayRanges" : [ [0.0, 0.2], [0.5, 1.0] ],
+      "indoorSearchRadius" : 60,
+      "indoorLookaheadDistance" : 4,
+      "moveToTargetTime" : 10.0,
+      "changeDirectionCooldown" : 2,
+      "dropDownChance" : 5,
+      "cooldown" : 10,
+      "maxDistanceFromSpawnPoint" : 10
+    },
+
+    "chat" : {
+      "distanceRange" : [ 2.0, 4.0 ],
+      "conversations" : [
+        [
+          [ 2, "blabbering", "idle" ],
+          [ 1, "idle", "laugh" ],
+          [ 2, "idle", "blabbering" ],
+          [ 1, "sad", "idle" ]
+        ],
+        [
+          [ 2, "idle", "blabbering" ],
+          [ 2, "blabbering", "happy" ],
+          [ 1, "wink", "laugh" ],
+          [ 2, "happy", "happy" ]
+        ],
+        [
+          [ 2, "idle", "blabbering" ],
+          [ 2, "blabbering", "blabbering" ],
+          [ 2, "blabbering", "angry" ],
+          [ 3, "shout", "shout" ],
+          [ 2, "angry", "angry" ]
+        ]
+      ],
+      "cooldown" : 10
+    }
+  },
+
+  "items" : {
+    "human" : [
+      [0, [
+        {
+          "chest" : [ "sweatervestchest", "conceptchest", "coolchest", "workoutchest" ],
+          "legs" : [ "conceptlegs", "coollegs", "workoutlegs" ]
+        }
+      ]]
+    ],
+    "avian" : [
+      [0, [
+        {
+          "chest" : [ "avianadventurershirt", "aviancommonershirt", "avianfancyshirt", "avianworkershirt" ],
+          "legs" : [ "avianadventurerpants", "aviancommonerlegs", "avianfancyskirt" ]
+        }
+      ]]
+    ],
+    "apex" : [
+      [0, [
+        {
+          "chest" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket" ],
+          "legs" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ]
+        }
+      ]]
+    ],
+    "floran" : [
+      [0, [
+        {
+          "chest" : [ "floranfurnivourchest", "floranhunterchest", "floranleafchest", "floranpeltchest" ],
+          "legs" : [ "floranfurnivourlegs", "floranhunterlegs", "floranleaflegs", "floranpeltlegs" ]
+        }
+      ]]
+    ],
+    "glitch" : [
+      [0, [
+		  {
+            "chest" : [
+              { "name" : "craftsmenchest", "data" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "craftsmenlegs", "data" : { "colorIndex" : 1 } }
+            ]
+          },
+          {
+            "chest" : [
+              { "name" : "craftsmenchest", "data" : { "colorIndex" : 4 } }
+            ],
+            "legs" : [
+              { "name" : "craftsmenlegs", "data" : { "colorIndex" : 4 } }
+            ]
+          },
+          {
+            "chest" : [
+              { "name" : "craftsmenchest", "data" : { "colorIndex" : 5 } }
+            ],
+            "legs" : [
+              { "name" : "craftsmenlegs", "data" : { "colorIndex" : 5 } }
+            ]
+          },
+          {
+            "chest" : [
+              { "name" : "craftsmenchest", "data" : { "colorIndex" : 6 } }
+            ],
+            "legs" : [
+              { "name" : "craftsmenlegs", "data" : { "colorIndex" : 6 } }
+            ]
+          },
+          {
+            "chest" : [
+              { "name" : "craftsmenchest", "data" : { "colorIndex" : 7 } }
+            ],
+            "legs" : [
+              { "name" : "craftsmenlegs", "data" : { "colorIndex" : 7 } }
+            ]
+          },
+          {
+            "chest" : [
+              { "name" : "craftsmenchest", "data" : { "colorIndex" : 8 } }
+            ],
+            "legs" : [
+              { "name" : "craftsmenlegs", "data" : { "colorIndex" : 8 } }
+            ]
+          },
+          {
+            "chest" : [
+              { "name" : "craftsmenchest", "data" : { "colorIndex" : 9 } }
+            ],
+            "legs" : [
+              { "name" : "craftsmenlegs", "data" : { "colorIndex" : 9 } }
+            ]
+          }
+      ]]
+    ],
+    "hylotl" : [
+      [0, [
+        {
+          "chest" : [ "kimonochest", "monkchest", "traditionalchest", "traineechest" ],
+          "legs" : [ "kimonolegs", "monklegs", "traditionallegs", "traineelegs" ]
+        }
+      ]]
+    ]
+  },
+
+  "movementControllerSettings" : {
+    "standingPoly" : [ [-0.75, -2.0], [-0.35, -2.5], [0.35, -2.5], [0.75, -2.0], [0.75, 0.65], [0.35, 1.22], [-0.35, 1.22], [-0.75, 0.65] ],
+    "crouchingPoly" : [ [-0.75, -2.0], [-0.35, -2.5], [0.35, -2.5], [0.75, -2.0], [0.75, -0.5], [0.35, 0], [-0.35, 0], [-0.75, -0.5] ],
+
+    "mass" : 0.6,
+    "jumpSpeed" : 24.0
+  },
+
+  "humanoidTiming" : {
+    // Idle, Walk, Run, Jump, Fall, Swim, SwimIdle, Duck, Sit, Lay
+    "stateCycle" : [1.0, 0.75, 0.75, 0.25, 0.25, 0.50, 0.50, 1.0, 1.0, 1.0],
+    "stateFrames" : [1, 8, 8, 4, 4, 7, 2, 1, 1, 1],
+
+    // EmoteIdle, Blabbering, Shouting, Happy, Sad, NEUTRAL, Laugh, Annoyed, Oh, OOOH, Blink, Wink, Eat, Sleep
+    //          , normal    , caps    , :)   , :'(, :|     , :D   ,        , :o, :O  ,      , ;)
+    "emoteCycle" : [1.0, 0.3, 0.3, 0.3, 1.0, 0.3, 0.5, 1.0, 1.0, 1.0, 1.0, 0.5, 0.3, 1],
+    "emoteFrames" : [1, 2, 2, 2, 5, 2, 2, 2, 2, 3, 3, 5, 2, 2]
+  },
+    
+  "dropPools" : [ "basicMonsterTreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 40,
+    "baseMaxEnergy" : 20,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0
+  },
+  
+  "persistent" : true,
+
+  "splashConfig" : {
+    "splashSpeedMin" : 10.0,
+    "splashMinWaterLevel" : 0.4,
+    "splashBottomSensor" : [0, -2.0],
+    "splashTopSensor" : [0, 2.0],
+    "numSplashParticles" : 8,
+    "splashYVelocityFactor" : 0.2,
+
+    "splashParticle" : {
+      "type" : "ember",
+      "position" : [0, -1],
+      "finalVelocity" : [0, -20],
+      "approach" : [0, 50],
+      "color" : [60, 150, 224, 100],
+      "size" : 4.0,
+      "timeToLive" : 0.5,
+      "destructionAction" : "shrink",
+      "destructionTime" : 0.2
+    },
+
+    "splashParticleVariance" : {
+      "velocity" : [10, 0]
+    }
+  }
+}

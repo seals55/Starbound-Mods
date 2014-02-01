@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1000 }
+  ],
+  "output" : { "item" : "deathstick", "count" : 1 },
+  "groups" : [ "crewmerchant" ]
+}

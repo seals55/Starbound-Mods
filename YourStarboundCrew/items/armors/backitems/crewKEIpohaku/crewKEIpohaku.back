@@ -1,0 +1,33 @@
+{
+  "itemName" : "crewKEIpohaku",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "rare",
+  "description" : "Lepo has evolved! Pohaku is brighter and protects you from the colder parts of the underground.",
+  "shortdescription" : "Pohaku",
+
+  "augments" : [
+    {
+      "name" : "crewKEIakuII"
+    }
+  ],
+  
+  "statusEffects" : [
+    {
+      "kind" : "glow",
+      "amount" : 1.5
+    },
+	
+	{
+      "kind" : "ColdProtection",
+      "amount" : 25.0
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png",
+  "learnBlueprintsOnPickup" : [
+    "crewKEIaku"
+  ]
+}

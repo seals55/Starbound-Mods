@@ -1,0 +1,14 @@
+{
+  "itemName" : "crewdoctormedkit",
+  "rarity" : "legendary",
+  "inventoryIcon" : "medkit.png",
+  "description" : "Dr. Spongewaltzer's own recipe!",
+  "shortdescription" : "Amazing Medical Kit",
+  "effects" : [ [
+      {
+        "kind" : "health",
+        "amount" : 1750
+      }
+    ] ],
+  "emote" : ""
+}

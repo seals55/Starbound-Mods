@@ -1,0 +1,73 @@
+{
+  "objectName" : "crewholedrill",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  
+  "isInteractive" : true,
+  
+  "description" : "Drills a deep hole.",
+  "shortdescription" : "Copper Hole Drill",
+  "race" : "generic",
+  "category" : "wire",
+
+  "apexDescription" : "A drill on a rope. A masterpiece in engineering.",
+  "avianDescription" : "Your drill is the drill that will pierce the heavens.",
+  "floranDescription" : "Only weaklingsss need hidey holesss",
+  "glitchDescription" : "Unimpressed. Is this thing even sentient?",
+  "humanDescription" : "It looks like it might break down any minute.",
+  "hylotlDescription" : "Let's hope there's water down there to break my fall.",
+
+  "inventoryIcon" : "crewholedrillicon.png",
+  "orientations" : [
+    {
+      "image" : "crewholedrillplace.png",
+      "imagePosition" : [0, 0],
+      "spaces": [ [0, 0], [3, 0], [0, 1], [1, 1], [2, 1], [3, 1], [0, 2], [1, 2], [2, 2], [3, 2], [0, 3], [1, 3], [2, 3], [3, 3] ],
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    }
+  ],
+  
+  "animation" : "crewholedrill.animation",
+  "animationParts" : {
+    "rack" : "crewrack.png",
+    "drill" : "crewholedrill.png",
+    "rope" : "crewrope.png",
+    "flag" : "crewsmallflag.png"
+  },
+  "animationPosition" : [16, 0],
+  
+  "objectWidth" : 3,
+  
+  "scripts" : [
+    "/objects/generic/crewholedrill/crewholedrill.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua"
+  ],
+  "scriptDelta" : 1,
+
+  "damageTeam" : {
+    "type" : "friendly"
+  },
+
+  "digDepth" : 150,
+  "digSpeed" : 0.5,
+  "returnSpeed" : 0.1,
+  
+  "drillProjectile" : "crewdrillprojectile",
+  "returnProjectile" : "crewdrillreturn",
+  "drillingDrillOffset" : [2, 1.5],
+  "returningDrillOffset" : [2, 0],
+  "jammedDrillOffset" : [2, 0.4],
+  
+  "pickupRange" : 3,
+  
+  "drillProjectileSpeed" : 2,
+  "returnProjectileSpeed" : 10,
+  
+  "itemDropOffset" : [2, 2],
+  
+  "inboundNodes" : [ [0, 3] ],
+  "outboundNodes" : [ [3, 3] ]
+}

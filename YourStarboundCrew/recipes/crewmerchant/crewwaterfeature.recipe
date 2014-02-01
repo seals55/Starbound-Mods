@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 650 }
+  ],
+  "output" : { "item" : "hylotlwaterfeature1", "count" : 1 },
+  "groups" : [ "crewmerchant" ]
+}

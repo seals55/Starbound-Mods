@@ -1,0 +1,14 @@
+{
+  "input" : [
+	{ "item" : "crewKEIpohaku", "count" : 1 },
+	{ "item" : "copperore", "count" : 30 },
+	{ "item" : "ironore", "count" : 25 },
+	{ "item" : "silverore", "count" : 20 },
+	{ "item" : "goldore", "count" : 15 },
+	{ "item" : "titaniumore", "count" : 10 },
+	{ "item" : "diamondore", "count" : 10 },
+    { "item" : "money", "count" : 2000 }
+  ],
+  "output" : { "item" : "crewKEIaku", "count" : 1 },
+  "groups" : [ "crew_station" ]
+}

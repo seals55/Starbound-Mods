@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "crewKEImalihini", "count" : 1 },
+    { "item" : "alienmeat", "count" : 30 },
+	{ "item" : "brain", "count" : 3 },
+    { "item" : "money", "count" : 750 }
+  ],
+  "output" : { "item" : "crewKEIenergy", "count" : 1 },
+  "groups" : [ "crew_station" ]
+}

@@ -1,0 +1,105 @@
+{
+  "type" : "crewfloranprisonleader",
+  "baseType" : "guard",
+
+  "disableWornArmor" : true,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 1,
+
+  "levelVariance" : [0.5, 0.5],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/guard/guardState.lua",
+    "/npcs/guard/returnToPostState.lua"
+  ],
+
+  "scriptConfig" : {
+    "attackerLimit" : 8,
+    "attackerLimitCooldown" : 3,
+    "noticePlayersRadius" : 30,
+
+    "guard" : {
+      "patrolDistance" : 4,
+      "noticeDistance" : 30,
+      "hailDistance" : -1,
+      "stopDistance" : -1,
+      "attackDistance" : 30,
+      "changeDirectionTimeRange" : [5, 10],
+
+      "attackSayingPercent" : 0,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [ "A new ssslave!"
+          ],
+          "floran" : {
+            "default" : [
+              "Prisssoner mussst be dealt with!",
+              "You will be ssstabbed to death!",
+              "Floran know nothing but ssstab and ssssslice...",
+              "Prisssoner's death is no sssacrifice...",
+              "There isss no escape!",
+              "It isss either Floran or ssstarvation which will kill you..."
+            ]
+          }
+        }
+      }
+    },
+
+    "returnToPost" : {
+      "moveTime" : 20,
+      "minDistance" : 2
+    },
+
+    "meleeAttack" : {
+      "swingDistance" : 5,
+      "runThreshold" : 0
+    }
+  },
+
+  "items" : {
+    "floran" : [
+      [0, [
+          {
+            "head" : [ { "name" : "florantier4head" } ],
+            "chest" : [ { "name" : "florantier4chest" } ],
+            "legs" : [ { "name" : "florantier4pants" } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "floranneedler" } }
+            ],
+			"sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "floranprod" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "dropPools" : [ "hellguardtreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 500,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}
+

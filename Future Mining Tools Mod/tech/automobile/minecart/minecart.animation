@@ -1,0 +1,333 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "movement" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : { },
+
+          "jump" : {
+            "frames" : 2,
+            "cycle" : 0.5,
+            "mode" : "end",
+            "properties" : {
+              "immediateSound" : "/sfx/tech/mech_jump3.wav"
+            },
+            "frameProperties" : {
+              "stateNudge" : [ [0, 0], [0, 0], [0, 0], [0, 0] ]
+            }
+          },
+
+          "fall" : {
+            "frames" : 2,
+            "cycle" : 0.5,
+            "mode" : "end",
+            "frameProperties" : {
+              "stateNudge" : [ [0, 0], [0, 0], [0, 0], [0, 0] ]
+            }
+          },
+
+          "walk" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop",
+            "frameProperties" : {
+              "immediateSound" : [ "/sfx/tech/mech_step.wav", "", "", "", "", "/sfx/tech/mech_step2.wav", "", "", "", "" ],
+              "stateNudge" : [ [0, 0], [0, 0], [0, 0], [0, 0] ]
+            }
+          },
+
+          "backWalk" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop",
+            "frameProperties" : {
+              "immediateSound" : [ "/sfx/tech/mech_step.wav", "", "", "", "", "/sfx/tech/mech_step2.wav", "", "", "", "" ],
+              "stateNudge" : [ [0, 0], [0, 0], [0, 0], [0, 0] ]
+            }
+          }
+        }
+      },
+
+      "frontFiring" : {
+        "states" : {
+          "fire" : {
+            "frames" : 1,
+            "cycle" : 0.5,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+
+          "off" : { }
+        }
+      },
+
+      "backFiring" : {
+        "states" : {
+          "fire" : {
+            "frames" : 1,
+            "cycle" : 0.5,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+
+          "off" : { }
+        }
+      }
+    },
+
+    "parts" : {
+      "backLeg" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 0,
+          "back" : true
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "humancarbleg.png:idle.<frame>"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "humancarbleg.png:jump.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0], [0, 0], [0, 0], [0, 0] ]
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "humancarbleg.png:fall.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0], [0, 0], [0, 0], [0, 0] ]
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "humancarbleg.png:move.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0], [0, 0], [0, 0], [0, 0] ]
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "humancarbleg.png:bmove.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0], [0, 0], [0, 0], [0, 0] ]
+              }
+            }
+          }
+        }
+      },
+
+      "background" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 1,
+          "back" : true
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "humancarbackground.png:idle.<frame>"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "humancarbackground.png:idle.<frame>"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "humancarbackground.png:idle.<frame>"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "humancarbackground.png:idle.<frame>"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "humancarbackground.png:idle.<frame>"
+              }
+            }
+          }
+        }
+      },
+
+      "body" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 3
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "humancarbody.png:idle.<frame>"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "humancarbody.png:idle.<frame>"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "humancarbody.png:idle.<frame>"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "humancarbody.png:idle.<frame>"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "humancarbody.png:idle.<frame>"
+              }
+            }
+          }
+        }
+      },
+
+      "frontGunFire" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 6,
+          "offset" : [4, 0],
+          "rotationGroup" : "guns",
+          "rotationCenter" : [0.4, -0.2]
+        },
+
+        "partStates" : {
+          "frontFiring" : {
+            "fire" : {
+              "properties" : {
+                "image" : "bulletmuzzle1.png:<frameIndex>"
+              }
+            }
+          }
+        }
+      },
+
+      "frontGun" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 6,
+          "rotationGroup" : "guns",
+          "rotationCenter" : [0.4, -0.25],
+          "relativeAnchors" : {
+            "frontGunFirePoint" : [4.5, 0]
+          }
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "minecartgun.png:rotation",
+                "rotationCenter" : [0.4, -0.25]
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "minecartgun.png:rotation"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "minecartgun.png:rotation"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "minecartgun.png:rotation"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "minecartgun.png:rotation"
+              }
+            }
+          }
+        }
+      },
+
+      "frontLeg" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 5
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "minecartfleg.png:idle.<frame>"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "minecartfleg.png:jump.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0], [0, 0], [0, 0], [0, 0] ]
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "minecartfleg.png:fall.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0], [0, 0], [0, 0], [0, 0] ]
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "minecartfleg.png:move.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0], [0, 0], [0, 0], [0, 0] ]
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "minecartfleg.png:bmove.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0], [0, 0], [0, 0], [0, 0] ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "rotationGroups" : {
+    "guns" : {
+      "angularVelocity" : 10.0
+    }
+  },
+
+  "particleEmitters" : {
+    "mechActivateParticles" : {
+      "particles" : [ ]
+    },
+    "mechDeactivateParticles" : {
+      "particles" : [ ]
+    }
+  }
+}

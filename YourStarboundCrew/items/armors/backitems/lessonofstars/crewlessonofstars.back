@@ -1,0 +1,18 @@
+{
+  "itemName" : "crewlessonofstars",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Rare",
+  "description" : "This protects you from cold and lets you shine!",
+  "shortdescription" : "Spirit of the Stars",
+
+  "augments" : [
+    {
+      "name" : "crewSpiritofStars"
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png"
+}

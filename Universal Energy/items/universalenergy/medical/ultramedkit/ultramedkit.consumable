@@ -1,0 +1,30 @@
+{
+  "itemName" : "ultramedkit",
+  "rarity" : "Rare",
+  "inventoryIcon" : "ultramedkit.png",
+  "description" : "The ultimate in portable medical technology. Heals, provides regen, and a lot of buffs.",
+  "shortdescription" : "Ultra Med Kit",
+  "effects" : [ [
+      {
+        "kind" : "health",
+        "amount" : 500
+      },
+	  {
+        "kind" : "redstim",
+        "amount" : 5
+      },
+	  {
+        "kind" : "jumpboostinitiator",
+        "amount" : 60
+      },
+	  {
+        "kind" : "runboostinitiator",
+        "amount" : 60
+      },
+	  {
+        "kind" : "glowinitiator",
+        "amount" : 5
+      }
+    ] ],
+  "emote" : ""
+}

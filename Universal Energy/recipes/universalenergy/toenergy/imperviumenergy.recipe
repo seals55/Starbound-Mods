@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "imperviumbar", "count" : 1 }
+  ],
+  "output" : { "item" : "uenergy", "count" : 275 },
+  "groups" : [ "energyconverter", "all" ]
+}

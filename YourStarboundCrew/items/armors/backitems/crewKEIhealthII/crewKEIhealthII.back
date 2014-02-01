@@ -1,0 +1,18 @@
+{
+  "itemName" : "crewKEIhealthII",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "legendary",
+  "description" : "Ola has evolved! Olakino will heal you further.",
+  "shortdescription" : "Olakino",
+
+  "augments" : [
+    {
+      "name" : "crewKEIhealthII"
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png"
+}

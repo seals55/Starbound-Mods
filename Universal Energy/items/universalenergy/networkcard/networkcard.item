@@ -1,0 +1,10 @@
+{
+  "itemName" : "networkcard",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "networkcard.png",
+  "description" : "A powerful processing hub capable of connecting several servers together to act as one giant machine.",
+  "shortdescription" : "Master Processor",
+  "learnBlueprintsOnPickup" : [
+    "analyzer"
+  ]
+}

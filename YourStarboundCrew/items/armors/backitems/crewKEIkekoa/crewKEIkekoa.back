@@ -1,0 +1,22 @@
+{
+  "itemName" : "crewKEIkekoa",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Rare",
+  "description" : "Malihini evolved! Kekoa loves to fight!",
+  "shortdescription" : "Kekoa",
+
+  "augments" : [
+    {
+      "name" : "crewKEIkekoa"
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png",
+  "learnBlueprintsOnPickup" : [
+    "crewKEIpahi",
+	"crewKEIlole"
+  ]
+}

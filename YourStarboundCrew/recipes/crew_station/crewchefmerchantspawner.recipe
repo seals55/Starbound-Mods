@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "bread", "count" : 10 },
+	{ "item" : "cookedalienmeat", "count" : 10 },
+	{ "item" : "money", "count" : 300 }
+  ],
+  "output" : {
+    "item" : "crewchefmerchantspawner",
+    "count" : 1
+  },
+  "groups" : [ "crew_station", "other", "all" ]
+}

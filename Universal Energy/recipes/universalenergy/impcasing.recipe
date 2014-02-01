@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "imperviumbar", "count" : 50 }
+  ],
+  "output" : { "item" : "impcasing", "count" : 1 },
+  "groups" : [ "metalworkstation", "all" ]
+}

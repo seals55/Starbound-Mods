@@ -1,0 +1,8 @@
+{
+  "itemName" : "lightdisc",
+  "rarity" : "Common",
+  "inventoryIcon" : "disc.png",
+  "description" : "Infuses the body with highly-fluorescent B2, making it glow in the dark.",
+  "shortdescription" : "Pet Tech: B2 Infusion",
+  "maxStack" : 1
+}

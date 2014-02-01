@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "automato", "count" : 1 },
+    { "item" : "diodia", "count" : 1 },
+    { "item" : "meatchunks", "count" : 1 }
+  ],
+  "output" : { "item" : "automatostew", "count" : 2 },
+  "groups" : [ "crewchef" ]
+}

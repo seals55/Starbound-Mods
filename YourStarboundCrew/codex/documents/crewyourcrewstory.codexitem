@@ -1,0 +1,10 @@
+{
+  "codexId" : "crewyourcrewstory",
+  "title" : "A History of Your Crew",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexlabbook_01.png",
+  "itemName" : "crewyourcrewstoryCodex",
+  "rarity" : "rare",
+  "description" : "Some information about your crew members.",
+  "shortdescription" : "Your Crew Book"
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "Violiumbar", "count" : 1 }
+  ],
+  "output" : { "item" : "uenergy", "count" : 230 },
+  "groups" : [ "energyconverter", "all" ]
+}

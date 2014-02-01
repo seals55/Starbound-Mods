@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "uenergy", "count" : 200 }
+  ],
+  "output" : { "item" : "aegisaltbar", "count" : 1 },
+  "groups" : [ "replicator", "all" ]
+}

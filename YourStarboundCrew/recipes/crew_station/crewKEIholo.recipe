@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "crewKEIhele", "count" : 1 },
+	{ "item" : "goldenducky", "count" : 3 },
+	{ "item" : "floranlight", "count" : 4 },
+	{ "item" : "medievalglobe", "count" : 2 },
+	{ "item" : "apexlevel1sign", "count" : 2 },
+    { "item" : "money", "count" : 1000 }
+  ],
+  "output" : { "item" : "crewKEIholo", "count" : 1 },
+  "groups" : [ "crew_station" ]
+}

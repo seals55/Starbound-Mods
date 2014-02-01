@@ -1,0 +1,31 @@
+{
+  "itemName" : "plasmadrill",
+  "inventoryIcon" : "plasmadrillicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "inspectionKind" : "tool",
+  "description" : "A very hightech plasma drill. Will need to be recharged with energy pellets.",
+  "shortdescription" : "Plasma Drill",
+  "largeImage" : "plasmadrillbig.png",
+  "image" : "plasmadrill.png:{frame}",
+  "frames" : 5,
+  "animationCycle" : 0.1,
+  "handPosition" : [-8, 1],
+  "pointable" : true,
+  "swingStart" : 0,
+  "swingFinish" : 0,
+  "fireTime" : 0.2,
+  "blockRadius" : 3,
+  "altBlockRadius" : 1,
+  "twoHanded" : true,
+  "idleSound" : "/sfx/tools/chainsaw_idle.wav",
+  "strikeSound" : "/sfx/tools/drill_hit.wav",
+  "durability" : 1000,
+  "durabilityPerUse" : 1,
+  "durabilityRegenChart" : [
+    [ [ "uenergy" ], 50]
+  ],
+  "tileDamage" : 10,
+  "tileDamageBlunted" : 0.0
+}

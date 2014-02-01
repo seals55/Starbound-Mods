@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "chestdura", "count" : 1 },
+	{ "item" : "diamond", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "chestdiamond",
+    "count" : 1
+  },
+  "groups" : [ "mod", "obook", "plain", "all", "other" ]
+}

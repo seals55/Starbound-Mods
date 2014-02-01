@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "uenergy", "count" : 500 },
+	{ "item" : "steelbar", "count" : 25 }
+  ],
+  "output" : { "item" : "techstation", "count" : 1 },
+  "groups" : [ "uematterassembler", "all" ]
+}

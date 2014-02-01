@@ -1,0 +1,217 @@
+{
+  "type" : "crewaviancaptain",
+  "baseType" : "airshipcrew",
+
+  "disableWornArmor" : true,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "dropPools" : [ "airshipcaptaintreasure" ],
+
+  "damageTeam" : 1,
+
+  "levelVariance" : [0.75, 0.75],
+
+  "scriptConfig" : {
+    "converse" : {
+      "waitTime" : 0.5,
+      "dialog" : {
+        "default" : [
+          "Yo ho, yo ho, it's a flyin' life for me.",
+          "The captain loves compliments.",
+          "Where do you hail from?",
+          "Would you believe some people think we're pirates?"
+        ],
+
+        "avian" : [
+          "You seem a capable sort, ever considered the skyfaring life?",
+          "You and I don't have wings - this is the next best thing."
+        ],
+
+        "apex" : [
+          "You ever consider getting an eyepatch?",
+          "I'm new here, but I'm slowly finding my skyfaring legs!",
+          "Haven't seen you on board before.",
+          "If supplies are what you want, go see the quartermaster.",
+          "We got some great supplies from our last stop!",
+          "I'd think twice if you're looking for a scuffle.",
+          "For some, it's about the money. For me, it's about the adventure!",
+          "Any funny business and it'll be the brig for you!"
+        ],
+
+        "floran" : [
+          "You look like you've been in a scrap or two.",
+          "I'd best not catch you pilfering anything!",
+          "We're a merchant vessel by trade, but don't think that makes us pushovers.",
+          "The ship is nice and all, but the food is terrible! Know how to cook?",
+          "Keep your hands where I can see them!",
+          "Welcome aboard!",
+          "Ugh, I'm on cleaning duty today, and a Floran shows up... great.",
+          "The view from the main deck is quite something!"
+        ],
+
+        "glitch" : [
+          "It has its challenges, but life as an aeronaut is great!",
+          "One day, I'm gonna be the captain!",
+          "If you want supplies you should speak to our quartermaster.",
+          "Every day it's the same old routine.",
+          "Just once I'd like the captain to use my name instead of calling me a swab.",
+          "Watch your step on deck, it can get a bit rough in windy conditions.",
+          "The captain is stern, but fair.",
+          "How did you get all the way up here?"
+
+        ],
+
+        "human" : [
+          "Rumor has it that our captain once fought a great tentacled monstrosity!",
+          "You should introduce yourself to the captain.",
+          "Right here in the open skies, this is where I belong!",
+          "All these propellers require so much upkeep!",
+          "We see a lot of exciting stuff in our line of work, but it can be dangerous too!",
+          "You here to trade?",
+          "Keep your hands to yourself!",
+          "Watch yourself around the captain."
+        ],
+
+        "hylotl" : [
+          "You lost?",
+          "You ever consider getting an eyepatch for that third eye of yours?",
+          "What do you think of our ship? Wait, don't answer that.",
+          "One whiff of disrespect towards our captain, and I will end you!",
+          "Don't cause any trouble and none will come to you.",
+          "Looking for supplies? Go see the quartermaster.",
+          "You'd best not be eyeing our stuff!",
+          "Make sure you behave yourself around the captain.",
+          "Keep your hands off our supplies and we won't have any problems."
+        ]
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "buccaneerhead" } ],
+            "chest" : [ { "name" : "buccaneerchest" } ],
+            "legs" : [ { "name" : "buccaneerlegs" } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "legendaryassaultrifle" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } }
+            ]
+          }
+        ] ]
+    ],
+    "apex" : [
+      [0, [
+          {
+            "head" : [ { "name" : "buccaneerhead" } ],
+            "chest" : [ { "name" : "buccaneerchest" } ],
+            "legs" : [ { "name" : "buccaneerlegs" } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "legendaryassaultrifle" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } }
+            ]
+          }
+        ] ]
+    ],
+    "avian" : [
+      [0, [
+          {
+            "head" : [ { "name" : "buccaneerhead" } ],
+            "chest" : [ { "name" : "buccaneerchest" } ],
+            "legs" : [ { "name" : "buccaneerlegs" } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "legendaryassaultrifle" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } }
+            ]
+          }
+        ] ]
+    ],
+    "floran" : [
+      [0, [
+          {
+            "head" : [ { "name" : "buccaneerhead" } ],
+            "chest" : [ { "name" : "buccaneerchest" } ],
+            "legs" : [ { "name" : "buccaneerlegs" } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "legendaryassaultrifle" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } }
+            ]
+          }
+        ] ]
+    ],
+    "glitch" : [
+      [0, [
+          {
+            "head" : [ { "name" : "buccaneerhead" } ],
+            "chest" : [ { "name" : "buccaneerchest" } ],
+            "legs" : [ { "name" : "buccaneerlegs" } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "legendaryassaultrifle" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } }
+            ]
+          }
+        ] ]
+    ],
+    "human" : [
+      [0, [
+          {
+            "head" : [ { "name" : "buccaneerhead" } ],
+            "chest" : [ { "name" : "buccaneerchest" } ],
+            "legs" : [ { "name" : "buccaneerlegs" } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "legendaryassaultrifle" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } }
+            ]
+          }
+        ] ]
+    ],
+    "hylotl" : [
+      [0, [
+          {
+            "head" : [ { "name" : "buccaneerhead" } ],
+            "chest" : [ { "name" : "buccaneerchest" } ],
+            "legs" : [ { "name" : "buccaneerlegs" } ],
+            "back" : [ { "name" : "simplecapeback", "data" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "legendaryassaultrifle" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "data" : { "definition" : "uncommonbroadsword" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusParameters" : {
+    "baseMaxHealth" : 850,
+    "baseMaxEnergy" : 99,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 100.0
+  }
+}

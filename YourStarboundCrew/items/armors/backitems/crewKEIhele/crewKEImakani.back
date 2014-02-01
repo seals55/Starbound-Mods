@@ -1,0 +1,21 @@
+{
+  "itemName" : "crewKEIhele",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Rare",
+  "description" : "Malihini evolved! Hele will help you explore the universe.",
+  "shortdescription" : "Hele",
+
+  "augments" : [
+    {
+      "name" : "crewKEImakani"
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png",
+  "learnBlueprintsOnPickup" : [
+    "crewKEIholo"
+  ]
+}

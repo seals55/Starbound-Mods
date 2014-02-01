@@ -1,0 +1,10 @@
+{
+  "codexId" : "crewhumancoords",
+  "title" : "Human Planets",
+  "codexkind" : "codex",
+  "inventoryIcon" : "humanbunkerbook_01.png",
+  "itemName" : "crewhumancoordsCodex",
+  "rarity" : "common",
+  "description" : "Some coordinates for interesting planets from Alpha to Gamma.",
+  "shortdescription" : "Human Planets"
+}

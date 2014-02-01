@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "diamonddrill", "count" : 1 },
+    { "item" : "platinumbar", "count" : 10 },
+    { "item" : "chain", "count" : 20 },
+    { "item" : "money", "count" : 1500 }
+  ],
+  "output" : { "item" : "crewdiamondholedrill", "count" : 1 },
+  "groups" : [ "crewmechanic" ]
+}

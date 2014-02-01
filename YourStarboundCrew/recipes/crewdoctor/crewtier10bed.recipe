@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "tier10bed", "count" : 1 },
+    { "item" : "crewredstim", "count" : 5 }
+  ],
+  "output" : { "item" : "crewtier10bed", "count" : 1 },
+  "groups" : [ "crewdoctor" ]
+}

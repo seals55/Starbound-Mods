@@ -1,0 +1,21 @@
+{
+  "itemName" : "crewgenekonggrenade",
+  "rarity" : "legendary",
+  "inventoryIcon" : "electrogrenadeicon.png",
+  "image" : "electrogrenadeicon.png",
+  "shortdescription" : "Genekong's Grenade",
+  "description" : "Unlimited grenades?!",
+  "ammoUsage" : 0,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "electrogrenade",
+  "projectileConfig" : {
+    "speed" : 55,
+    "power" : 750,
+    "level" : 19
+  }
+}
+

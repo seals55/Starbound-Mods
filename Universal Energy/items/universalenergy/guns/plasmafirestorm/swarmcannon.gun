@@ -1,0 +1,31 @@
+{
+  "itemName" : "swarmcannon",
+  "inventoryIcon" : "swarmcannonicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Launches a barrage of incendiary artillery missiles.\nMake it rain.",
+  "shortdescription" : "Plasma Firestorm Launcher",
+  "image" : "swarmcannon.png:0",
+  "spread" : 12,
+  "recoilTime" : 0.1,
+  "handPosition" : [-2, -5],
+  "firePosition" : [10, 0],
+  "level" : 10,
+  "fireTime" : 2,
+  "twoHanded" : true,
+
+  "walkWhileFiring" : true,
+
+  "projectileType" : "swarmrocketlaunch",
+  "projectile" : {
+    "speed" : 1500,
+    "power" : 300,
+    "color" : [10, 100, 255]
+  },
+
+  "muzzleEffect" : {
+	"animation" : "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/siege_shot.wav" } ]
+  }
+}

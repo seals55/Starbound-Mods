@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "moltencore", "count" : 1 }
+  ],
+  "output" : { "item" : "uenergy", "count" : 200 },
+  "groups" : [ "energyconverter", "all" ]
+}

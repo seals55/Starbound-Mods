@@ -1,0 +1,6 @@
+{
+  "name" : "Pilchenstein's Medical Gear",
+  "version" : "Beta v. Furious Koala",
+  "path" : "pilch_medical",
+  "dependencies" : ["Pilchenstein's Science Station"]
+}

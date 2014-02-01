@@ -1,0 +1,19 @@
+{
+  "projectileName" : "petlight1",
+  "level" : 1,
+  "frames" : "petlight.png",
+  "physics" : "eyecandy",
+  "speed" : 0,
+  "fallSpeed" : 0,
+  "statusEffects" : [
+    {
+      "kind" : "petlight1"
+    }
+  ],
+  "timeToLive" : 0.01,
+  "universalDamage" : true,
+  "damageType" : "ignoresdef",
+  "piercing" : true,
+  "damageKind" : "harmless",
+  "power" : 0.001
+}

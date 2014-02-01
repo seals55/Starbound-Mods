@@ -1,0 +1,7 @@
+{
+"input" : [{ "item" : "money", "count" : 1000 },
+{"item" : "imperviumbar", "count" : 20},
+{"item" : "matteritem", "count" : 1}],
+"output" : { "item" : "AntiMatterDrill", "count" : 1 },
+"groups" : [ "roboticcraftingtable", "tools", "all" ]
+}

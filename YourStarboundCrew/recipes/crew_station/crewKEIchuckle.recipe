@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "crewKEImalihini", "count" : 1 },
+    { "item" : "money", "count" : 1000 }
+  ],
+  "output" : { "item" : "crewKEIchuckle", "count" : 1 },
+  "groups" : [ "crew_station" ]
+}

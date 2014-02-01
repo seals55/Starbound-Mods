@@ -1,0 +1,10 @@
+{
+  "codexId" : "crewhumancoords2",
+  "title" : "Human Planets II",
+  "codexkind" : "codex",
+  "inventoryIcon" : "humanbunkerbook_02.png",
+  "itemName" : "crewhumancoords2Codex",
+  "rarity" : "uncommon",
+  "description" : "Some coordinates for interesting planets from Delta to X.",
+  "shortdescription" : "Human Planets II"
+}

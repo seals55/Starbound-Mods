@@ -1,0 +1,21 @@
+{
+  "itemName" : "crewunlimitedbomb",
+  "rarity" : "legendary",
+  "inventoryIcon" : "bombicon.png",
+  "image" : "bombicon.png",
+  "shortdescription" : "Ashblazer's Bomb",
+  "description" : "Ashblazer created this a long time ago and hopes you find it useful.",
+
+  "ammoUsage" : 0,
+  
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "zbomb",
+  "projectileConfig" : {
+    "speed" : 50,
+    "power" : 300
+  }
+}
+

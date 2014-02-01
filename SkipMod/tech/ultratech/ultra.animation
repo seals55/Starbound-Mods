@@ -1,0 +1,133 @@
+{
+  "particleEmitters" : {
+    "multiJumpParticles" : {
+      "particles" : [
+        {
+          "particle" : "doublejump",
+          "offset" : [0.2, -3]
+        },
+        {
+          "particle" : "defaultblue",
+          "offset" : [0.2, -3]
+        },
+        {
+          "particle" : "defaultblue",
+          "offset" : [0.2, -3]
+        },
+        {
+          "particle" : "defaultblue",
+          "offset" : [0.2, -3]
+        },
+        {
+          "particle" : "defaultblue",
+          "offset" : [0.2, -3]
+        },
+        {
+          "particle" : "defaultblue",
+          "offset" : [0.2, -3]
+        },
+        {
+          "particle" : "defaultblue",
+          "offset" : [0.2, -3]
+        }
+      ]
+    },
+	"dashParticles" : {
+      "emissionRate" : 40.0,
+      "particles" : [
+        {
+          "particle" : "dash",
+          "flip" : true
+        }
+      ]
+    },
+	"boostParticles" : {
+      "emissionRate" : 10.0,
+      "particles" : [
+        {
+          "particle" : "bubbleboost"
+        },
+        {
+          "particle" : "bubbleboost"
+        },
+        {
+          "particle" : "bubbleboost"
+        },
+        {
+          "particle" : "bubbleboost"
+        }
+      ]
+    }
+  },
+    
+  "animatedParts" : {
+    "stateTypes" : {
+      "blinking" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "in" : {
+            "frames" : 5,
+            "cycle" : 0.15,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+          "out" : {
+            "frames" : 5,
+            "cycle" : 0.15,
+            "mode" : "transition",
+            "transition" : "off"
+          }
+        }
+      },
+	  "dashing" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+          },
+          "on" : {
+            "properties" : {
+              "immediateSound" : "/sfx/tech/tech_dashshort.wav"
+            }
+          }
+        }
+      },
+	  "boosting" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+          },
+          "on" : {
+            "properties" : {
+              "persistentSound" : "/sfx/tech/tech_bubbleboost.wav"
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "blinkeffect" : {
+        "properties" : {
+          "centered" : true
+        },
+
+        "partStates" : {
+          "blinking" : {
+            "in" : {
+              "properties" : {
+                "image" : "blinkin.png:<frameIndex>"
+              }
+            },
+
+            "out" : {
+              "properties" : {
+                "image" : "blinkout.png:<frameIndex>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

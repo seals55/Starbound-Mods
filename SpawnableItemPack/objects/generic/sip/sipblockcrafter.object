@@ -1,0 +1,36 @@
+{
+  "objectName" : "sipblockcrafter",
+  "rarity" : "Legendary",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/sipblockcrafter.config",
+    "filter" : [ "sipblocks" ]
+  },
+  "printable" : false,
+  "description" : "Spawn every block, period.",
+  "shortdescription" : "SIP - Block Crafter",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+
+  "inventoryIcon" : "sipblockcraftericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sipblockcrafter.png",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 3.5,
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

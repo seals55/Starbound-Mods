@@ -1,0 +1,10 @@
+{
+  "codexId" : "crewbasichints",
+  "title" : "Helpful Tips",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexlabbook_01.png",
+  "itemName" : "crewbasichintsCodex",
+  "rarity" : "common",
+  "description" : "Some tips from your loremaster to help you with your mission.",
+  "shortdescription" : "Helpful Tips"
+}

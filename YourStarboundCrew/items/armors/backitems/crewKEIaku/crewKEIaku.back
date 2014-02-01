@@ -1,0 +1,33 @@
+{
+  "itemName" : "crewKEIaku",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "legendary",
+  "description" : "Pohaku has evolved! Aku will make your mining life much easier.",
+  "shortdescription" : "Aku",
+
+  "augments" : [
+    {
+      "name" : "crewKEIakuIII"
+    }
+  ],
+  
+  "statusEffects" : [
+    {
+      "kind" : "glow",
+      "amount" : 2.0
+    },
+	
+	{
+      "kind" : "ColdProtection",
+      "amount" : 40.0
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png",
+  "learnBlueprintsOnPickup" : [
+    "crewKEIkeakua"
+  ]
+}

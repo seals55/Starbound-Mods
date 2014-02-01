@@ -1,0 +1,21 @@
+{
+  "itemName" : "crewKEImakani",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "legendary",
+  "description" : "Holo has evolved! Makani will help you explore to the ends of the universe!",
+  "shortdescription" : "Makani",
+
+  "augments" : [
+    {
+      "name" : "crewKEImakaniIII"
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png",
+  "learnBlueprintsOnPickup" : [
+    "crewKEIkeakua"
+  ]
+}

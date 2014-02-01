@@ -1,0 +1,16 @@
+{
+  "itemName" : "crewyellowstimlong",
+  "rarity" : "rare",
+  "inventoryIcon" : "yellowstim.png",
+  "description" : "A stimpack full of bright yellow liquid",
+  "shortdescription" : "Lasting Yellow Stim Pack",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "kind" : "crewglowinitiator",
+        "amount" : 1.5
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

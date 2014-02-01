@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 35 }
+  ],
+  "output" : { "item" : "crewdiamondarmorchest", "count" : 1 },
+  "groups" : [ "crewscientist" ]
+}

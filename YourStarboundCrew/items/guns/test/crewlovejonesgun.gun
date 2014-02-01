@@ -1,0 +1,33 @@
+{
+  "itemName" : "crewlovejonesgun",
+  "inventoryIcon" : "crewgunicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Used all around the universe.",
+  "shortdescription" : "Love-Jones' Gun",
+  "image" : "buster.png:<frame>",
+  "imageFrameSelector" : "busterImageSelector",
+  "handPosition" : [-5, -1],
+  "firePosition" : [4, 1.5],
+  "level" : 10,
+  "fireTime" : 0.35,
+  "twoHanded" : true,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : true,
+
+  "projectileType" : "bustershot",
+  "powerProjectileType" : "chargedbustershot",
+  "powerProjectileTime" : [0.7, 50],
+  "projectile" : {
+    "speed" : 60,
+    "power" : 40,
+    "powerCurve" : "busterTimeMultiplier",
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_mp1.wav" } ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "itemName" : "thorndisc",
+  "rarity" : "Common",
+  "inventoryIcon" : "disc.png",
+  "description" : "Grows nano-sized thorns on the body, making it return part of damage taken.",
+  "shortdescription" : "Pet Tech: Nano-Thorns",
+  "maxStack" : 1
+}

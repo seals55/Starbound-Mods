@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 1 }
+  ],
+  "output" : { "item" : "uenergy", "count" : 100 },
+  "groups" : [ "energyconverter", "all" ]
+}

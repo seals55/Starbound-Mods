@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 15 },
+    { "item" : "money", "count" : 1000 }
+  ],
+  "output" : {
+    "item" : "pilch_basebox_crafting",
+    "count" : 1
+  },
+  "groups" : [ "pilch_sciencestation", "furniture", "objects", "all" ]
+}
+

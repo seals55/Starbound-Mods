@@ -1,0 +1,9 @@
+{
+  "kind" : "crewrunboostinitiator",
+  "duration" : 120,
+  "primitives" : [
+    { "name" : "runboost", "mode" : "max" }
+  ],
+  "effectSources" : [ "runboost" ],
+  "mainInterfaceIcon" : "/interface/statuses/runboost.png"
+}

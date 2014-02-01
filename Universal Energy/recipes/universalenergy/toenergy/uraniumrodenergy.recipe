@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "uraniumrod", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "uenergy",
+    "count" : 60
+  },
+  "groups" : [ "energyconverter", "all" ]
+}

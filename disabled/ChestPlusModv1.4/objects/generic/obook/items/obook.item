@@ -1,0 +1,10 @@
+{
+  "itemName" : "obook",
+  "rarity" : "Rare",
+  "inventoryIcon" : "obook.png",
+  "shortdescription" : "Old Book",
+  "description" : "A old book with unknown blueprints.",
+  "learnBlueprintsOnPickup" : [
+  "chestwood"
+  ]
+}

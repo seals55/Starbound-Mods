@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "techchest2", "count" : 1 },
+    { "item" : "money", "count" : 4000 }
+  ],
+  "output" : { "item" : "glitchMechTech-chip", "count" : 1 },
+  "groups" : [ "crewscientist" ]
+}

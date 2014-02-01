@@ -1,0 +1,6 @@
+{
+  "name" : "futureminingtoolsmod",
+  "version" : "Beta v. Furious Koala",
+  "path" : ".",
+  "dependencies" : [ "futureminingtoolsmod" ]
+}

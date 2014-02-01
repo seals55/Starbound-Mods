@@ -1,0 +1,11 @@
+{
+  "name" : "crewKEIhumuhumu",
+  "icon" : [ ],
+  "bonusArmor" : 5.0,
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "ringofpower", "amount" : 0.8 },
+	{ "kind" : "glow", "amount" : 1.0 }
+  ]
+  
+}

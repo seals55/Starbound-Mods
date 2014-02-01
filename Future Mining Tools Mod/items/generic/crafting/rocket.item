@@ -1,0 +1,7 @@
+{
+  "itemName" : "rocket",
+  "rarity" : "Common",
+  "inventoryIcon" : "rocket.png",
+  "description" : "Very usefull rocket. For example in...ok, it's useless.",
+  "shortdescription" : "Rocket"
+}

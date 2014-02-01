@@ -1,0 +1,17 @@
+{
+  "id" : "crewexplorationtips",
+  "title" : "Exploration Hints",
+  "contentPages" : [
+
+    "Now that you've unlocked beta sector you can hit the little B symbol at the top of your star navigator to travel to a new sector!",
+
+	"I've heard that desert planets are great for mining resources. Just find fine sand or gravel and let the ore come to you!",
+	
+	"To repair your pickaxes or drills: left click on ore, I recommend copper personally, and then take the stack and right click on your tool.",
+		
+    "Use the right click with a pickaxe, drill, or matter manipulator to take out the background of where you're mining, as long as you're close enough to the surface. Save up on coal, it's useful for every other sector."
+
+
+
+  ]
+}

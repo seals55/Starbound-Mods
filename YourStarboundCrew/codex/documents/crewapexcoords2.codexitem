@@ -1,0 +1,10 @@
+{
+  "codexId" : "crewapexcoords2",
+  "title" : "Apex Planets II",
+  "codexkind" : "codex",
+  "inventoryIcon" : "apexlabbook_02.png",
+  "itemName" : "crewapexcoords2Codex",
+  "rarity" : "Uncommon",
+  "description" : "A list of planets that have Apex from Delta to X.",
+  "shortdescription" : "Apex Planets II"
+}

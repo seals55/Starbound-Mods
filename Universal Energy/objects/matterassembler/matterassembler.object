@@ -1,0 +1,52 @@
+{
+  "objectName" : "uematterassembler",
+  "rarity" : "Legendary",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/objectcrafting/matterassembler.config",
+    "filter" : [ "craftingtable", "plain", "roboticcraftingtable", "uematterassembler" ]
+  },
+  "printable" : false,
+  "description" : "A machine capable of manipulating the most complex materials, down to the subatomic level.",
+  "shortdescription" : "Matter Assembler",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 9500,
+  "learnBlueprintsOnPickup" : [
+    "plasmagrenade",
+	"railbow",
+	"pulseshotgun",
+	"plasmadrill",
+	"shiplocker",
+	"techstation",
+	"plasmaautocannon",
+	"plasmasiegelauncher",
+	"swarmcannon",
+	"pulsesniper",
+	"hybridautocannon",
+	"ue_shipstatusscreen"
+  ],
+
+  "apexDescription" : "The ultimate form of the handy crafting table.",
+  "avianDescription" : "An unbelievably advanced crafting machine.",
+  "floranDescription" : "Red shiny beams very shiny. Very very... shiny.",
+  "glitchDescription" : "Conflicted. I have a strange urge to interface with this machine. All night long.",
+  "humanDescription" : "Now we're thinking with portals.",
+  "hylotlDescription" : "Incredible. This machine can create nearly anything!",
+
+  "inventoryIcon" : "matterassemblericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "matterassembler.png:<color>.<frame>",
+
+      "imagePosition" : [-32, 0],
+      "frames" : 35,
+      "animationCycle" : 2.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

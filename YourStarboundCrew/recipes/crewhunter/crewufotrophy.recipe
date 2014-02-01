@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "moltencore", "count" : 1 },
+	{ "item" : "darkwoodmaterial", "count" : 10 },
+    { "item" : "money", "count" : 500 }
+  ],
+  "output" : { "item" : "crewufotrophy", "count" : 1 },
+  "groups" : [ "crewhunter" ]
+}

@@ -1,0 +1,8 @@
+{
+  "itemName" : "healdisc",
+  "rarity" : "Common",
+  "inventoryIcon" : "disc.png",
+  "description" : "Implants the skin with nanobots, which makes it quickly regenerate shallow wounds.",
+  "shortdescription" : "Pet Tech: Skin Nanobots",
+  "maxStack" : 1
+}

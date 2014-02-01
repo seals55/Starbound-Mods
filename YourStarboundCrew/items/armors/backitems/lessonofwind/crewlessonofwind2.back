@@ -1,0 +1,18 @@
+{
+  "itemName" : "crewlessonofwind2",
+  "inventoryIcon" : "naturecapebackicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Rare",
+  "description" : "This allows you to run even faster and jump higher",
+  "shortdescription" : "Spirit of the Winds",
+
+  "augments" : [
+    {
+      "name" : "crewSpiritofWind2"
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png"
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "crewplasmagrenade",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "plasmagrenadeicon.png",
+  "image" : "plasmagrenadeicon.png",
+  "shortdescription" : "Plasma Grenade Plus",
+  "description" : "A big plasma grenade. Duck and cover!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "plasmagrenade",
+  "projectileConfig" : {
+    "speed" : 55,
+    "power" : 85
+  }
+}
+

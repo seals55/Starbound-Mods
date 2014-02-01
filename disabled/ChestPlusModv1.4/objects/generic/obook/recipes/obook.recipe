@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "obook",
+    "count" : 1
+  },
+    "groups" : [ "stonefurnace", "all" ]
+}

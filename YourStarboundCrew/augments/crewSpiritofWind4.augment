@@ -1,0 +1,8 @@
+{
+  "name" : "crewSpiritofWind4",
+  "icon" : [ ],
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "crewspeedperk4" }
+  ]
+}

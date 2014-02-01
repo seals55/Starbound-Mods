@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "Rubiumore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "Rubiumbar",
+    "count" : 1
+  },
+  "groups" : [ "laserfurnace", "all", "bars" ]
+}

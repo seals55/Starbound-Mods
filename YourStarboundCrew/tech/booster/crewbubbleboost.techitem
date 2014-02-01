@@ -1,0 +1,10 @@
+{
+  "itemName" : "crewbubbleboost",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/bubbleboost.png",
+  "description" : "Upgrades the Bubble Boost tech.",
+  "shortdescription" : "Upgraded Bubble Boost",
+  "inspectionKind" : "tech",
+
+  "techModule" : "crewbubbleboost.tech"
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "coalore", "count" : 50 },
+	{ "item" : "copperpickaxe", "count" : 1 },
+	{ "item" : "money", "count" : 300 }
+  ],
+  "output" : {
+    "item" : "crewmechanicmerchantspawner",
+    "count" : 1
+  },
+  "groups" : [ "crew_station", "other", "all" ]
+}

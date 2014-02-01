@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "wheatseed", "count" : 20 }
+  ],
+  "output" : { "item" : "crewfoodseedbox", "count" : 1 },
+  "groups" : [ "crewchef" ]
+}

@@ -1,0 +1,23 @@
+{
+  "itemName" : "crewKEIKEI",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "common",
+  "description" : "This little KEI will follow you around!",
+  "shortdescription" : "KEI",
+  
+    "statusEffects" : [
+    {
+      "kind" : "protection",
+      "level" : 10,
+      "amount" : 1
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png",
+  "learnBlueprintsOnPickup" : [
+    "crewKEImalihini"
+  ]
+}

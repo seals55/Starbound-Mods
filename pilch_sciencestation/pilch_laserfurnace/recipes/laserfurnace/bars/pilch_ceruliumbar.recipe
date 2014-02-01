@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "Ceruliumore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "Ceruliumbar",
+    "count" : 1
+  },
+  "groups" : [ "laserfurnace", "all", "bars" ]
+}

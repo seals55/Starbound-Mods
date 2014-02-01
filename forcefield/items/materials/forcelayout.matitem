@@ -1,0 +1,10 @@
+{
+  "itemName" : "forcelayout",
+  "rarity" : "Common",
+  "inventoryIcon" : "glass.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "a layout block for a force field!",
+  "shortdescription" : "Force Layout Block",
+
+  "materialId" : 259
+}

@@ -1,0 +1,38 @@
+{
+  "objectName" : "crewchefsoven",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crewchef.config",
+    "filter" : [ "crewchef" ]
+  },
+  "printable" : false,
+  "description" : "Cook Chef Goldobot's recipes or craft items!",
+  "shortdescription" : "The Chef's Oven",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "A fancy crafting table.",
+  "avianDescription" : "A mechanical crafting table.",
+  "floranDescription" : "Floran once get in fight with table like this.",
+  "glitchDescription" : "Confused. This table is familiar.",
+  "humanDescription" : "A robot table! The revolution begins!",
+  "hylotlDescription" : "How strange. A robotic crafting table.",
+
+  "inventoryIcon" : "crewchefsovenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crewchefsoven.png:<color>.<frame>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 6,
+      "animationCycle" : 0.9,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

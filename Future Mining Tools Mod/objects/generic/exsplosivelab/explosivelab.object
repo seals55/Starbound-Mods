@@ -1,0 +1,39 @@
+{
+  "objectName" : "explosivelab",
+  "objectType" : "interactable",
+  "category" : "crafting",
+  "rarity" : "Common",
+  "description" : "A table with all tools needed to create gunpowder and things of it.",
+  "shortdescription" : "Gunpowder Lab",
+  "race" : "generic",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/explosivelab.config",
+    "filter" : [ "explosivelab" ]
+  },
+  "printable" : false,
+  "price" : "250",
+
+  "apexDescription" : "An gunpowder lab. There can be created some explosives.",
+  "avianDescription" : "Iron block covered with cobblestone with some tools.",
+  "floranDescription" : "Heavier than anvil, more useful in trapsss.",
+  "glitchDescription" : "Analysis. This is table in wich I can create exploding things!",
+  "humanDescription" : "A gunpowder lab. Better I'll be careful.",
+  "hylotlDescription" : "I hope this table wasn't used to create bombs.",
+
+  "inventoryIcon" : "explosivelabicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "explosivelab.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+
+}

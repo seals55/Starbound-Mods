@@ -1,0 +1,41 @@
+{
+  "objectName" : "crewchickenbeacon",
+  "rarity" : "rare",
+  "objectType" : "wire",
+  "description" : "Spawns some chicken to fight!",
+  "shortdescription" : "Chicken Beacon",
+  "race" : "generic",
+  "category" : "tools",
+  "printable" : false,
+  "apexDescription" : "A distress beacon. I hope the person who left it is okay.",
+  "avianDescription" : "A distress beacon. Someone must be in trouble.",
+  "floranDescription" : "Floran help as well as hunt. Sssometimes.",
+  "glitchDescription" : "Analysis. This distress beacon is transmitting at a number of frequencies.",
+  "humanDescription" : "This beacon's sending out a distres call.",
+  "hylotlDescription" : "Someone needs help. Protecting the weak is a worthwhile pursuit.",
+
+  "inventoryIcon" : "crewmonsterbeaconicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crewmonsterbeacon.png:<color>.<frame>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "animation" : "/objects/wired/crewmonsterspawner/crewmonsterbeacon.animation",
+  "animationParts" : {
+    "beacon" : "crewmonsterbeacon.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/crewmonsterspawner/crewchickenbeacon.lua" ],
+  "scriptDelta" : 5
+
+}

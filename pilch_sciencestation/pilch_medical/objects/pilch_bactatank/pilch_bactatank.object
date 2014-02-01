@@ -1,0 +1,58 @@
+{
+  "objectName" : "pilch_bactatank",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 2000,
+  // "unlit" : true,
+  "lightColor" : [57, 45, 89],
+  "description" : "A tank filled with a healing serum.",
+  "shortdescription" : "Medical Tank",
+  "race" : "generic",
+
+  "apexDescription" : "This is adapted from Miniknog tech. It can rapidly heal my wounds.",
+  "avianDescription" : "This is dark science...",
+  "floranDescription" : "Sssuch machines are unnatural.",
+  "glitchDescription" : "Examination. Machine appears to restore health to it's user.",
+  "humanDescription" : "A quick bath in here is good for what ails you.",
+  "hylotlDescription" : "This machine attempts to alter DNA in a way that's not remotely sustainable.",
+
+  "objectType" : "interactable",
+  "interactAction" : "sitdown",
+  "sitFlipDirection" : true,
+  "sitPosition" : [0, 28],
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitCoverImage" : "/objects/pilch_bactatank/pilch_bactatankcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    { "kind" : "Nude" },
+    { "kind" : "Health", "amount" : 0.50 }
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+  "pilch_healpercent" : 5,
+
+  "inventoryIcon" : "pilch_bactatank.png",
+  "orientations" : [
+    {
+      "dualImage" : "pilch_bactatank.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "animation" : "/objects/pilch_bactatank/pilch_bactatank.animation",
+  "animationParts" : {
+    "beacon" : "pilch_bactatank.png"
+  },
+
+  "animationPosition" : [-16, 0],
+  "soundEffect" : "/sfx/objects/apexpod.wav",
+  "soundEffectRadius" : 50
+
+}

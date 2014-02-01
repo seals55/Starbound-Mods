@@ -1,0 +1,19 @@
+{
+  "projectileName" : "chargedenergysniper",
+  "physics" : "bolt",
+  "frames" : "chargedenergysniper.png",
+  "level" : 10,
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "emitters" : [ "daggerblue" ],
+  "power" : 2500,
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "damageKind" : "default"
+}

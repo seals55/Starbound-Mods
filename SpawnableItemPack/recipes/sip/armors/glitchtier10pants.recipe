@@ -1,0 +1,9 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "glitchtier10pants",
+    "count" : 1
+  },
+  "groups" : [ "spinningwheel", "siparmorlegs" ]}

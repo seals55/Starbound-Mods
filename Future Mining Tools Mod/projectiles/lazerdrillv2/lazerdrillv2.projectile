@@ -1,0 +1,23 @@
+{
+  "projectileName" : "lazerdrillv2",
+  "frames" : "lazerdrillv2.png",
+  "animationCycle" : 0.3,
+  "level" : 1,
+  "physics" : "bullet",
+  "frameNumber" : 2,
+  "pointLight" : true,
+  "lightColor" : [255, 150, 150],
+  "speed" : 100,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/lazerexplosionv2/lazerexplosionv2.config"
+    }
+  ],
+  "power" : 0,
+  "damageKind" : "plasma",
+  "damageType" : "ignoresdef",
+  "emitters" : [ "javelinred" ]
+}
+
+

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "chestwood", "count" : 1 },
+	{ "item" : "ironbar", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "chestiron",
+    "count" : 1
+  },
+  "groups" : [ "mod", "obook", "plain", "all", "other" ]
+}

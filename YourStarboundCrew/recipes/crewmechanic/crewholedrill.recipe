@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "silverpickaxe", "count" : 1 },
+    { "item" : "darkwoodmaterial", "count" : 15 },
+    { "item" : "chain", "count" : 20 },
+    { "item" : "money", "count" : 1500 }
+  ],
+  "output" : { "item" : "crewholedrill", "count" : 1 },
+  "groups" : [ "crewmechanic" ]
+}

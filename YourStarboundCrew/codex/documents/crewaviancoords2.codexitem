@@ -1,0 +1,10 @@
+{
+  "codexId" : "crewaviancoords2",
+  "title" : "Avian Planets II",
+  "codexkind" : "codex",
+  "inventoryIcon" : "avianairshipbook_02.png",
+  "itemName" : "crewaviancoords2Codex",
+  "rarity" : "Uncommon",
+  "description" : "A list of planets with Avian populace from Delta to X.",
+  "shortdescription" : "Avian Planets II"
+}

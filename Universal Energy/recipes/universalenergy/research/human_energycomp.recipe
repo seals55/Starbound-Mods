@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "bunkerserver", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "humantech",
+    "count" : 1
+  },
+  "groups" : [ "analyzer", "all" ]
+}

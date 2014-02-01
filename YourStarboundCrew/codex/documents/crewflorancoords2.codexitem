@@ -1,0 +1,10 @@
+{
+  "codexId" : "crewflorancoords2",
+  "title" : "Floran Planets II",
+  "codexkind" : "codex",
+  "inventoryIcon" : "floranhellbook_02.png",
+  "itemName" : "crewflorancoords2Codex",
+  "rarity" : "Uncommon",
+  "description" : "Some coordinates to Floran planetsss from Delta to beyond.",
+  "shortdescription" : "Floran Planets II"
+}

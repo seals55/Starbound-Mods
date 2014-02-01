@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 4 },
+    { "item" : "silverpickaxe", "count" : 1 },
+    { "item" : "money", "count" : 200 }
+  ],
+  "output" : { "item" : "crewsilverpickaxe", "count" : 1 },
+  "groups" : [ "crewmechanic" ]
+}

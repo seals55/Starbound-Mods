@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "plasmadisc", "count" : 1 },
+	{ "item" : "blueflask", "count" : 5 },
+	{ "item" : "money", "count" : 300 }
+  ],
+  "output" : {
+    "item" : "crewsciencemerchantspawner",
+    "count" : 1
+  },
+  "groups" : [ "crew_station", "other", "all" ]
+}

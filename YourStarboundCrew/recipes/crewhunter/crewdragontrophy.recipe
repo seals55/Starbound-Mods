@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "dragonbone", "count" : 1 },
+	{ "item" : "darkwoodmaterial", "count" : 10 },
+    { "item" : "money", "count" : 500 }
+  ],
+  "output" : { "item" : "crewdragontrophy", "count" : 1 },
+  "groups" : [ "crewhunter" ]
+}

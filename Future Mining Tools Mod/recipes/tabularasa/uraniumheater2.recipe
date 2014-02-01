@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : { "item" : "uraniumheater", "count" : 1 },
+  "groups" : [ "mod", "tools", "all" ]
+}

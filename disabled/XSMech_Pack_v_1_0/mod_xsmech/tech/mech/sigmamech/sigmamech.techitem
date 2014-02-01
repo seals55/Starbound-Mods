@@ -1,0 +1,10 @@
+{
+  "itemName" : "sigmamechTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/sigmamech.png",
+  "description" : "Press F. Use this tech, spawn a mech. Then destroy things.",
+  "shortdescription" : "XS Sigma Mech",
+  "inspectionKind" : "tech",
+
+  "techModule" : "sigmamech.tech"
+}

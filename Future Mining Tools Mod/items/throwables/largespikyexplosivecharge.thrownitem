@@ -1,0 +1,21 @@
+{
+  "itemName" : "largespikyexplosivechargeitem",
+  "rarity" : "Common",
+  "inventoryIcon" : "largespikyexplosivechargeicon.png",
+  "image" : "largespikyexplosivechargelicon.png",
+  "shortdescription" : "Large Spiky Explosive Charge",
+  "description" : "Large bag filled with gunpowder and punctured with spikes.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "largespikyexplosivecharge",
+  "projectileConfig" : {
+    "speed" : 30,
+    "power" : 100
+  }
+}
+

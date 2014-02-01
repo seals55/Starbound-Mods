@@ -1,0 +1,9 @@
+{
+  "script" : "booster.lua",
+  "actions" : [ "boostRightUp", "boostRightDown", "boostLeftUp", "boostLeftDown", "boostRight", "boostDown", "boostLeft", "boostUp" ],
+  "animator" : "bubbleboost.animation",
+
+  "boostControlForce" : 300,
+  "boostSpeed" : 50,
+  "energyUsagePerSecond" : 70
+}

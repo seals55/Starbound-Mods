@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+
+  ],
+  "output" : {
+    "item" : "ophead",
+    "count" : 1
+  },
+  "groups" : [ "skip", "armors" ]
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "matterassemblerblueprint",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "matterassemblerblueprint.png",
+  "price" : 6500,
+  "description" : "An unbelievably complex OS, designed to run some sort of assembly line.",
+  "shortdescription" : "Matter Assembler OS",
+  "printable" : true,
+  "learnBlueprintsOnPickup" : [
+    "uematterassembler"
+  ]  
+}

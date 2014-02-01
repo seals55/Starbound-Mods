@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "pixelcompressor",
+    "count" : 1
+  },
+  "groups" : [ "spinningwheel", "sipsmith" ]
+}

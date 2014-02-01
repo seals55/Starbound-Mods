@@ -1,0 +1,12 @@
+{
+  "kind" : "1hp",
+  "duration" : 0.001,
+  "primitives" : [
+    {
+      "name" : "Health",
+      "amount" : 1
+    }
+  ],
+  "effectSources" : [ "health" ],
+  "mainInterfaceIcon" : "/interface/statuses/heal.png"
+}

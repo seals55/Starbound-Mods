@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 750 }
+  ],
+  "output" : {
+    "item" : "sigmamechTech-chip",
+    "count" : 1
+  },
+  "groups" : [ "mod", "roboticcraftingtable", "all", "tools" ]
+}

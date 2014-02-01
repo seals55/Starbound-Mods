@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "mediumexplosivechargeitem", "count" : 1 },
+    { "item" : "ironbar", "count" : 1 }
+  ],
+  "output" : { "item" : "mediumspikyexplosivechargeitem", "count" : 1 },
+  "groups" : [ "explosivelab", "tools", "all" ]
+}

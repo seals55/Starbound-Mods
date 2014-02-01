@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "bubbleboost-chip", "count" : 1 },
+    { "item" : "money", "count" : 6000 }
+  ],
+  "output" : { "item" : "crewbubbleboost-chip", "count" : 1 },
+  "groups" : [ "crewscientist" ]
+}

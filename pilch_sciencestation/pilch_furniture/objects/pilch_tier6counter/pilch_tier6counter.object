@@ -1,0 +1,36 @@
+{
+  "objectName" : "pilch_tier6counter",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 750,
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/kitchen.config",
+    "filter" : [ "kitchen" ]
+  },
+  "description" : "A futuristic kitchen counter.",
+  "shortdescription" : "Ferozium Counter",
+  "race" : "generic",
+
+  "apexDescription" : "It appears to be a surface used for preparing food.",
+  "avianDescription" : "This counter smells of many different foods.",
+  "floranDescription" : "MMMm meat wass chopped on thiss counter. Floran can ssmell it.",
+  "glitchDescription" : "Identify. A ferozium kitchen counter.",
+  "humanDescription" : "A sleek kitchen counter. Perfect for preparing ready meals.",
+  "hylotlDescription" : "This counter has a rich scent. Such smells are rare beneath the waves.",
+
+  "inventoryIcon" : "pilch_tier6countericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pilch_tier6counter.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

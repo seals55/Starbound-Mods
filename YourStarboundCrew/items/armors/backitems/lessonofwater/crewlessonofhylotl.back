@@ -1,0 +1,18 @@
+{
+  "itemName" : "crewlessonofhylotl",
+  "inventoryIcon" : "turtleshellbackicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Rare",
+  "description" : "This teaches you how to breath under water",
+  "shortdescription" : "Spirit of the Hylotl",
+
+  "augments" : [
+    {
+      "name" : "crewSpiritofHylotl"
+    }
+  ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "mask" : "mask.png"
+}

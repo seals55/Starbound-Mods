@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "money", "count" : 450 }
+  ],
+  "output" : {
+    "item" : "jumpdisc",
+    "count" : 1
+  },
+  "groups" : [ "dnastation", "other", "all" ]
+}

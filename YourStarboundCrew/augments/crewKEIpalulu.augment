@@ -1,0 +1,14 @@
+{
+  "name" : "crewKEIpalulu",
+  "icon" : [ ],
+  "kind" : "statuseffect",
+  "statusEffects" : [
+    { "kind" : "powerboost", "amount" : 1.3 },
+	{ "kind" : "fooddepletionsuppressed", "amount" : 3.5 },
+	{ "kind" : "healthincrease", "amount" : 75 },
+	{ "kind" : "spiked", "amount" : 10 },
+	{ "kind" : "protection", "amount" : 65 },
+	{ "kind" : "bounceback", "amount" : 50 }
+  ]
+  
+}

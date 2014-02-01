@@ -1,0 +1,46 @@
+{
+  "__merge" : [],
+  "objectName" : "tabularasa",
+  "rarity" : "Legendary",
+  "objectType" : "wire",
+  "scripts" : [ "/objects/wired/tabularasa/tabularasa.lua" ],
+  "scriptDelta" : 5,
+ 
+  
+
+  "filterButtons" : [
+  ],
+  
+  "printable" : false,
+  "description" : "A blank tablet is merely the potential for anything.",
+  "shortdescription" : "Tabula Rasa",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "apexDescription" : "Do you hear that?  Sounds like 'Thus Spoke Zarathustra.'",
+  "avianDescription" : "This tablet appears to have been crafted a long, long time ago.",
+  "floranDescription" : "Ssso...ssshiny.  Ssshould have sssent a poet.",
+  "glitchDescription" : "Conjecture.  This tablet may be capable of creating items never seen before in this universe.",
+  "humanDescription" : "Open the crafting bay doors, HAL.",
+  "hylotlDescription" : "This fine craftsmanship speaks volumes about the many talents and abilities of the creators.",
+
+  "inventoryIcon" : "tabularasaicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tabularasa.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 24,
+      "animationCycle" : 3.5,
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "animation" : "/objects/wired/tabularasa/tabularasa.animation",
+  "animationParts" : {
+    "tabula" : "tabularasa.png"
+  },
+  "animationPosition" : [0, 0]
+}

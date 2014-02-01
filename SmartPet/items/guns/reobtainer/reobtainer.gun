@@ -1,0 +1,22 @@
+{
+  "itemName" : "reobtainer",
+  "inventoryIcon" : "reobtainericon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Using this on a captured monster will cause it to drop items it collected.",
+  "shortdescription" : "ReObtainer",
+  "image" : "reobtainer.png",
+  "handPosition" : [-3.5, -3],
+  "firePosition" : [20, 1.5],
+
+  "fireTime" : 0.5,
+  "twoHanded" : true,
+  "level" : 1,
+
+  "projectileType" : "reobtainproj",
+  "projectile" : { "speed" : 2,
+    "power" : 0.1,
+    "color" : [127, 255, 127]
+  }
+}

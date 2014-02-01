@@ -1,0 +1,15 @@
+{
+  "itemName" : "nanostim",
+  "rarity" : "Rare",
+  "inventoryIcon" : "nanostim.png",
+  "description" : "A stimpack full of glowing blue-green medical nanites. May or may not be radioactive.",
+  "shortdescription" : "Nanite Stim Pack",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "kind" : "redstim",
+        "amount" : 5
+      }
+    ] ],
+  "emote" : ""
+}

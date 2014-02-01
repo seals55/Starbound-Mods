@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "aegisaltbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "miab_basestore_receiver",
+    "count" : 1
+  },
+  "groups" : [ "pilch_sciencestation", "tools", "objects", "all"]
+}

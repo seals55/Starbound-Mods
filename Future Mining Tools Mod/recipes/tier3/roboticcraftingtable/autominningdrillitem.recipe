@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "copperdrill", "count" : 1 },
+    { "item" : "diamond", "count" : 1 }
+  ],
+  "output" : { "item" : "autominningdrillitem", "count" : 1 },
+  "groups" : [ "roboticcraftingtable", "tools", "all" ]
+}

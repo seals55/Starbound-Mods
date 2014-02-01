@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 1 }
+  ],
+  "output" : { "item" : "generatedshield", "count" : 1, "data" : { "definition" : "floranbasicshield", "level" : 10 } },
+  "groups" : [ "spinningwheel", "siprandomshield" ]
+}

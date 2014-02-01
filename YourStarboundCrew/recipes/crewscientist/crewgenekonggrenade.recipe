@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "electrogrenade", "count" : 20 },
+    { "item" : "money", "count" : 3000 }
+  ],
+  "output" : { "item" : "crewgenekonggrenade", "count" : 1 },
+  "groups" : [ "crewscientist" ]
+}

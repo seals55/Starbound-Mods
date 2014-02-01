@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "aegisaltbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "tier5table",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "objects", "all"]
+}
+

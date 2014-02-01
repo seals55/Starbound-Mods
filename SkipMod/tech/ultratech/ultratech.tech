@@ -1,0 +1,31 @@
+{
+  "script" : "ultra.lua",
+  "actions" : [ "multiJump", "blink", "dashRight", "dashLeft", "boostRightUp", "boostRightDown", "boostLeftUp", "boostLeftDown", "boostRight", "boostDown", "boostLeft", "boostUp" ],
+  "animator" : "ultra.animation",
+
+  //double jump stuff
+  "multiJumpCount" : 1,
+  "energyUsage" : 10,
+  "jumpsound" : "/sfx/tech/tech_doublejump.wav",
+  
+  //blink stuff
+  "blinkCollisionCheckDiameter" : 4,
+  "blinkVerticalGroundCheck" : 10,
+
+  // Specific to humanoid
+  "blinkFootOffset" : -2.5,
+  "blinkOutTime" : 0.15,
+  "blinkInTime" : 0.15,
+  "blinkMode" : "cursor",
+  
+  //dash stuff
+  "maximumDoubleTapTime" : 0.2,
+  "dashControlForce" : 600,
+  "dashSpeed" : 40,
+  "dashDuration" : 0.3,
+  
+  //bubble boost stuff
+  "boostControlForce" : 300,
+  "boostSpeed" : 40,
+  "energyUsagePerSecond" : 30
+}

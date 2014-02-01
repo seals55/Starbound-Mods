@@ -1,0 +1,9 @@
+{
+  "name" : "cheatbox",
+  "version" : "Beta v. Furious Koala",
+  "path" : "cheatbox",
+  "metadata" : {
+    "author" : "Matheod",
+    "description" : "Add a cheatBox to get various items for free."
+  }
+}

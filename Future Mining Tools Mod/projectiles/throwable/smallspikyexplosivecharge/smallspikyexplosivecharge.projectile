@@ -1,0 +1,22 @@
+{
+  "projectileName" : "smallspikyexplosivecharge",
+  "physics" : "stickybomb",
+  "bounces" : -1,
+  "level" : 3,
+  "timeToLive" : 5,
+  "frames" : "smallspikyexplosivecharge.png",
+  "animationCycle" : 5,
+  "lightColor" : [253, 160, 57],
+  "frameNumber" : 7,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallexplosiveexplosion/smallexplosiveexplosion.config"
+    }
+  ],
+  "power" : 60,
+  "damageType" : "hitTest",
+  "damageKind" : "default",
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "emitters" : [ "sparks" ]
+}

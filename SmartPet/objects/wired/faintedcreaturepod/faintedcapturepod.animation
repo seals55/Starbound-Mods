@@ -1,0 +1,30 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "itemState" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+    "parts" : {
+      "base" : {
+        "properties" : {
+          "centered" : false
+        },
+        "partStates" : {
+          "itemState" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:default"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

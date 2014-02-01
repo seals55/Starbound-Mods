@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "moltencore", "count" : 2 },
+	{ "item" : "processor", "count" : 1 },
+	{ "item" : "solariumcore", "count" : 1 },
+	{ "item" : "uenergy", "count" : 2000 },
+	{ "item" : "imperviumbar", "count" : 50 }
+  ],
+  "output" : { "item" : "swarmcannon", "count" : 1 },
+  "groups" : [ "uematterassembler", "all" ]
+}

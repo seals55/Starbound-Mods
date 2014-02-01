@@ -1,0 +1,36 @@
+{
+  "objectName" : "pilch_tier9counter",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 750,
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/kitchen.config",
+    "filter" : [ "kitchen" ]
+  },
+  "description" : "A terrifying kitchen counter.",
+  "shortdescription" : "Rubium Counter",
+  "race" : "generic",
+
+  "apexDescription" : "An eye peers out from under this kitchen counter.",
+  "avianDescription" : "A kitchen counter. Creepy to sit at.",
+  "floranDescription" : "Floran think counter want to share food.",
+  "glitchDescription" : "Disarmed. Glancing under this counter, a giant eye blinks back.",
+  "humanDescription" : "Probably not a good idea to chop onions on this.",
+  "hylotlDescription" : "If you gaze too long into the counter, the counter gazes into you.",
+
+  "inventoryIcon" : "pilch_tier9countericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pilch_tier9counter.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

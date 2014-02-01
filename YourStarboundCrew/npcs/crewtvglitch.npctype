@@ -1,0 +1,101 @@
+{
+  "type" : "crewtvglitch",
+  "baseType" : "castleguard",
+
+  "disableWornArmor" : true,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 1,
+
+  "levelVariance" : [0.75, 0.75],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+    "/npcs/sitState.lua",
+
+    "/npcs/guard/guardState.lua",
+    "/npcs/guard/returnToPostState.lua"
+  ],
+
+  "scriptConfig" : {
+    "noticePlayersRadius" : 30,
+
+    "sit" : {
+      "timeOfDayRanges" : [ [0.0, 1.0] ],
+      "moveTimeLimit" : 30,
+      "searchRadius" : 10,
+      "sitRadius" : 3,
+      "cooldown" : 60,
+      "timeRange" : [30, 240]
+    },
+
+    "guard" : {
+      // Optional - guard will only stand around for a random number of seconds
+      // within this range before trying to do something else. Omit to stay
+      // in guard state until attacking.
+      "timeRange" : [10, 20],
+      "attackSayingPercent" : 20,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [ "Buzzzz..."
+          ],
+          "glitch" : [
+            "Bzzz....",
+            "Buzz!"
+          ]
+        }
+      }
+    },
+
+    "meleeAttack" : {
+      "sayAttackStartDistance" : -1
+    }
+  },
+
+  "items" : {
+    "glitch" : [
+      [0, [
+          {
+            "head" : [ { "name" : "tvhelmethead" } ],
+            "chest" : [ { "name" : "glitchtier4chest" } ],
+            "legs" : [ { "name" : "glitchtier4pants" } ],
+            "back" : [ { "name" : "simplecapeback" } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "raresniperrifle" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "data" : { "definition" : "glitchlordshield" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "movementControllerSettings" : {
+    "runSpeed" : 15
+  },
+
+  "dropPools" : [ "castlelordtreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 600,
+    "baseMaxEnergy" : 40,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}

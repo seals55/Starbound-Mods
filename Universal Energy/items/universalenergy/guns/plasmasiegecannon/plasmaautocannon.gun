@@ -1,0 +1,30 @@
+{
+  "itemName" : "plasmaautocannon",
+  "inventoryIcon" : "plasmaautocannonicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A plasma-based autocannon with a very high firerate.",
+  "shortdescription" : "Plasma Assault Cannon",
+  "image" : "plasmaautocannon.png:0",
+  "accuracy" : 100,
+  "recoilTime" : 0.1,
+  "handPosition" : [-2, 5],
+  "firePosition" : [10, 0],
+  "level" : 10,
+  "fireTime" : 0.05,
+  "twoHanded" : true,
+
+  "walkWhileFiring" : true,
+
+  "projectileType" : "boltfire",
+  "projectile" : {
+    "speed" : 1500,
+    "power" : 150,
+    "color" : [10, 100, 255]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun1.wav" } ]
+  }
+}

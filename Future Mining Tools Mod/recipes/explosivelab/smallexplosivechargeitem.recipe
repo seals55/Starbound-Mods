@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "gunpowder", "count" : 2 },
+    { "item" : "fabric", "count" : 3 }
+  ],
+  "output" : { "item" : "smallexplosivechargeitem", "count" : 1 },
+  "groups" : [ "explosivelab", "tools", "all" ]
+}

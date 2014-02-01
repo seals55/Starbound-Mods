@@ -1,0 +1,54 @@
+{
+  "objectName" : "uenergycomp",
+  "rarity" : "Common",
+  "description" : "Violently smashes atoms together to generate energy.",
+  "shortdescription" : "Energy Compressor",
+  "race" : "generic",
+  "subtitle" : "Turns matter into energy",
+  "category" : "crafting",
+  "price" : 9000,
+  "objectType" : "container",
+  "printable" : false,
+  "hydrophobic" : false,
+  "learnBlueprintsOnPickup" : [
+    "replicator",
+	"plasmadrill"
+  ],  
+
+  "apexDescription" : "Converts fuel into these strange little energy orbs. No idea how it actually does that.",
+  "avianDescription" : "A singularity-powered atom smasher? Seems safe enough to... why are my feathers falling out?",
+  "floranDescription" : "If I ssstare too long, glowy thing makesss my brain hurt.",
+  "glitchDescription" : "Intrigued. Using a miniature singularity with a contained gravity field, this device crushes matter and causes atomic fusion, harnessing the energy.",
+  "humanDescription" : "Since when has recklessly smashing atoms together ever been a bad idea?",
+  "hylotlDescription" : "Basically the love-child of a black hole and a nuclear bomb. I have a feeling I shouldn't be this close.",
+
+  "lightColor" : [150, 225, 255],
+  "flickerDistance" : 2,
+  "flickerStrength" : 0,
+
+  "inventoryIcon" : "uenergycompicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "uenergycomp.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/shipengine.wav",
+  "soundEffectRadius" : 100,
+
+  "recipeGroup" : "energyconverter",
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/uenergycomp.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}

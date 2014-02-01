@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "processor", "count" : 1 },
+	{ "item" : "darkwoodmaterial", "count" : 10 },
+    { "item" : "money", "count" : 500 }
+  ],
+  "output" : { "item" : "crewrobottrophy", "count" : 1 },
+  "groups" : [ "crewhunter" ]
+}

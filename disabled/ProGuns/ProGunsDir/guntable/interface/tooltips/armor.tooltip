@@ -1,0 +1,107 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/header.png",
+    "fileBody" : "/interface/tooltips/armorbody.png",
+    "fileFooter" : "/interface/tooltips/footer.png"
+  },
+  "rarityLabel" : {
+    "type" : "wraplabel",
+    "position" : [7, 23],
+    "hAnchor" : "left",
+    "centered" : true,
+    "width" : 126
+  },
+  "armorIcon" : {
+    "type" : "image",
+    "position" : [68, 148],
+    "file" : "/interface/tooltips/armor.png"
+  },
+  "armorProtection" : {
+    "type" : "wraplabel",
+    "position" : [125, 152],
+    "hAnchor" : "left",
+    "centered" : true,
+    "width" : 126
+  },
+  "warmthIcon" : {
+    "type" : "image",
+    "position" : [68, 116],
+    "file" : "/interface/tooltips/warmth.png"
+  },
+  "energyIcon" : {
+    "type" : "image",
+    "position" : [68, 132],
+    "file" : "/interface/tooltips/energy.png"
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [98, 23],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [110, 23],
+    "hAnchor" : "left",
+    "value" : "0"
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [35, 140],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [38, 38],
+    "minSize" : [38, 38]
+  },
+  "descriptionLabel" : {
+    "type" : "wraplabel",
+    "position" : [10, 103],
+    "width" : 122,
+    "hAnchor" : "left"
+  },
+  "statusList" : {
+    "type" : "list",
+    "position" : [0, 118],
+    "schema" : {
+      "spacing" : [0, 6],
+      "memberSize" : [999, 11],
+      "listTemplate" : {
+        "statusLabel" : {
+          "type" : "label",
+          "position" : [70, 0],
+          "hAnchor" : "left"
+        },
+        "statusAmount" : {
+          "type" : "label",
+          "position" : [130, 0],
+          "hAnchor" : "right"
+        },
+        "statusImage" : {
+          "type" : "image",
+          "position" : [60, 0],
+          "file" : ""
+        }
+      }
+    }
+  },
+  "augmentList" : {
+    "type" : "list",
+    "position" : [40, 40],
+    "schema" : {
+      "spacing" : [0, 1],
+      "memberSize" : [999, 20],
+      "listTemplate" : {
+        "augmentLabel" : {
+          "type" : "label",
+          "position" : [0, 0],
+          "hAnchor" : "left"
+        },
+        "augmentImage" : {
+          "type" : "image",
+          "position" : [0, 10],
+          "file" : ""
+        }
+      }
+    }
+  }
+}

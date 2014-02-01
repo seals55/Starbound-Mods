@@ -1,0 +1,68 @@
+{
+  "script" : "/tech/mech/sigmamech.lua",
+  "actions" : [ "mechActivate", "mechDeactivate" ],
+  "animator" : "sigmamech.animation",
+
+  "mechCustomMovementParameters" : {
+    "standingPoly" : [ [-1.5, -1.0], [-1.0, -3.9], [1.0, -3.9], [1.5, -1.0], [1.5, 1.0], [1.0, 2.5], [-1.0, 2.5], [-1.5, 1.0] ],
+    "crouchingPoly" : [ [-1.5, -1.0], [-1.0, -3.9], [1.0, -3.9], [1.5, -1.0], [1.5, 1.0], [1.0, 2.5], [-1.0, 2.5], [-1.5, 1.0] ],
+
+    "mass" : 3.0,
+
+    "normalGroundFriction" : 50.0,
+    "ambulatingGroundFriction" : 6.0,
+    "skiddingGroundFriction" : 10.0,
+
+    "groundForce" : 160.0,
+    "airForce" : 50.0,
+    "liquidForce" : 70.0,
+
+    "walkSpeed" : 7.0,
+    "runSpeed" : 10.0,
+
+    "airJumpProfile" : {
+      "jumpSpeed" : 40.0,
+      "jumpControlForce" : 400.0,
+      "jumpInitialPercentage" : 0.75,
+      "jumpHoldTime" : 0.15
+    },
+
+    "liquidJumpProfile" : {
+      "jumpSpeed" : 16.0,
+      "jumpControlForce" : 400.0,
+      "jumpInitialPercentage" : 0.75,
+      "jumpHoldTime" : 0.1
+    }
+  },
+  
+  "mechHoverSpeed" : 0.0,
+  "mechHoverTime" : 3.0,
+  "mechHoverBuffer" : 0.5,
+  "energyCostPerSecond" : 30,
+
+  "mechTransformPositionChange" : [0.0, 0.5],
+  "parentOffset" : [0.2, 0.8],
+
+  "mechCollisionTest" : [-3.0, -2.0, 3.0, 3.5],
+
+  "mechAimLimit" : 40,
+  "mechGunFireCone" : 5,
+  
+  "mechFireCycle" : 0.06,
+  "mechProjectile" : "kineticshell",
+  "mechProjectileConfig" : {
+    "power" : 10
+  },
+  "mechTracerProjectile" : "kineticshelltracer",
+
+  
+  "mechAltFireCycle" : 4,
+  "mechAltFireShotInterval" : 0.1,
+  "mechAltProjectile" : "daisybustergrenade",
+  "mechAltProjectileConfig" : {
+    "power" : 150
+  }  
+  
+  
+  
+}

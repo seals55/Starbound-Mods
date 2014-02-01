@@ -1,0 +1,36 @@
+{
+  "objectName" : "floranshiplocker",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "description" : "Store some stuff, why don't you?",
+  "shortdescription" : "Shiplocker",
+  "race" : "floran",
+
+  "apexDescription" : "A storage system. Definitely not of Floran origin.",
+  "avianDescription" : "Storage. I don't believe the Floran made this.",
+  "floranDescription" : "Floran sstore many usseful thingss. Explore universse.",
+  "glitchDescription" : "Curious. How did the Floran obtain this technology?",
+  "humanDescription" : "Most of the tech on this ship doesn't appear to be Floran in origin.",
+  "hylotlDescription" : "Perhaps the key to defeating the Floran is figuring out how they harness technology developed by other races.",
+
+  "inventoryIcon" : "shiplockericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "floranshiplocker.png:<color>.<frame>",
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 256,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 11,
+  "autoCloseCooldown" : 3600
+}

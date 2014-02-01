@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "bomb", "count" : 50 },
+    { "item" : "crewbomb", "count" : 10 },
+    { "item" : "money", "count" : 1000 }
+  ],
+  "output" : { "item" : "crewunlimitedbomb", "count" : 1 },
+  "groups" : [ "crewmechanic" ]
+}

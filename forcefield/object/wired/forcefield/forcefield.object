@@ -1,0 +1,39 @@
+{
+  "objectName" : "forcefield",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "FORCEFIELD ACTIVATE!",
+  "shortdescription" : "Force field",
+  "race" : "generic",
+
+  "floranDescription" : "Floran just push button!",
+  "glitchDescription" : "Temptation. A button, begging to be pressed.",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "inventoryIcon" : "smallwallbuttonicon.png",
+  "orientations" : [
+    {
+      "image" : "smallwallbutton.png:<color>.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/object/wired/forcefield.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+
+  "animationParts" : {
+    "switch" : "smallwallbutton.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "outboundNodes" : [ [0, -1] ],
+
+  "interval" : 13
+}

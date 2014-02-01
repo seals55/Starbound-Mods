@@ -1,0 +1,68 @@
+{
+  "type" : "crewbunkerpyro",
+  "baseType" : "bunkerguard",
+
+  "scriptConfig" : {
+    "attackerLimit" : 6,
+    "attackerLimitCooldown" : 3,
+    "noticePlayersRadius" : 30,
+
+    "guard" : {
+      "attackSayingPercent" : 75,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [ "I'm going to burn you alive!"
+          ],
+          "human" : {
+            "default" : [
+              "I'm going to burn you alive!",
+              "You're going to be delicious!",
+              "The smell of roasting flesh is a delight!",
+              "Haaa, the flames are bright!",
+              "Fire is the most beautiful of weapons!",
+              "My flames will cleanse the flesh off your bones!",
+              "Sometimes I get distracted by the fire...",
+              "Burn, trespasser, BURN!",
+              "The flames will consume you!",
+              "Today, stranger, you meet your doom, by way of fire!",
+              "I'm gonna roast you good!",
+              "Prepare to melt, trespasser!"
+            ]
+          }
+        }
+      }
+    },
+
+    "rangedAttack" : {
+      "minDistance" : 5,
+      "maxDistance" : 15
+    }
+  },
+
+  "items" : {
+    "human" : [
+      [0, [
+          {
+            "head" : [ { "name" : "humantier4head", "data" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "humantier4chest", "data" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "humantier4pants", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+              { "name" : "generatedgun", "data" : { "definition" : "flamethrower" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "dropPools" : [ "guardtreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 500,
+    "baseMaxEnergy" : 400,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0,
+    "energyReplenishmentRate" : 10.0
+  }
+}

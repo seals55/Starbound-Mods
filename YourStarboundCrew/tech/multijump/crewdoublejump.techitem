@@ -1,0 +1,10 @@
+{
+  "itemName" : "crewdoublejumpTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/doublejump.png",
+  "description" : "Unlocks the Upgraded Pulse Jump tech.",
+  "shortdescription" : "Upgraded Pulse Jump",
+  "inspectionKind" : "tech",
+
+  "techModule" : "crewdoublejump.tech"
+}

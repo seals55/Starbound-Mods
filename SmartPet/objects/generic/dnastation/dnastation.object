@@ -1,0 +1,31 @@
+{
+  "objectName" : "dnastation",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/dnastation.config",
+    "filter" : [ "dnastation" ]
+  },
+  "printable" : false,
+  "description" : "With this piece of equipment you're one step closer to becoming a god!",
+  "shortdescription" : "DNA Research Station",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 2000,
+
+  "inventoryIcon" : "dnastationicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "dnastation.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

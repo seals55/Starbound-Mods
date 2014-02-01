@@ -1,0 +1,9 @@
+{
+  "input" : [
+
+    { "item" : "money", "count" : 1 }
+	
+  ],
+  "output" : { "item" : "decoyprincess", "count" : 1 },
+  "groups" : [ "skip", "other", "all" ]
+}

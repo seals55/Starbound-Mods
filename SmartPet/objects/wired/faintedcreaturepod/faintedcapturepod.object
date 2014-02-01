@@ -1,0 +1,31 @@
+{
+  "objectName" : "faintedcapturepod",
+  "rarity" : "Common",
+  "category" : "other",
+  "objectType" : "wire",
+  "inventoryIcon" : "faintedcapturepodicon.png",
+  "image" : "faintedcapturepodicon.png",
+  "shortdescription" : "Fainted Capture Pod",
+  "description" : "You left it to die, you need to heal it.",
+  "race" : "generic",
+  "orientations" : [
+    {
+      "dualImage" : "faintedcapturepod.png:default",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animation" : "faintedcapturepod.animation",
+  "animationParts" : {
+    "base" : "faintedcapturepod.png"
+  },
+  "smashDropOptions" : [ ],
+  "breakDropOptions" : [ ],
+  "scripts" : [ "faintedcapturepod.lua" ],
+  "scriptDelta" : 10
+}
+

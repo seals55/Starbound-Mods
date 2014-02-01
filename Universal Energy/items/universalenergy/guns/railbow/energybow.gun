@@ -1,0 +1,35 @@
+{
+  "itemName" : "railbow",
+  "inventoryIcon" : "energybowicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A chargable plasma railgun. Monsters killed with a bow drop tasty meat.",
+  "shortdescription" : "Railbow",
+  "image" : "energybow.png:<frame>",
+  "imageFrameSelector" : "bowImageSelector",
+  "recoilTime" : 0.1,
+  "handPosition" : [-4, -1],
+  "firePosition" : [10, 0],
+  "level" : 10,
+  "fireTime" : 0.5,
+  "twoHanded" : true,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : true,
+
+  "projectileType" : "energyarrow",
+  "powerProjectileType" : "chargedenergyarrow",
+  "powerProjectileTime" : [0.9, 1.1],
+  "projectile" : {
+    "speed" : 100,
+    "speedCurve" : "drawTimeMultiplier",
+    "power" : 1500,
+    "powerCurve" : "drawTimeMultiplier",
+    "color" : [10, 100, 255]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_sniper2.wav" } ]
+  }
+}

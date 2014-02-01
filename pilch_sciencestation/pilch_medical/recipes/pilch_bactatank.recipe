@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "aegisaltbar", "count" : 15 },
+    { "item" : "uraniumrod", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "pilch_bactatank",
+    "count" : 1
+  },
+  "groups" : [ "pilch_sciencestation", "objects", "all"]
+}
+

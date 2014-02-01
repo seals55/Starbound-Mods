@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "crewKEIholo", "count" : 1 },
+	{ "item" : "altarbunny", "count" : 1 },
+	{ "item" : "royalthrone", "count" : 1 },
+	{ "item" : "rainbowchest", "count" : 1 },
+    { "item" : "money", "count" : 2000 }
+  ],
+  "output" : { "item" : "crewKEImakani", "count" : 1 },
+  "groups" : [ "crew_station" ]
+}

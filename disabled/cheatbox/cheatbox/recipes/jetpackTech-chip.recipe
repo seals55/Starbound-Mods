@@ -1,0 +1,5 @@
+{
+  "input" : [  ],
+  "output" : { "item" : "jetpackTech-chip", "count" : 1 },
+  "groups" : [ "cheatboxtable", "all" ]
+}
