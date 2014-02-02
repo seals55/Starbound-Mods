@@ -1,0 +1,26 @@
+{
+  "projectileName" : "TankSpawnerGun_largemeteor",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "level" : 3,
+  "timeToLive" : 10,
+  "damageKindImage" : "icon.png",
+  "frames" : "TankSpawnerGun_largemeteor.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/fireexplosion/fireexplosion.config"
+    },
+	{
+      "action" : "spawnmonster",
+      "type" : "penguinTank",
+      "fuzzAngle" : 80,
+      "angleAdjust" : -20
+	}
+  ],
+  "power" : 50,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

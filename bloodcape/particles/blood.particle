@@ -1,0 +1,18 @@
+{
+  "kind" : "blood",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/animations/blood/blood.animation",
+    "position" : [0, 0],
+    "initialVelocity" : [0, -20.0],
+    "finalVelocity" : [0, -20.0],
+    "approach" : [0, 50],
+    "fade" : 0.5,
+    "destructionTime" : 20,
+    "size" : 1.0,
+    "timeToLive" : 2.5,
+    "variance" : {
+      "position" : [2, 0]
+    }
+  }
+}

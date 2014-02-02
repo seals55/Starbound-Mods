@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 3 }
-  ],
-  "output" : { "item" : "gassinator2", "count" : 1 },
-  "groups" : [ "plain", "weapons", "all" ]
-}

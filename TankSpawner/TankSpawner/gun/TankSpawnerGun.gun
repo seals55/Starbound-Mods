@@ -1,0 +1,32 @@
+{
+  "itemName" : "TankSpawnerGun",
+  "inventoryIcon" : "TankSpawnerGunicon.png",
+  "description" : "A Tank launching weapon.",
+  "shortdescription" : "TankSpawner",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 1,
+  "rarity" : "Rare",
+  "inspectionKind" : "gun",
+  "accuracy" : "100",
+  "image" : "TankSpawnerGun.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [-8, -3],
+  "firePosition" : [20, 2],
+  "classMultiplyer" : 0,
+  
+  "fireTime" : 0.1,
+  "twoHanded" : false,
+
+  "projectileType" : "TankSpawnerGun_largemeteor",
+  "projectile" : {
+	"speed" : 100,
+	"power" : 1,
+    "color" : [30, 255, 30]
+ },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/pulsecannon1.wav" } ]
+  }
+}

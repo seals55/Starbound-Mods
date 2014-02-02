@@ -1,0 +1,7 @@
+{
+  "frames" : "blood.png",
+  "variants" : 1,
+  "frameNumber" : 20,
+  "animationCycle" : 1,
+  "offset" : [0, 0]
+}
