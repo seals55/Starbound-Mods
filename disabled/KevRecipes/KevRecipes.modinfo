@@ -1,0 +1,7 @@
+{
+  "name" : "KevRecipes",
+  "version" : "Beta v. Furious Koala",
+  "path" : ".",
+  "dependencies" : [ "KevRecipes" ]
+
+}

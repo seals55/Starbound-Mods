@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wiretool",
+    "count" : 1
+  },
+  "groups" : [ "wiringstation", "all", "tools" ]
+}

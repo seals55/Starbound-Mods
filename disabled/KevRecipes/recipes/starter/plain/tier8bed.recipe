@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : { "item" : "tier8bed", "count" : 1 },
+  "groups" : [ "metalworkstation", "furniture", "objects", "all" ]
+}

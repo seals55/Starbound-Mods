@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : { "item" : "skyrailTech-chip", "count" : 1 },
+  "groups" : [ "roboticcraftingtable", "all" ]
+}

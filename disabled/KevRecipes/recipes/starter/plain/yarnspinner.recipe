@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "yarnspinner",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "objects", "tools", "all" ]
+}

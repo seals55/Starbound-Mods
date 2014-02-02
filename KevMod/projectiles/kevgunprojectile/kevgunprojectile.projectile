@@ -1,0 +1,22 @@
+{
+  "projectileName" : "kevgunprojectile",
+  "frames" : "kevgunprojectile.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "piercing" : false,
+  "physics" : "kevslider",
+  "pointLight" : false,
+  "bounces" : -1,
+  "timeToLive" : 5,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 9999,
+  "speed" : 100,
+  "level" : 100,
+  "damageKind" : "default"
+}

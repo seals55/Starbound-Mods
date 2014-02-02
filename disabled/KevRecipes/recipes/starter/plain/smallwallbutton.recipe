@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : { "item" : "smallwallbutton", "count" : 1 },
+  "groups" : [ "wiringstation", "all" ]
+}

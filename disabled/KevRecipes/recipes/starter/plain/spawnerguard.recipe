@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "spawnerguard",
+    "count" : 1
+  },
+  "groups" : [ "metalworkstation", "objects", "all", "other" ]
+}

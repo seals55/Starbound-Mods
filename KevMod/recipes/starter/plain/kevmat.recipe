@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+
+  ],
+  "output" : {
+    "item" : "kevmat",
+    "count" : 1
+  },
+  "groups" : [ "plain", "objects", "all", "tools" ]
+}

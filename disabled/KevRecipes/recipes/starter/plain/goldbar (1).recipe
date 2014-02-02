@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "goldbar",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "all" ]
+}

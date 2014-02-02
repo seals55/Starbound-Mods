@@ -6,8 +6,8 @@
   "rarity" : "Legendary",
   "description" : "An amazing gun created by Kev!",
   "shortdescription" : "Kev's Amazing Gun",
-  "image" : "pulseshotgun.png:0",
-  "spread" : 10,
+  "image" : "bowfull.png:<frame>",
+  "spread" : 3,
   "accuracy" : 95,
   "handPosition" : [-4, 2],
   "firePosition" : [-4, 2],
@@ -18,7 +18,8 @@
   "fireOnRelease" : false,
   "walkWhileFiring" : true,
 
-  "projectileType" : "bullet-1",
+  
+  "projectileType" : "kevgunprojectile",
   "projectile" : {
     "speed" : 100,
     "power" : 9999,
