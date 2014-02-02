@@ -1,0 +1,296 @@
+{
+  "config" : {
+    "fuelMax" : 5000
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "MitarusUL.png",
+      "position" : [0.37, 140.5]
+    },
+    {
+      "image" : "MitarusBL.png",
+      "position" : [0.37, 0.6]
+    },
+    {
+      "image" : "MitarusBR.png",
+      "position" : [242.125, 0.6]
+    },
+    {
+      "image" : "MitarusUR.png",
+      "position" : [242.125, 140.49]
+    }
+  ],
+
+  "blockKey" : [
+    {
+      "value" : [255, 255, 255, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : false
+    },
+
+    {
+      "value" : [0, 0, 255, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true
+    },
+
+    {
+      "value" : [255, 0, 0, 255],
+      "foregroundBlock" : true,
+      "backgroundBlock" : true
+    },
+
+
+
+    {
+      "value" : [0, 255, 0, 255],
+
+      "foregroundBlock" : false,
+
+      "backgroundBlock" : true,
+
+      "backgroundMat" : "apexshipwall",
+
+      "object" : "apexshiplocker",
+
+      "objectParameters" : {
+
+        "treasurePools" : [ "glitchStarterTreasure" ],
+
+        "level" : 1,
+
+        "unbreakable" : true
+
+      }
+
+    },
+
+    {
+
+      "value" : [0, 61, 0, 255],
+
+      "foregroundBlock" : false,
+
+      "backgroundBlock" : true,
+
+      "backgroundMat" : "rustymetal",
+
+      "object" : "apexshiplocker",
+
+      "objectParameters" : {
+
+        "unbreakable" : false
+
+      }
+
+    },
+
+    {
+
+      "value" : [255, 140, 0, 255],
+
+      "foregroundBlock" : false,
+
+      "backgroundBlock" : true,
+
+      "object" : "electriclight"
+
+    },
+
+
+    {
+
+      "value" : [180, 255, 0, 255],
+
+      "foregroundBlock" : false,
+
+      "backgroundBlock" : true,
+
+      "object" : "bunkerbigpanel"
+
+    },
+
+
+    {
+
+      "value" : [6, 164, 0, 255],
+
+      "foregroundBlock" : false,
+
+      "backgroundBlock" : true,
+
+      "object" : "vendingmachine"
+
+    },
+
+
+
+    {
+      "value" : [142, 255, 142, 255],
+
+      "foregroundBlock" : false,
+
+      "backgroundBlock" : true,
+
+      "backgroundMat" : "apexshipwall",
+
+      "object" : "techstation",
+
+      "objectParameters" : {
+
+        "unbreakable" : true
+
+      }
+
+    },
+
+
+
+    {
+      "value" : [255, 87, 81, 255],
+
+      "foregroundBlock" : false,
+
+      "backgroundBlock" : true,
+
+      "object" : "apexfuelhatch",
+
+      "objectParameters" : {
+
+        "unbreakable" : true
+
+      }
+    },
+
+
+
+    {
+      "value" : [90, 90, 90, 255],
+      "foregroundBlock" : true,
+      "backgroundBlock" : false,
+      "foregroundMat" : "modernplatform"
+    },
+
+    {
+      "value" : [255, 255, 0, 255],
+
+      "foregroundBlock" : false,
+
+      "backgroundBlock" : true,
+
+      "backgroundMat" : "apexshipdetails",
+
+      "object" : "apexshiplight"
+    },
+
+
+
+    {
+      "value" : [255, 102, 0, 255],
+
+      "foregroundBlock" : false,
+
+      "backgroundBlock" : true,
+
+      "object" : "apexshipdoor"
+    },
+
+
+
+    {
+      "value" : [174, 137, 81, 255],
+      "foregroundBlock" : false,
+
+      "backgroundBlock" : true,
+
+      "object" : "shipengine",
+
+      "objectParameters" : {
+
+        "unbreakable" : true
+
+      }
+
+    },
+
+
+
+    {
+      "value" : [156, 0, 255, 255],
+
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "apexshipdetails",
+      "object" : "teleporter",
+      "flags" : [ "playerSpawn" ],
+      "objectParameters" : {
+        "unbreakable" : true
+      }
+    },
+
+    {
+      "value" : [167, 167, 255, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "boosterflamehuman",
+      "objectParameters" : {
+        "unbreakable" : true
+      }
+    },
+
+    {
+      "value" : [168, 168, 168, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "smallboosterflame",
+      "objectParameters" : {
+        "unbreakable" : true
+      }
+    },
+
+    {
+      "value" : [0, 255, 255, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "apexcaptainschair",
+      "objectDirection" : "left",
+      "objectParameters" : {
+        "unbreakable" : true
+      }
+    },
+
+    {
+      "value" : [122, 122, 122, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "invisiblelight",
+      "objectParameters" : {
+        "unbreakable" : true
+      }
+    },
+
+    {
+      "value" : [255, 255, 144],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "apexshipwall"
+    },
+
+    {
+      "value" : [255, 117, 144],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "apexshipdetails"
+    },
+
+    {
+      "value" : [255, 117, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "apexshipsupport"
+    }
+  ],
+
+  "blockImage" : "stationblocks.png"
+}
